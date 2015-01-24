@@ -20,7 +20,8 @@
     <!-- Custom CSS -->
     <link href="css/agency.css" rel="stylesheet">
     <link href="css/header.css" rel="stylesheet">
-
+    <link href="css/events.css" rel="stylesheet">
+    
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -105,15 +106,10 @@
     </header>
     <!-- Events Section -->
 
-<ul rn-carousel class="image">
-  <li>slide #1</li>
-  <li>slide #2</li>
-  <li>slide #3</li>
-</ul>
-    <section id="events">
+    <section id="events" ng-controller="eventCtrl">
         <div class="container" >
-            <ul rn-carousel rn-carousel-buffered class="">
-                <li> asdasdasd <div ng-include="'event/15-fev.html'"></div></li>
+            <ul rn-carousel rn-carousel-index="carouselIndex22" rn-carousel-buffered class="carousel1 events-carousel col-md-12">
+                <li> <div ng-include="'event/15-fev.html'"></div></li>
                 <li> <div ng-include="'event/16-fev.html'"></div></li>
                 <li> <div ng-include="'event/17-fev.html'"></div></li>
                 <li> <div ng-include="'event/18-fev.html'"></div></li>
@@ -121,8 +117,19 @@
                 <li> <div ng-include="'event/20-fev.html'"></div></li>
                 <li> <div ng-include="'event/21-fev.html'"></div></li>
             </ul>
+            <div class="events-status col-md-12">
+                <hr>
+                <div class="event-day col-md-1">
+                    <div class="events-circle"></div>  
+                    <span class="event-day-date">14 Fev</span>
+                    <span class="event-day-week">Sabado</span>
+                </div>
+            </div>
         </div>
-        <div rn-carousel-indicators ng-if="slides.length > 1" slides="slides" rn-carousel-index="carouselIndex"></div>
+        
+        <!-- <div rn-carousel-indicators ng-if="slides.length > 1" slides="slides" rn-carousel-index="carouselIndex"></div>
+        $parent.carouselIndex22 = $index -->
+    
     </section>
 
     <!-- Services Section -->
