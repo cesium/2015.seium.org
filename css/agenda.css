@@ -41,6 +41,16 @@ body
   color: white;
 }
 
+.cal-subject
+{
+  font-weight: bold;
+}
+
+.cal-space
+{
+  text-align: right;
+}
+
 .col-md-3 > a
 {
   text-decoration: none;
