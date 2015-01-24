@@ -5,9 +5,10 @@ body
 
 .section-heading 
 {
-  border: 3px solid rgb(33, 128, 249);
-  padding: -5px;
+  border: 5px solid rgb(33, 128, 249);
   color: white;
+  letter-spacing: 10px;
+  padding-bottom: 10px;
 }
 
 .cal-hour, .cal-event, .cal-label
@@ -15,14 +16,14 @@ body
   font-size: 1em;
 }
 
-.cal-day
-{
-  font-size: 1.2em;
-}
-
 .cal-day, .cal-hour
 {
   color: rgb(33, 128, 249);
+}
+
+.cal-day
+{
+  font-size: 1.2em;
 }
 
 .cal-label
@@ -30,19 +31,16 @@ body
   color: rgb(171,35,37);
 }
 
-.weekday
-{
-  color: white;
-}
-
 .cal-event
 {
-  background-color: gray;
+  background-color: rgb(54, 54, 54);
   color: white;
+  padding: 5px 10px 5px 10px;
 }
 
-.cal-event:hover{
-background-color: #ed7950;
+.cal-event:hover
+{
+  background-color: #ed7950;
 }
 
 .cal-subject
@@ -53,6 +51,11 @@ background-color: #ed7950;
 .cal-space
 {
   text-align: right;
+}
+
+.weekday
+{
+  color: white;
 }
 
 .col-md-3 > a
