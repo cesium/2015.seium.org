@@ -10,19 +10,20 @@
     <meta name="author" content="">
 
     <title>Agency - Start Bootstrap Theme</title>
-    
+
     <!-- Angular things -->
     <link href="css/angular-carousel.min.css" rel="stylesheet" type="text/css" />
     <script src="js/lib/angular.min.js"></script>
     <script src="js/lib/angular-touch.min.js"></script>
     <script src="js/lib/angular-carousel.min.js"></script>
-    
+
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/agency.css" rel="stylesheet">
     <link href="css/header.css" rel="stylesheet">
+    <link href="css/navbar.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -44,32 +45,50 @@
 
         <!-- Navigation -->
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
+        <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-play-circle"></i>  <span class="light">Start</span> Bootstrap
+                <a class="navbar-brand page-scroll" href="#page-top" id="nav-logo">
+                    <img src="img/nav-logo.png"/>
+                    <div>
+                        <span>
+                            SEMANA DA<br>
+                            ENGENHARIA INFORMÁTICA<br>
+                            <strong>UNIVERSIDADE DO MINHO<br>
+                            2015</strong>
+                        </span>
+                    </div>
                 </a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav nav-item">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#home">Home</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#download">Download</a>
+                        <a class="page-scroll" href="#agenda">Agenda</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#events">Eventos</a>
                     </li>
+                    <li>
+                        <a class="page-scroll" href="#partners">Parceiros</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#team">Organização</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contacto</a>
+                    </li>
+
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -77,31 +96,28 @@
         <!-- /.container -->
     </nav>
 
+
     <!-- Header -->
     <header>
         <div class="container">
             <div class="row banner">
-                <div class="col-md-6 banner-image">
-                    <img src="img/sei-logo.png"></img>
-                </div>
                 <div class="col-md-6 banner-text">
-                    <div class="col-md-10">
+                    <div class="col-md-10 banner-date-locale">
                         <div class="banner-date">15 a 21 Fevereiro</div>
                         <div class="banner-locale">Universidade do Minho - Departamento de Informática</div>
                     </div>
                     <div class="col-md-10">
-                        <div class="banner-title"><span style="font-size: 69px;">Semana da</span></br><span style="font-size: 62px;">Engenharia</span></br><span style="font-size: 60px;">Informática</span></div>
+                        <div class="banner-title">Semana da Engenharia Informática</div>
                     </div>
                     <div class="col-md-10 banner-sponsors">
                         <div class="row">
-                            <div class="col-md-4">Organization</div>
-                            <div class="col-md-4 col-md-offset-4">Main Partner</div>
+                            <div class="col-md-4 col-sm-4 col-xs-4">Organização:</div>
+                            <div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 col-xs-4 col-xs-offset-4">Main Partner:</div>
                         </div>
-                             
-                        <div class="col-md-4">A</div>
-                        <div class="col-md-4">B</div>
-                        <div class="col-md-4">C</div>
                     </div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-xs-12 banner-image">
+                    <img src="img/sei-logo.png"></img>
                 </div>
             </div>
         </div>

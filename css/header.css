@@ -1,32 +1,41 @@
 .banner {
-    padding-top: 300px;
+    padding-top: 200px;
     padding-bottom: 0px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.banner-image {
+    float: left;
 }
 
 .banner-text {
-    padding:0px;
-    text-align: left;
-    text-transform: uppercase;
+    padding: 0px;
+    float: right;
 }
 
 .banner-date {
     font-size: 48px;
+    line-height: 45px;
 }
 
 .banner-locale {
-    font-size: 13.8px;
+    font-size: 14px;
+    margin-bottom: 5px;
 }
 
 .banner-title {
-    border: 10px solid;
-    padding: -20px;
+    border: 8px solid;
     font-size: 60px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    text-align: justify;
-    line-height: 60px;
+    text-align: center;
+    line-height: 65px;
     display: inline-block;
 }
 
-.banner-sponsors{
+.banner-sponsors {
+    font-weight: normal;
     font-size: 10px;
+    text-align: left;
 }
