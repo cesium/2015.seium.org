@@ -41,6 +41,10 @@ body
   color: white;
 }
 
+.cal-event:hover{
+background-color: #ed7950;
+}
+
 .cal-subject
 {
   font-weight: bold;
