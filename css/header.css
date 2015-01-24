@@ -1,0 +1,32 @@
+.banner {
+    padding-top: 300px;
+    padding-bottom: 0px;
+}
+
+.banner-text {
+    padding:0px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.banner-date {
+    font-size: 48px;
+}
+
+.banner-locale {
+    font-size: 13.8px;
+}
+
+.banner-title {
+    border: 10px solid;
+    padding: -20px;
+    font-size: 60px;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: justify;
+    line-height: 60px;
+    display: inline-block;
+}
+
+.banner-sponsors{
+    font-size: 10px;
+}
