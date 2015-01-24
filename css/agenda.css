@@ -1,0 +1,47 @@
+body
+{
+  background-color: #222;
+}
+
+.section-heading 
+{
+  border: 3px solid rgb(33, 128, 249);
+  padding: -5px;
+  color: white;
+}
+
+.cal-hour, .cal-event, .cal-label
+{
+  font-size: 1em;
+}
+
+.cal-day
+{
+  font-size: 1.2em;
+}
+
+.cal-day, .cal-hour
+{
+  color: rgb(33, 128, 249);
+}
+
+.cal-label
+{
+  color: rgb(171,35,37);
+}
+
+.weekday
+{
+  color: white;
+}
+
+.cal-event
+{
+  background-color: gray;
+  color: white;
+}
+
+.col-md-3 > a
+{
+  text-decoration: none;
+}
