@@ -6,7 +6,6 @@
     height: 400px;
 }
 
-<<<<<<< Updated upstream
 .events-status {
     color: #fff;
     text-align: center;
@@ -30,7 +29,7 @@
 }
 
 @media(min-width: 992px) {
-    .events-circle:not(#last-circle)::after {
+    .events-circle:not(.last-circle)::after {
         content: "";
         position: absolute;
         height: 10px;
