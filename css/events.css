@@ -1,43 +1,48 @@
+#events {
+    background-color: #333;
+}
+
 .events-carousel {
     height: 400px;
 }
 
+.events-status {
+    color: #fff;
+    text-align: center;
+    font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
 .events-circle {
     border-radius: 50%;
-    display: block;
     height: 10px;
     width: 10px;
-    background-color: black;
-    margin: 0 !important;
-    padding: 0 !important;
+    background-color: #E0E0E0;
+    margin: 0 auto;
+    /*cursor: pointer;*/
 }
 
-.events-circle:before,
-.events-circle:after {
-    content: "";
-    position: absolute;
-    height: 5px;
-    border-bottom: 1px solid black;
-    top: 0;
-    width: 250px;
+.events-circle a:hover + .events-circle,
+.events-circle a:focus + .events-circle{
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    transition: all 0.2s ease;
 }
 
-
-.events-circle:before {
-    left: 0;
-    margin-right: 0px;
+@media(min-width: 992px) {
+    .events-circle:not(#last-circle)::after {
+        content: "";
+        position: absolute;
+        height: 5px;
+        border-bottom: 1px solid #E0E0E0;
+        left: 50%;
+        width: 100%;
+        cursor: auto;
+    }
 }
 
-.events-circle:after {
-  right: 100%;
-  margin-left: 0px;
-}
-
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 2px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+@media(max-width: 992px) {
+    .events-circle {
+        margin: 5px auto;
+    }
 }
