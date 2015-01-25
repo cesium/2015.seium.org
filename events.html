@@ -140,17 +140,40 @@
     </section>
 
     <!-- speakers Section -->
-    <section id="speakers">
+    <section id="speakers" ng-controller="speakerCtrl">
         <div class="container" >
-            <ul rn-carousel rn-carousel-index="carousel-spakers" rn-carousel-buffered class="carousel1 events-carousel col-md-12">
-                <li><div ng-include="'speaker/speaker1.html'"></div></li>
+            <ul rn-carousel rn-carousel-index="carouselSpeakers" rn-carousel-controls class="carousel1 events-carousel col-md-12">
+                <li ng-repeat="speakers in speakerSlides"> 
+                    <div ng-repeat="speaker in speakers" class="col-md-3">
+                        <img ng-src="{{speaker.pic}}" class="col-md-12"></img>
+                        <span class="col-md-12">{{speaker.name}}</span>
+                        <span class="col-md-12">{{speaker.position}}</span>
+                        <span class="col-md-12">{{speaker.enterprise}}</span>
+                        <span class="col-md-12">{{speaker.about}}</span>
+                    </div>                    
+                </li>
             </ul>
+            <div rn-carousel-indicators ng-if="speakerSlides.length > 1" slides="speakerSlides" rn-carousel-index="carouselSpeakers"></div>
         </div>
-
-        <!-- <div rn-carousel-indicators ng-if="slides.length > 1" slides="slides" rn-carousel-index="carouselIndex"></div>
-        $parent.carouselIndex22 = $index -->
     </section>
 
+    <!-- Oranization Section -->
+    <section id="Oranization" ng-controller="organizationCtrl">
+        <div class="container" >
+            <ul rn-carousel rn-carousel-index="carouselOrganization" rn-carousel-controls class="carousel1 events-carousel col-md-12">
+                <li ng-repeat="speakers in speakerSlides"> 
+                    <div ng-repeat="speaker in speakers" class="col-md-3">
+                        <img ng-src="{{speaker.pic}}" class="col-md-12"></img>
+                        <span class="col-md-12">{{speaker.name}}</span>
+                        <span class="col-md-12">{{speaker.position}}</span>
+                        <span class="col-md-12">{{speaker.enterprise}}</span>
+                        <span class="col-md-12">{{speaker.about}}</span>
+                    </div>                    
+                </li>
+            </ul>
+            <div rn-carousel-indicators ng-if="speakerSlides.length > 1" slides="speakerSlides" rn-carousel-index="carouselSpeakers"></div>
+        </div>
+    </section>
 
 
 
