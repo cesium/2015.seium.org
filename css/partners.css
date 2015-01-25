@@ -8,15 +8,40 @@
 {
   border: 5px solid #fff;
   letter-spacing: 10px;
+  padding-bottom: 10px;
 }
 
 .partners-header
 {
-  margin: 20px 0 10px 0;
+ margin: 20px 0 10px 0;
+ overflow: hidden;
+}
+
+.partners-header span {
+  line-height: 0.5;
+  display: inline-block;
+  position: relative;  
+}
+.partners-header span:before,
+.partners-header span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid white;
+  top: 0;
+  width: 400px;
+}
+.partners-header span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.partners-header span:after {
+  left: 100%;
+  margin-left: 15px;
 }
 
 .partner-img
 {
-  width: 100%;
-  height: 100%;
+  width: 69%;
+  height: 69%;
 }
