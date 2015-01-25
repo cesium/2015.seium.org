@@ -1,0 +1,22 @@
+#partners
+{
+  background-color: rgb(47, 124, 195);
+  color: white;
+}
+
+#partners-heading
+{
+  border: 5px solid #fff;
+  letter-spacing: 10px;
+}
+
+.partners-header
+{
+  margin: 20px 0 10px 0;
+}
+
+.partner-img
+{
+  width: 100%;
+  height: 100%;
+}
