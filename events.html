@@ -121,17 +121,17 @@
     <section id="events" ng-controller="eventCtrl as event">
         <div class="container" >
             <ul rn-carousel rn-carousel-index="carouselEvents" rn-carousel-auto-slide class="carousel1 events-carousel col-md-12">
-                <li ng-repeat="slide in eventSlides"> 
+                <li ng-repeat="slide in eventSlides">
                     <div ng-include="slide.file"></div>
                 </li>
             </ul>
             <div class="events-status col-md-12 rn-carousel-indicator custom-indicator">
-                <div ng-repeat="slide in eventSlides" class="event-day col-md-1" ng-class = "{'col-md-offset-2': $first, 'last-circle' : $last }" 
+                <div ng-repeat="slide in eventSlides" class="event-day col-md-1" ng-class = "{'col-md-offset-2': $first, 'last-circle' : $last }"
                 ng-click = "$parent.carouselEvents = $index">
-                    <div class="events-circle"><a></a></div>
+                    <div class="events-circle"><div></div></div>
                     <span class="event-day-date">{{ slide.day }}</span>
                     <span class="event-day-week">{{ slide.weekday }}</span>
-                </div>              
+                </div>
             </div>
         </div>
        <!-- <span class="ng-scope" ng-repeat="slide in slides" ng-class="{active: $index==index}" ng-click="goToSlide($index)">●</span>-->

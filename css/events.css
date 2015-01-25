@@ -13,29 +13,28 @@
     font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-.events-circle {
+.events-circle div {
+    display: inline-block;
     border-radius: 50%;
     height: 10px;
     width: 10px;
-    background-color: #E0E0E0;
+    background-color: #fff;
     margin: 0 auto;
-    /*cursor: pointer;*/
+    cursor: pointer;
 }
 
-.events-circle a:hover + .events-circle,
-.events-circle a:focus + .events-circle{
+.events-circle div:hover,
+.events-circle div:focus {
     width: 12px;
     height: 12px;
-    background-color: #fff;
-    transition: all 0.2s ease;
 }
 
 @media(min-width: 992px) {
     .events-circle:not(#last-circle)::after {
         content: "";
         position: absolute;
-        height: 5px;
-        border-bottom: 1px solid #E0E0E0;
+        height: 10px;
+        border-bottom: 1px solid #fff;
         left: 50%;
         width: 100%;
         cursor: auto;
