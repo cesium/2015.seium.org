@@ -29,7 +29,7 @@
 }
 
 @media(min-width: 992px) {
-    .events-circle:not(.last-circle)::after {
+    .event-day:not(.last-circle) .events-circle::after {
         content: "";
         position: absolute;
         height: 10px;
