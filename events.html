@@ -181,17 +181,22 @@
     <section id="Oranization" ng-controller="organizationCtrl">
         <div class="container" >
             <ul rn-carousel rn-carousel-index="carouselOrganization" rn-carousel-controls class="carousel1 events-carousel col-md-12">
-                <li ng-repeat="speakers in speakerSlides">
-                    <div ng-repeat="speaker in speakers" class="col-md-3">
-                        <img ng-src="{{speaker.pic}}" class="col-md-12"></img>
-                        <span class="col-md-12">{{speaker.name}}</span>
-                        <span class="col-md-12">{{speaker.position}}</span>
-                        <span class="col-md-12">{{speaker.enterprise}}</span>
-                        <span class="col-md-12">{{speaker.about}}</span>
+                <li ng-repeat="staffs in statfSlides">
+                    <div ng-repeat="staff in staffs" class="col-md-2 organization-staff">
+                        <div ng-style="{'background-image': 'url(' + staff.pic + ')' }" class="col-md-12">
+                            <span class="col-md-12">{{ staff.name }}</span>
+                            <span class="col-md-12">{{ staff.position }}</span>
+                            <div class="col-md-12">
+                                <a class="fa fa-facebook fa-4" ng-if="speaker.facebook != '' " ng-href="{{ speaker.facebook }}"></a>
+                                <a class="fa fa-twitter fa-4" ng-if="speaker.twitter != '' " ng-href="{{ speaker.twitter }}"></a>
+                                <a class="fa fa-github fa-4" ng-if="speaker.github != ''" ng-href="{{ speaker.github }}"></a>
+                            </div>
+                        </div>
+
                     </div>
                 </li>
             </ul>
-            <div rn-carousel-indicators ng-if="speakerSlides.length > 1" slides="speakerSlides" rn-carousel-index="carouselSpeakers"></div>
+            <div rn-carousel-indicators ng-if="statfSlides.length > 1" slides="statfSlides" rn-carousel-index="carouselOrganization"></div>
         </div>
     </section>
 
