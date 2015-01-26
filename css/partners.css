@@ -45,8 +45,10 @@
   margin-left: 15px;
 }
 
+/* To fix image alignment */
 .partner-img
 {
-  max-width: 60%;
-  max-height: 60%;
+  display: inline-block !important;
+  vertical-align: middle;
+  float: none;
 }
