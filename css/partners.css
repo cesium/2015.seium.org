@@ -1,12 +1,17 @@
 #partners
 {
-  background-color: rgb(47, 124, 195);
-  color: white;
+  background: url(../img/background_parceiros.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-attachment: scroll;
+  color: #fff;
 }
 
 #partners-heading
 {
-  border: 5px solid #fff;
+  border: 5px solid;
   letter-spacing: 10px;
   padding-bottom: 10px;
 }
@@ -27,7 +32,7 @@
   content: "";
   position: absolute;
   height: 5px;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid;
   top: 0;
   width: 400px;
 }
@@ -42,6 +47,6 @@
 
 .partner-img
 {
-  width: 69%;
-  height: 69%;
+  max-width: 60%;
+  max-height: 60%;
 }
