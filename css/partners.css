@@ -46,9 +46,20 @@
 }
 
 /* To fix image alignment */
-.partner-img
+.partner-img, .sponsor-img
 {
   display: inline-block !important;
   vertical-align: middle;
   float: none;
+}
+
+.sponsor-img
+{
+  margin-bottom: 5%;
+}
+
+.partner-img img, .sponsor-img img
+{
+  width: 100%;
+  max-width: 226px;
 }
