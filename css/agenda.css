@@ -95,6 +95,13 @@ body
   text-align: right;
 }
 
+#cal-coffee
+{
+  img: url(../img/coffee-break.png);
+  background-position: center center;
+  border: solid 2px white;
+}
+
 .weekday
 {
   color: white;
@@ -103,4 +110,14 @@ body
 .col-md-3 > a
 {
   text-decoration: none;
+}
+
+#cal-coffee img
+{
+  max-width: 80%;
+}
+
+.section-heading h1 
+{
+  font-size: 150%;
 }
