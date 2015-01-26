@@ -1,12 +1,21 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+
 body
 {
   background-color: #222;
+  font-family: Open  Sans;
 }
 
 .agenda
 {
-  background: url("../img/placeholder.jpg");
-  background-repeat: repeat;
+  background-attachment: scroll;
+  background-image: url(../img/stuff-dark.png);
+  background-position: center center;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 .section-heading 
 {
@@ -65,7 +74,7 @@ body
 
 .cal-event:hover
 {
-  background-color: #ed7950;
+  background-color: rgb(33, 128, 249);
   opacity:1;
 }
 
