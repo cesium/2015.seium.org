@@ -1,6 +1,6 @@
 angular.module('sei-app',['angular-carousel'])
 .controller('eventCtrl',['$scope',function($scope){
-    $scope.eventSlides = [
+    /*$scope.eventSlides = [
         {file:'event/14-fev.html', day:'14 Fev', weekday:'Sábado'},
         {file:'event/15-fev.html', day:'15 Fev', weekday:'Domingo'},
         {file:'event/16-fev.html', day:'16 Fev', weekday:'Segunda'},
@@ -9,6 +9,16 @@ angular.module('sei-app',['angular-carousel'])
         {file:'event/19-fev.html', day:'19 Fev', weekday:'Quinta'},
         {file:'event/20-fev.html', day:'20 Fev', weekday:'Sexta'},
         {file:'event/21-fev.html', day:'21 Fev', weekday:'Sabado'}
+    ];*/
+    $scope.eventSlides = [
+        {file:'event/17-fev.html', day:'14 Fev', weekday:'Sábado'},
+        {file:'event/17-fev.html', day:'15 Fev', weekday:'Domingo'},
+        {file:'event/17-fev.html', day:'16 Fev', weekday:'Segunda'},
+        {file:'event/17-fev.html', day:'17 Fev', weekday:'Terça'},
+        {file:'event/17-fev.html', day:'18 Fev', weekday:'Quarta'},
+        {file:'event/17-fev.html', day:'19 Fev', weekday:'Quinta'},
+        {file:'event/17-fev.html', day:'20 Fev', weekday:'Sexta'},
+        {file:'event/17-fev.html', day:'21 Fev', weekday:'Sabado'}
     ];
     $scope.carouselEvents = 0;
 }])
@@ -42,7 +52,7 @@ angular.module('sei-app',['angular-carousel'])
             {pic:'speaker/01.jpg', name:'Rui Oliveira03', position:'Developer' , enterprise:'Minho', about:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'},
             {pic:'speaker/01.jpg', name:'Rui Oliveira03', position:'Developer' , enterprise:'Minho', about:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'},
             {pic:'speaker/01.jpg', name:'Rui Oliveira', position:'Developer' , enterprise:'Minho', about:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'},
-        ]        
+        ]
     ];
     $scope.carouselEvents = 0;
 }])
@@ -77,7 +87,7 @@ angular.module('sei-app',['angular-carousel'])
             {pic:'speaker/01.jpg', name:'Rui Oliveira03', position:'Developer' , enterprise:'Minho', about:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'},
             {pic:'speaker/01.jpg', name:'Rui Oliveira', position:'Developer' , enterprise:'Minho', about:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'},
 
-        ]        
+        ]
     ];
     $scope.carouselEvents = 0;
-}])
+}]);

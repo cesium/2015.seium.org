@@ -1,15 +1,39 @@
 #events {
-    background-color: #333;
+    background-attachment: scroll;
+    background-image: url(../img/background_prometeu.png);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    color: #fff;
+    font-family: "Helvetica Neue", "Open Sans", Helvetica,Arial,sans-serif;
+    padding-top: 100px;
+    padding-bottom: 250px;
+}
+
+.events-title-container {
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+
+.events-title {
+    text-align: center;
+    border: 6px solid #0098ff;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 4px;
 }
 
 .events-carousel {
-    height: 400px;
+    height: 575px;
 }
 
 .events-status {
-    color: #fff;
     text-align: center;
-    font-family: "Helvetica Neue", "Open Sans", Helvetica,Arial,sans-serif;
+    margin: 15px auto -150px auto;
 }
 
 .events-circle div {
@@ -17,7 +41,7 @@
     border-radius: 50%;
     height: 10px;
     width: 10px;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.8);
     margin: 0 auto;
     cursor: pointer;
 }
@@ -26,6 +50,7 @@
 .events-circle div:focus {
     width: 12px;
     height: 12px;
+    background-color: rgba(255, 255, 255, 1);
 }
 
 @media(min-width: 992px) {
@@ -33,9 +58,9 @@
         content: "";
         position: absolute;
         height: 10px;
-        border-bottom: 1px solid #fff;
-        left: 50%;
-        width: 100%;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+        left: 55%;
+        width: 90%;
         cursor: auto;
     }
 }
@@ -44,4 +69,73 @@
     .events-circle {
         margin: 5px auto;
     }
+}
+
+div.event-day span {
+    color: #9E9E9E;
+}
+
+
+/* Event specific CSS */
+
+body {
+    background-color: #333333;
+}
+
+.event-roll {
+    color: #fff;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.event-roll p {
+    text-transform: uppercase;
+    padding: 0px;
+    margin: 0px;
+}
+
+p.event-type {
+    color: red;
+    font-size: 14px;
+}
+
+p.event-title {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 100%;
+}
+
+p.event-location {
+    font-size: 14px;
+}
+
+.event-container {
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    background: #0098ff; /* Old browsers */
+    /*background: -moz-linear-gradient(-45deg,  #0098ff 0%, #0098ff 50%, #3b8bc4 51%, #3b8bc4 100%); /* FF3.6+ */
+    /*background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#0098ff), color-stop(50%,#0098ff), color-stop(51%,#3b8bc4), color-stop(100%,#3b8bc4)); /* Chrome,Safari4+ */
+    /*background: -webkit-linear-gradient(-45deg,  #0098ff 0%,#0098ff 50%,#3b8bc4 51%,#3b8bc4 100%); /* Chrome10+,Safari5.1+ */
+    /*background: -o-linear-gradient(-45deg,  #0098ff 0%,#0098ff 50%,#3b8bc4 51%,#3b8bc4 100%); /* Opera 11.10+ */
+    /*background: -ms-linear-gradient(-45deg,  #0098ff 0%,#0098ff 50%,#3b8bc4 51%,#3b8bc4 100%); /* IE10+ */
+    /*background: linear-gradient(135deg,  #0098ff 0%,#0098ff 50%,#3b8bc4 51%,#3b8bc4 100%); /* W3C */
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0098ff', endColorstr='#3b8bc4',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.event-container img {
+    max-width: 70%;
+    max-height: 70%;
+    display: block;
+    margin: auto;
+}
+
+.event-description {
+    text-align: justify;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.event-description p {
+    text-align: left;
+    font-weight: bold;
 }
