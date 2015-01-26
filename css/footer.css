@@ -1,0 +1,17 @@
+/* Footer Styles */
+
+footer 
+{
+  background-color: rgb(20, 20, 20);
+  background-image: url(../img/background-footer.png);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: bottom left;
+  color: white;
+  min-height: 500px;
+}
+
+footer h4
+{
+  color: rgb(34, 127, 240);
+}
