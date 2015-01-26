@@ -175,7 +175,7 @@ fieldset[disabled] .btn-xl.active {
     text-transform: uppercase;
     font-family: "Helvetica Neue", "Open Sans", Helvetica,Arial,sans-serif;
     font-weight: bold;
-    background-color: #000;
+    background-color: rgba(5, 72, 119, 1);
 }
 
 .navbar-custom .navbar-brand {
