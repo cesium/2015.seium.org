@@ -1,6 +1,32 @@
 #speakers {
     text-align: center;
+    background-attachment: scroll;
+    background-image: url(../img/background_events.png);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
     height: 100%;
+}
+
+.speakers-title-container {
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+
+.speakers-title {
+    display: inline-block;
+    float: left;
+    padding: 0px 5px;
+    color: #fff;
+    text-align: center;
+    border: 6px solid #0098ff;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 4px;
 }
 
 .speakers-carousel {

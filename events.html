@@ -141,7 +141,7 @@
     <!-- Events Section -->
     <section id="events" ng-controller="eventCtrl as event">
         <div class="container">
-            <div class="col-md-offset-9 col-md-3 events-title-container">
+            <div class="col-md-12 events-title-container">
                 <div class="events-title">Eventos</div>
             </div>
             <ul rn-carousel rn-carousel-index="carouselEvents"  class="carousel1 events-carousel col-md-12">
@@ -166,7 +166,10 @@
 
     <!-- speakers Section -->
     <section id="speakers" ng-controller="speakerCtrl">
-        <div class="container" >
+        <div class="container">
+            <div class="col-md-12 speakers-title-container">
+                <div class="speakers-title">Oradores</div>
+            </div>
             <ul rn-carousel rn-carousel-index="carouselSpeakers" rn-carousel-controls class="carousel1 speakers-carousel col-md-12">
                 <li ng-repeat="speakers in speakerSlides">
                     <div ng-repeat="speaker in speakers" class="col-md-3">
