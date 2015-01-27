@@ -1,0 +1,46 @@
+.organization-carousel {
+    height: 450px;
+}
+
+.staff {
+    position: relative;
+    padding: 0px;
+}
+
+.staff-pic {
+    pointer-events: none; 
+    position: relative;
+    padding: 0px;
+}
+
+.staff-info {
+    position: absolute;
+    padding-top: 150px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    visibility: hidden;   
+    text-align: center;
+}
+
+.staff:hover .staff-info {
+    visibility: visible;
+}
+
+.organization-indicators{
+    text-align: center;
+}
+
+.organization-indicators div.rn-carousel-indicator span{
+    font-size: 20px;
+    color: #0098ff;
+}
+div.organization-indicators span:hover,
+div.organization-indicators span.active {
+    font-size: 24px; 
+    color: #0098ff;
+}
+
+.organization-indicators .rn-carousel-controls span.rn-carousel-control{
+    font-size: 26px;
+    color: #0098ff;
+}

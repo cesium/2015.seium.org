@@ -96,3 +96,40 @@
 .speaker-social {
     margin-top: 15px;
 }
+
+.speaker-indicators div.rn-carousel-indicator span{
+    font-size: 20px;
+    color: #0098ff;
+}
+div.organization-indicators span:hover,
+div.organization-indicators span.active {
+    font-size: 24px; 
+    color: #0098ff;
+}
+
+.organization-carousel .rn-carousel-controls span.rn-carousel-control{
+    font-size: 26px;
+    color: #0098ff;
+}
+
+/*  
+.rn-carousel-controls span.rn-carousel-control.rn-carousel-control-next  {
+    content: "";
+    border-radius:30px;
+    width:60px;
+    height:60px;
+    border: 3px solid  #0098ff; 
+}
+
+.rn-carousel-controls span.rn-carousel-control.rn-carousel-control-next::before{
+    content:"";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    margin-top:10px;
+    border-left: 40px solid #0098ff;
+    margin-left:15px;
+    border-right:5px solid transparent;
+    border-bottom: 20px solid transparent;
+}*/
