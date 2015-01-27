@@ -63,3 +63,11 @@
   width: 100%;
   max-width: 200px;
 }
+
+@media screen and (max-width: 519px)
+{
+  .partner-img
+  {
+    margin-bottom: 3%;
+  }
+}
