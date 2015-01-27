@@ -46,10 +46,13 @@
     cursor: pointer;
 }
 
+.active.event-day span,
 .event-day:hover span,
 .event-day:focus span{
     color:rgba(255, 255, 255, 1);
 }
+
+.active.event-day .events-circle div,
 .event-day:hover .events-circle div,
 .event-day:focus .events-circle div{
     width: 12px;
