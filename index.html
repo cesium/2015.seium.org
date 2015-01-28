@@ -24,6 +24,7 @@
     <link href="css/organization.css" rel="stylesheet">
     <link href="css/navbar.css" rel="stylesheet">
     <link href="css/speakers.css" rel="stylesheet">
+    <link href="css/map.css" rel="stylesheet">
     <link rel="stylesheet" href="css/agenda.css" type="text/css" >
     <link rel="stylesheet" href="css/partners.css">
     <link rel="stylesheet" href="css/footer.css" type="text/css">
@@ -918,6 +919,32 @@
             <div rn-carousel-indicators class="organization-indicators" ng-if="statfSlides.length > 1" slides="statfSlides" rn-carousel-index="carouselOrganization"></div>
         </div>
     </section>
+    <section id="map">
+        <div class="container"> 
+                <div class="col-md-12">
+                    <div id="icon-map">
+                        <span class="fa-stack fa-2x">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-map-marker fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </div>
+                    <div class="col-md-6 cesium-info"> 
+                        <div class="col-md-3">
+                            <div id="cesium-circle"> <span id="helper-center"></span><img src="img/logos/cesium-icon.png"/></div>
+                        </div>
+                        <div class="col-md-9"> 
+                            <h5>Centro de Estudantes de Engenharia de Sistemas e Informática </h5>
+                            <p>Universidade do Minho </p> 
+                            <p>Departamento de Informática, Campus de Gualtar 4710-057 Braga</p>
+                        </div>                    
+                    </div>
+                    <div class="col-md-6 cesium-map"> 
+                        <div id="map-canvas"></div>
+                    </div>
+
+                </div>
+        </div>
+    </section>
     <footer id="about">
         <div class="container">
             <div class="col-md-6 text-left">
@@ -927,7 +954,7 @@
                 <h4>ÚLTIMAS FOTOS</h4>
 
                 <!-- FACEBOOK -->
-                <iframe scrolling="no" marginheight="0" style="height: 361px;" src="http://facebookgalleria.com/gallery.php?id=131985423525155&exclude=131985423525155&display=uploaded_photos&rows=2&margin=10&cols=3&width=170&font_size=11&title_color=000000&hide_next_back=1&shape=square&frame=0" frameborder="0" width="100%"></iframe>
+                <iframe scrolling="no" marginheight="0" style="height: 361px;" src="http://facebookgalleria.com/gallery.php?id=SEI.UMinho&display=uploaded_photos&rows=2&margin=10&cols=3&width=170&font_size=11&title_color=000&hide_next_back=0&shape=square&frame=0" frameborder="0" width="100%"></iframe>
 
             </div>
 
@@ -973,6 +1000,11 @@
     <script src="js/lib/angular-touch.min.js"></script>
     <script src="js/lib/angular-carousel.min.js"></script>
     <script src="js/sei.js"></script>
+
+    <!-- Google Maps -->
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/map.js"></script>
 
 
 </body>
