@@ -204,7 +204,6 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-custom .nav li.active {
     outline: 0;
-    background-color: rgba(255,255,255,.3);
 }
 
 .navbar-custom .nav li a {

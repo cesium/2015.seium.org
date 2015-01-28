@@ -20,7 +20,9 @@
 }
 
 .nav-item a:hover::after,
-.nav-item a:focus::after {
+.nav-item a:focus::after,
+.nav-item .active a::after,
+.nav-item .active a::after {
 	height: 5px;
 	opacity: 1;
 	-webkit-transform: translateY(0px);

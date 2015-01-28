@@ -78,22 +78,22 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#home">Home</a>
-                    </li>
-                    <li>
                         <a class="page-scroll" href="#agenda">Agenda</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#events">Eventos</a>
                     </li>
                     <li>
+                        <a class="page-scroll" href="#speakers">Oradores</a>
+                    </li>
+                    <li>
                         <a class="page-scroll" href="#partners">Parceiros</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#team">Organização</a>
+                        <a class="page-scroll" href="#organization">Organização</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contacto</a>
+                        <a class="page-scroll" href="#about">About</a>
                     </li>
 
                 </ul>
@@ -105,7 +105,7 @@
 
 
     <!-- Header -->
-    <header>
+    <header id="home">
         <div class="container">
             <div class="row banner">
                 <div class="col-md-6 col-sm-6 col-xs-6 banner-text">
@@ -144,7 +144,7 @@
 
 
             <!-- Agenda -->
-            <section class="agenda">
+            <section id="agenda">
               <div class="container">
 
                 <div class="col-md-12">
@@ -883,7 +883,7 @@
     </section>
 
     <!-- Oranization Section -->
-    <section id="Oranization" ng-controller="organizationCtrl">
+    <section id="organization" ng-controller="organizationCtrl">
         <div class="container" >
             <ul rn-carousel rn-carousel-index="carouselOrganization" rn-carousel-controls class="carousel1 organization-carousel col-md-12">
                 <li ng-repeat="staffs in statfSlides">
@@ -913,7 +913,7 @@
             <div rn-carousel-indicators class="organization-indicators" ng-if="statfSlides.length > 1" slides="statfSlides" rn-carousel-index="carouselOrganization"></div>
         </div>
     </section>
-    <footer>
+    <footer id="about">
         <div class="container">
             <div class="col-md-6 text-left">
                 <h4>ABOUT US</h4>
