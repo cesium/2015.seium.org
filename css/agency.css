@@ -7,6 +7,7 @@
 body {
     overflow-x: hidden;
     font-family: "Helvetica Neue", "Open Sans", Helvetica,Arial,sans-serif;
+    color: #fff;
 }
 
 .text-muted {

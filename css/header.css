@@ -10,7 +10,7 @@ header {
 }
 
 .banner {
-    padding-top: 16%;
+    padding-top: 5%;
     padding-bottom: 0px;
     font-family: "Helvetica Neue", "Open Sans", Helvetica,Arial,sans-serif;
     text-align: center;
@@ -58,6 +58,10 @@ header {
 }
 
 @media(max-width: 992px) {
+    .banner {
+        padding-top: 8%;
+    }
+
     .banner-date {
         font-size: 30px;
     }
@@ -75,6 +79,10 @@ header {
 }
 
 @media(max-width: 768px) {
+    .banner {
+        padding-top: 15%;
+    }
+
     .banner-date {
         font-size: 20px;
     }
@@ -93,7 +101,7 @@ header {
 
 @media(max-width: 462px) {
     .banner {
-        padding-top: 25%;
+        padding-top: 15%;
     }
 
     .banner-date {

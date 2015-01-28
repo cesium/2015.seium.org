@@ -1,13 +1,8 @@
-@import url('http://fonts.googleapis.com/css?family=Open+Sans');
-
-body
-{
+body {
   background-color: #222;
-  font-family: Open  Sans;
 }
 
-.agenda
-{
+.agenda {
   background-attachment: scroll;
   background-image: url(../img/stuff-dark.png);
   background-position: center center;
@@ -17,42 +12,54 @@ body
   background-size: cover;
   -o-background-size: cover;
 }
-.section-heading 
-{
+
+.agenda-title-container {
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+
+.agenda-title {
+    display: inline-block;
+    float: left;
+    padding: 0px 5px;
+    color: #fff;
+    text-align: center;
+    border: 6px solid #0098ff;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+.section-heading {
   border: 5px solid rgb(33, 128, 249);
   color: white;
   letter-spacing: 10px;
   padding-bottom: 10px;
 }
 
-.cal-hour, .cal-event, .cal-label
-{
+.cal-hour, .cal-event, .cal-label {
   font-size: 1em;
 }
 
-.cal-day, .cal-hour
-{
+.cal-day, .cal-hour {
   color: rgb(33, 128, 249);
 }
 
-.cal-hour 
-{
+.cal-hour {
   padding-left: 5%;
   font-weight: bold;
 }
-.cal-day
-{
+.cal-day {
   font-size: 1.2em;
 }
 
-.cal-label
-{
+.cal-label {
   position: relative;
   color: rgb(171,35,37);
 }
 
-.cal-event
-{
+.cal-event {
   position: relative;
   color: white;;
   /* Fallback for web browsers that doesn't support RGBa */
@@ -65,59 +72,49 @@ body
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
 }
 
-.cal-block
-{
+.cal-block {
   position: absolute;
   background-color: #5E5E5E;
   height: 100%; width: 4%;
 }
 
-.cal-event:hover
-{
+.cal-event:hover {
   background-color: rgb(33, 128, 249);
   opacity:1;
 }
 
-.cal-subject
-{
+.cal-subject {
   padding-left: 5%; padding-top: 3px;
   font-weight: bold;
   z-index: 5;
 }
 
-.cal-speaker
-{
+.cal-speaker {
   padding-left: 5%;;
 }
 
-.cal-space
-{
+.cal-space {
   text-align: right;
 }
 
-#cal-coffee
-{
+#cal-coffee {
   img: url(../img/coffee-break.png);
   background-position: center center;
   border: solid 2px white;
 }
 
-.weekday
-{
+.weekday {
   color: white;
 }
 
-.col-md-3 > a
-{
+.col-md-3 > a {
   text-decoration: none;
 }
 
-#cal-coffee img
-{
+#cal-coffee img {
   max-width: 80%;
 }
 
-.section-heading h1 
-{
+.section-heading h1 {
   font-size: 150%;
 }
