@@ -1,3 +1,7 @@
+#organization {
+    padding-bottom: 50px;
+}
+
 .organization-carousel {
     height: 450px;
 }
@@ -35,12 +39,6 @@
     top: 100%;
     height: 100%;
     width: 100%;
-    /*background-image: -webkit-gradient(linear, right bottom, right top, color-stop(0, rgb(0, 0, 0)), color-stop(1, rgba(0, 0, 0, 0)));
-    background-image: -o-linear-gradient(top, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0));
-    background-image: -ms-linear-gradient(top, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0));
-    background-image: -moz-linear-gradient(top, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0));
-    background-image: -webkit-linear-gradient(top, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0));
-    background-image: linear-gradient(to top, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0));*/
     background-color: rgba(158, 158, 158, 0.8);
     text-align: center;
     transition: top 0.2s ease;
@@ -49,6 +47,7 @@
     -moz-transition: top 0.2s ease;
     text-transform: uppercase;
 }
+
 
 .staff-name {
     font-weight: bold;
@@ -63,6 +62,10 @@
     line-height: 100%;
     color: #424242;
     margin-bottom: 15%;
+}
+
+.staff-info span:hover {
+    /*cursor: default;*/
 }
 
 .staff-info .social-buttons {
@@ -86,17 +89,30 @@
     text-align: center;
 }
 
-.organization-indicators div.rn-carousel-indicator span{
-    font-size: 20px;
-    color: #0098ff;
-}
-div.organization-indicators span:hover,
-div.organization-indicators span.active {
+.organization-indicators div.rn-carousel-indicator span,
+.organization-indicators div.rn-carousel-indicator span:hover,
+.organization-indicators div.rn-carousel-indicator span:focus {
     font-size: 24px;
-    color: #0098ff;
+    margin-right: 5px;
+    color: rgba(255, 255, 255, 0.8);
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    vertical-align: middle;
 }
 
+.organization-indicators div.rn-carousel-indicator span.active {
+    color: rgba(255, 255, 255, 1);
+    font-size: 30px;
+    vertical-align: middle;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+}
+/*
 .organization-indicators .rn-carousel-controls span.rn-carousel-control{
     font-size: 26px;
     color: #0098ff;
-}
+}*/
