@@ -1,5 +1,5 @@
 #organization {
-    padding-bottom: 50px;
+    padding-bottom: 75px;
 }
 
 .organization-carousel {
@@ -89,27 +89,35 @@
     text-align: center;
 }
 
+.organization-indicators div.rn-carousel-indicator span {
+    font-size: 22px;
+}
+
+.organization-indicators div.rn-carousel-indicator span:hover,
+.organization-indicators div.rn-carousel-indicator span:focus {
+    font-size: 30px;
+}
+
 .organization-indicators div.rn-carousel-indicator span,
 .organization-indicators div.rn-carousel-indicator span:hover,
 .organization-indicators div.rn-carousel-indicator span:focus {
-    font-size: 24px;
-    margin-right: 5px;
-    color: rgba(255, 255, 255, 0.8);
-    transition: all 0.5s ease;
-    -webkit-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
     vertical-align: middle;
+    margin: 5px;
+    color: rgba(255, 255, 255, 0.8);
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
 }
 
 .organization-indicators div.rn-carousel-indicator span.active {
     color: rgba(255, 255, 255, 1);
     font-size: 30px;
     vertical-align: middle;
-    transition: all 0.5s ease;
-    -webkit-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
 }
 /*
 .organization-indicators .rn-carousel-controls span.rn-carousel-control{
