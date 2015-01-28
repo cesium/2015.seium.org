@@ -1,5 +1,13 @@
+#organization {
+    padding-bottom: 75px;
+}
+
 .organization-carousel {
     height: 450px;
+}
+
+.organization-title {
+    float: left;
 }
 
 .staff {
@@ -8,39 +16,111 @@
 }
 
 .staff-pic {
-    pointer-events: none; 
     position: relative;
     padding: 0px;
 }
 
-.staff-info {
-    position: absolute;
-    padding-top: 150px;
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.8);
-    visibility: hidden;   
-    text-align: center;
+.staff-info-container {
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    position: relative;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
-.staff:hover .staff-info {
-    visibility: visible;
+.staff-info {
+    color: #fff;
+    position: absolute;
+    top: 100%;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(158, 158, 158, 0.8);
+    text-align: center;
+    transition: top 0.2s ease;
+    -webkit-transition: top 0.2s ease;
+    -o-transition: top 0.2s ease;
+    -moz-transition: top 0.2s ease;
+    text-transform: uppercase;
+}
+
+
+.staff-name {
+    font-weight: bold;
+    font-size: 18px;
+    color: #212121;
+    letter-spacing: 2px;
+    margin-top: 22%;
+    margin-bottom: 15%;
+}
+
+.staff-position {
+    line-height: 100%;
+    color: #424242;
+    margin-bottom: 15%;
+}
+
+.staff-info span:hover {
+    /*cursor: default;*/
+}
+
+.staff-info .social-buttons {
+    margin-bottom: 10%;
+}
+
+.staff-info ul.social-buttons li a {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.staff-info-container:hover .staff-info,
+.staff-info-container:focus .staff-info {
+    top: 0;
 }
 
 .organization-indicators{
     text-align: center;
 }
 
-.organization-indicators div.rn-carousel-indicator span{
-    font-size: 20px;
-    color: #0098ff;
-}
-div.organization-indicators span:hover,
-div.organization-indicators span.active {
-    font-size: 24px; 
-    color: #0098ff;
+.organization-indicators div.rn-carousel-indicator span {
+    font-size: 22px;
 }
 
+.organization-indicators div.rn-carousel-indicator span:hover,
+.organization-indicators div.rn-carousel-indicator span:focus {
+    font-size: 30px;
+}
+
+.organization-indicators div.rn-carousel-indicator span,
+.organization-indicators div.rn-carousel-indicator span:hover,
+.organization-indicators div.rn-carousel-indicator span:focus {
+    vertical-align: middle;
+    margin: 5px;
+    color: rgba(255, 255, 255, 0.8);
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+}
+
+.organization-indicators div.rn-carousel-indicator span.active {
+    color: rgba(255, 255, 255, 1);
+    font-size: 30px;
+    vertical-align: middle;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+}
+/*
 .organization-indicators .rn-carousel-controls span.rn-carousel-control{
     font-size: 26px;
     color: #0098ff;
-}
+}*/
