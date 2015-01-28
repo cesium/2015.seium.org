@@ -57,6 +57,12 @@ header {
     text-align: left;
 }
 
+.banner-logos img{
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 @media(max-width: 992px) {
     .banner {
         padding-top: 8%;
