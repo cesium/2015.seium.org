@@ -9,6 +9,7 @@
     background-size: cover;
     -o-background-size: cover;
     height: 100%;
+    padding-bottom: 30px;
 }
 
 .speakers-title-container {
@@ -30,7 +31,9 @@
 }
 
 .speakers-carousel {
-    height: 750px;
+    height: 700px;
+    margin-bottom: 0;
+    padding-left: 5px;
 }
 
 .speaker-img {
@@ -81,29 +84,43 @@
 .speaker-about::after {
     color: #0098ff;
     font-weight: bold;
-    font-size: 26px;
+    font-size: 22px;
     font-family: serif;
 }
 
 .speaker-about::before {
-    content: "\201C ";
+    content: "\201C\00a0";
 }
 
 .speaker-about::after {
-    content: "\201D ";
+    content: "\00a0\201D";
 }
 
 .speaker-social {
     margin-top: 15px;
 }
 
-.speaker-indicators div.rn-carousel-indicator span{
+.speaker-indicators div.rn-carousel-indicator span {
     font-size: 20px;
-    color: #0098ff;
+    color: rgba(255, 255, 255, 0.6);
+    margin-right: 5px;
 }
+
+
+.speaker-indicators div.rn-carousel-indicator span:hover,
+.speaker-indicators div.rn-carousel-indicator span:focus,
+.speaker-indicators div.rn-carousel-indicator span.active {
+    font-size: 24px;
+}
+
+.speaker-indicators div.rn-carousel-indicator span.active {
+    font-size: 24px;
+    color: #fff;
+}
+
 div.organization-indicators span:hover,
-div.organization-indicators span.active {
-    font-size: 24px; 
+div.organization-indicators span:focus {
+    font-size: 24px;
     color: #0098ff;
 }
 
@@ -112,13 +129,17 @@ div.organization-indicators span.active {
     color: #0098ff;
 }
 
-/*  
+.speakers-controls span i {
+    font-size: 26px;
+}
+
+/*
 .rn-carousel-controls span.rn-carousel-control.rn-carousel-control-next  {
     content: "";
     border-radius:30px;
     width:60px;
     height:60px;
-    border: 3px solid  #0098ff; 
+    border: 3px solid  #0098ff;
 }
 
 .rn-carousel-controls span.rn-carousel-control.rn-carousel-control-next::before{

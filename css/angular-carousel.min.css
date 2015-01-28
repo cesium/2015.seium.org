@@ -57,8 +57,8 @@ div.rn-carousel-indicator span {
   .rn-carousel-control.rn-carousel-control-prev {
     left: 0.5em; }
     .rn-carousel-control.rn-carousel-control-prev:before {
-      content: "<"; }
+      content: ""; }
   .rn-carousel-control.rn-carousel-control-next {
     right: 0.5em; }
     .rn-carousel-control.rn-carousel-control-next:before {
-      content: ">"; }
+      content: ""; }
