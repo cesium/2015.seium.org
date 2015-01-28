@@ -1,7 +1,18 @@
+header {
+    background-attachment: scroll;
+    background-image: url(../img/background_1.png);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 .banner {
-    padding-top: 200px;
+    padding-top: 16%;
     padding-bottom: 0px;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue", "Open Sans", Helvetica,Arial,sans-serif;
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
@@ -11,14 +22,20 @@
     float: left;
 }
 
+.banner-image img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
 .banner-text {
     padding: 0px;
+    margin-top: 10%;
     float: right;
 }
 
 .banner-date {
     font-size: 48px;
-    line-height: 45px;
+    line-height: 100%;
 }
 
 .banner-locale {
@@ -30,7 +47,7 @@
     border: 8px solid;
     font-size: 60px;
     text-align: center;
-    line-height: 65px;
+    line-height: 100%;
     display: inline-block;
 }
 
@@ -38,4 +55,59 @@
     font-weight: normal;
     font-size: 10px;
     text-align: left;
+}
+
+@media(max-width: 992px) {
+    .banner-date {
+        font-size: 30px;
+    }
+
+    .banner-locale {
+        font-size: 10px;
+    }
+    .banner-sponsors {
+        font-size: 8px;
+    }
+
+    .banner-title {
+        font-size: 40px;
+    }
+}
+
+@media(max-width: 768px) {
+    .banner-date {
+        font-size: 20px;
+    }
+
+    .banner-locale {
+        font-size: 8px;
+    }
+    .banner-sponsors {
+        font-size: 6px;
+    }
+
+    .banner-title {
+        font-size: 26px;
+    }
+}
+
+@media(max-width: 462px) {
+    .banner {
+        padding-top: 25%;
+    }
+
+    .banner-date {
+        font-size: 16px;
+    }
+
+    .banner-locale {
+        font-size: 6px;
+    }
+    .banner-sponsors {
+        font-size: 4px;
+    }
+
+    .banner-title {
+        font-size: 20px;
+    }
 }
