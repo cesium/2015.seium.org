@@ -13,22 +13,8 @@
     padding-bottom: 250px;
 }
 
-.events-title-container {
-    margin-top: -50px;
-    margin-bottom: 50px;
-}
-
 .events-title {
-    display: inline-block;
     float: right;
-    padding: 0px 5px;
-    color: #fff;
-    text-align: center;
-    border: 6px solid #0098ff;
-    text-transform: uppercase;
-    font-size: 40px;
-    font-weight: bold;
-    letter-spacing: 4px;
 }
 
 .events-carousel {

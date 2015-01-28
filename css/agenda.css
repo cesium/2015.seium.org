@@ -13,22 +13,8 @@ body {
   -o-background-size: cover;
 }
 
-.agenda-title-container {
-    margin-top: -50px;
-    margin-bottom: 50px;
-}
-
 .agenda-title {
-    display: inline-block;
-    float: left;
-    padding: 0px 5px;
-    color: #fff;
-    text-align: center;
-    border: 6px solid #0098ff;
-    text-transform: uppercase;
-    font-size: 40px;
-    font-weight: bold;
-    letter-spacing: 4px;
+  float: left;
 }
 
 .section-heading {

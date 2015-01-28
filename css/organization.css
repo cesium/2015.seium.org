@@ -2,6 +2,10 @@
     height: 450px;
 }
 
+.organization-title {
+    float: left;
+}
+
 .staff {
     position: relative;
     padding: 0px;
