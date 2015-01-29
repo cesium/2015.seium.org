@@ -1,4 +1,4 @@
-#map {
+#about-map {
   background: url(../img/background_contacto.png) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -56,4 +56,3 @@ border-radius: 5px; }
     max-width: none;
     }
 
-  
