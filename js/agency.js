@@ -18,7 +18,7 @@ $(function() {
     // Highlight the top nav as scrolling occurs
     $('body').scrollspy({
         target: '.navbar-fixed-top',
-        offset: $('nav.navbar').outerHeight()
+        offset: $('nav.navbar').height() + 1
     })
     // jQuery to collapse the navbar on scroll
     $(window).scroll(function() {
