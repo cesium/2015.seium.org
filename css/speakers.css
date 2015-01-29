@@ -97,19 +97,19 @@
 .speaker-indicators div.rn-carousel-indicator span:focus,
 .speaker-indicators div.rn-carousel-indicator span.active {
     font-size: 24px;
-    transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
+    transition: all 0.1s ease;
+    -webkit-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
 }
 
 .speaker-indicators div.rn-carousel-indicator span.active {
     font-size: 24px;
     color: #fff;
-    transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
+    transition: all 0.1s ease;
+    -webkit-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
 }
 
 div.organization-indicators span:hover,
