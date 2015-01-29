@@ -66,4 +66,8 @@ div.partners-title {
   .partner-img {
     margin-bottom: 3%;
   }
+
+  .partners-title {
+    letter-spacing: 0px;
+  }
 }
