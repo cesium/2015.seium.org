@@ -63,7 +63,7 @@ border-radius: 5px; }
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   #map-canvas {
     width: 250px;
     height: 250px;
