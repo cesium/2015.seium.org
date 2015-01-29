@@ -24,6 +24,7 @@
     <link href="css/organization.css" rel="stylesheet">
     <link href="css/navbar.css" rel="stylesheet">
     <link href="css/speakers.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
     <link rel="stylesheet" href="css/agenda.css" type="text/css" >
     <link rel="stylesheet" href="css/partners.css">
     <link rel="stylesheet" href="css/footer.css" type="text/css">
@@ -151,7 +152,7 @@
 
                   <div class="container">
 
-                    <div class="col-md-12 agenda-title-container">
+                    <div class="col-md-12 title-container">
                         <div class="agenda-title">Agenda</div>
                     </div>
                   </div>
@@ -741,7 +742,7 @@
     <!-- Events Section -->
     <section id="events" ng-controller="eventCtrl as event">
         <div class="container">
-            <div class="col-md-12 events-title-container">
+            <div class="col-md-12 title-container">
                 <div class="events-title">Eventos</div>
             </div>
             <ul rn-carousel rn-carousel-index="carouselEvents"  class="carousel1 events-carousel col-md-12">
@@ -767,7 +768,7 @@
     <!-- speakers Section -->
     <section id="speakers" ng-controller="speakerCtrl">
         <div class="container">
-            <div class="col-md-12 speakers-title-container">
+            <div class="col-md-12 title-container">
                 <div class="speakers-title">Oradores</div>
             </div>
             <ul rn-carousel rn-carousel-index="carouselSpeakers" rn-carousel-controls class="carousel1 speakers-carousel col-md-12">
@@ -781,18 +782,23 @@
                         <div class="col-md-12">
                             <ul class="list-inline social-buttons speaker-social">
                                 <li>
-                                    <a ng-if="speaker.facebook != '' " ng-href="{{ speaker.facebook }}"><i class="fa fa-facebook"></i></a>
+                                    <a ng-if="speaker.facebook" ng-href="{{ speaker.facebook }}"><i class="fa fa-facebook fa-1x"></i></a>
                                 </li>
                                 <li>
-                                    <a ng-if="speaker.twitter != '' " ng-href="{{ speaker.twitter }}"><i class="fa fa-twitter"></i></a>
+                                    <a ng-if="speaker.twitter" ng-href="{{ speaker.twitter }}"><i class="fa fa-twitter"></i></a>
                                 </li>
                                 <li>
-                                    <a ng-if="speaker.github != ''" ng-href="{{ speaker.github }}"><i class="fa fa-github"></i></a>
+                                    <a ng-if="speaker.github" ng-href="{{ speaker.github }}"><i class="fa fa-github"></i></a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </li>
+
+                <div class="rn-carousel-controls ng-scope speakers-controls">
+                    <span class="rn-carousel-control rn-carousel-control-next ng-scope" ng-click="nextSlide()" ng-if="carouselIndex < speakerSlides.length - 1"><i class="fa fa-chevron-circle-right"></i></span>
+                    <span class="rn-carousel-control rn-carousel-control-prev ng-scope" ng-click="prevSlide()" ng-if="carouselIndex > 0"><i class="fa fa-chevron-circle-left"></i></span>
+                </div>
             </ul>
             <div rn-carousel-indicators class="speaker-indicators" ng-if="speakerSlides.length > 1" slides="speakerSlides" rn-carousel-index="carouselSpeakers"></div>
         </div>
@@ -803,7 +809,7 @@
     <section id="partners">
         <div class="container text-center">
 
-            <div class="col-md-12 partners-title-container">
+            <div class="col-md-12 title-container">
                 <div class="partners-title">Parceiros</div>
             </div>
 
@@ -882,35 +888,39 @@
         </div>
     </section>
 
-    <!-- Oranization Section -->
+    <!-- Organization Section -->
     <section id="organization" ng-controller="organizationCtrl">
         <div class="container" >
+            <div class="col-md-12 title-container">
+                <div class="organization-title">Organização</div>
+            </div>
             <ul rn-carousel rn-carousel-index="carouselOrganization" rn-carousel-controls class="carousel1 organization-carousel col-md-12">
-                <li ng-repeat="staffs in statfSlides">
+                <li ng-repeat="staffs in staffSlides">
                     <div ng-repeat="staff in staffs" class="col-md-2 staff" >
                         <!-- ng-style="{'background-image': 'url(' + staff.pic + ')' }" -->
-                        <img ng-src="{{ staff.pic }}"  class="col-md-12 staff-pic"></img>
-                        <div class="staff-info">
-                            <span class="col-md-12">{{ staff.name }}</span>
-                            <span class="col-md-12">{{ staff.position }}</span>
-                            <div class="col-md-12">
-                                <ul class="list-inline social-buttons">
-                                    <li>
-                                        <a ng-if="speaker.facebook != '' " ng-href="{{ speaker.facebook }}"><i class="fa fa-facebook"></i></a>
-                                    </li>
-                                    <li>
-                                        <a ng-if="speaker.twitter != '' " ng-href="{{ speaker.twitter }}"><i class="fa fa-twitter"></i></a>
-                                    </li>
-                                    <li>
-                                        <a ng-if="speaker.github != ''" ng-href="{{ speaker.github }}"><i class="fa fa-github"></i></a>
-                                    </li>
-                                </ul>
+                        <div class="staff-info-container" style="background-image: url( {{ staff.pic }} )">
+                            <div class="staff-info">
+                                <span class="col-md-12 staff-name">{{ staff.name }}</span>
+                                <span class="col-md-12 staff-position">{{ staff.position }}</span>
+                                <div class="col-md-12">
+                                    <ul class="list-inline social-buttons">
+                                        <li ng-if="staff.facebook" >
+                                            <a ng-href="{{ staff.facebook }}" target="_blank"><i class="fa fa-facebook"></i></a>
+                                        </li>
+                                        <li ng-if="staff.twitter ">
+                                            <a ng-href="{{ staff.twitter }}" target="_blank"><i class="fa fa-twitter"></i></a>
+                                        </li>
+                                        <li ng-if="staff.github" >
+                                            <a ng-href="{{ staff.github }}" target="_blank"><i class="fa fa-github"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </li>
             </ul>
-            <div rn-carousel-indicators class="organization-indicators" ng-if="statfSlides.length > 1" slides="statfSlides" rn-carousel-index="carouselOrganization"></div>
+            <div rn-carousel-indicators class="organization-indicators" ng-if="staffSlides.length > 1" slides="staffSlides" rn-carousel-index="carouselOrganization"></div>
         </div>
     </section>
     <footer id="about">
