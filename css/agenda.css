@@ -1,6 +1,4 @@
-body {
-  background-color: #222;
-}
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
 
 #agenda {
   background-attachment: scroll;
@@ -11,6 +9,8 @@ body {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  font-family: 'Open Sans';
+  background-color: #222;
 }
 
 .agenda-title {
@@ -36,8 +36,9 @@ body {
   padding-left: 5%;
   font-weight: bold;
 }
-.cal-day {
-  font-size: 1.2em;
+
+.cal-day span {
+  color: white;
 }
 
 .cal-label {
@@ -86,12 +87,8 @@ body {
 }
 
 #cal-coffee img {
-  width: inherit;
+  width: 60%;
   height: auto;
-}
-
-.weekday {
-  color: white;
 }
 
 .col-md-3 > a {
@@ -106,9 +103,12 @@ body {
   font-size: 150%;
 }
 
-@media screen and (max-width: 991px) {
-  #cal-coffee img {
-    width: 250px;
-    height: auto;
+@media screen and (max-width: 626px) {
+  .cal-subject, .cal-label, .cal-space, .cal-speaker {
+    font-size: 0.85em;
+  }
+
+  .cal-day {
+    font-size: 1.1em;
   }
 }
