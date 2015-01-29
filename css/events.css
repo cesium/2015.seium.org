@@ -42,6 +42,10 @@
     color:rgba(255, 255, 255, 1);
 }
 
+.active.event-day span {
+    font-weight: bold;
+}
+
 .active.event-day .events-circle div,
 .event-day:hover .events-circle div,
 .event-day:focus .events-circle div{
@@ -49,21 +53,6 @@
     height: 12px;
     background-color: rgba(255, 255, 255, 1);
 }
-
-/*
-.active .events-circle div,
-.events-circle div:hover,
-.events-circle div:focus {
-    width: 12px;
-    height: 12px;
-    background-color: rgba(255, 255, 255, 1);
-}
-
-.active.event-day span,
-.event-day span:hover,
-.event-day span:focus{
-    color:rgba(255, 255, 255, 1) ;
-}*/
 
 @media(min-width: 992px) {
     .event-day:not(.last-circle) .events-circle::after {
@@ -78,8 +67,77 @@
 }
 
 @media(max-width: 992px) {
+    #events {
+        padding-bottom: 50px;
+    }
+
     .events-circle {
         margin: 5px auto;
+    }
+
+    div.event-day span {
+        font-size: 9px;
+    }
+
+    div.event-day.active {
+        padding: 0px;
+    }
+
+    .active.event-day span {
+        font-size: 11px;
+    }
+
+    #events .title-container {
+        margin-bottom: 100px;
+    }
+
+    div.event-container {
+        padding: 10px;
+        font-size: 9px;
+    }
+
+    div.event-container p {
+        font-size: 10px;
+    }
+
+    .event-roll p.event-type {
+        font-size: 10px;
+    }
+
+    .event-roll p.event-location {
+        font-size: 9px;
+    }
+
+    .event-roll p.event-title {
+        font-size: 12px;
+    }
+
+    div.events-status {
+        margin: -125px;
+    }
+
+    div.title-container div.events-title {
+        font-size: 35px;
+    }
+}
+
+@media(max-width: 768px) {
+    div.event-day span {
+        visibility: hidden;
+    }
+
+    div.title-container div.events-title {
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 447px) {
+    div.events-status {
+        margin: 0px;
+    }
+
+    div.title-container div.events-title {
+        font-size: 24px;
     }
 }
 
@@ -89,10 +147,6 @@ div.event-day span {
 
 
 /* Event specific CSS */
-
-body {
-    background-color: #333333;
-}
 
 .event-roll {
     color: #fff;
