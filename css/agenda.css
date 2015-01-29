@@ -83,10 +83,9 @@ body {
   text-align: right;
 }
 
-#cal-coffee {
-  img: url(../img/coffee-break.png);
-  background-position: center center;
-  border: solid 2px white;
+#cal-coffee img {
+  width: inherit;
+  height: auto;
 }
 
 .weekday {
@@ -103,4 +102,11 @@ body {
 
 .section-heading h1 {
   font-size: 150%;
+}
+
+@media screen and (max-width: 991px) {
+  #cal-coffee img {
+    width: 250px;
+    height: auto;
+  }
 }
