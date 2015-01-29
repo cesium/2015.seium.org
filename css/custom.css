@@ -1,0 +1,19 @@
+ul.carousel1 li {
+    padding-left: 5px;
+}
+
+.title-container {
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+
+.title-container div {
+    display: inline-block;
+    padding: 0px 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    border: 6px solid #0098ff;
+}
