@@ -112,20 +112,20 @@
     vertical-align: middle;
     margin: 5px;
     color: rgba(255, 255, 255, 0.8);
-    transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
+    transition: all 0.1s ease;
+    -webkit-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
 }
 
 .organization-indicators div.rn-carousel-indicator span.active {
     color: rgba(255, 255, 255, 1);
     font-size: 30px;
     vertical-align: middle;
-    transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
+    transition: all 0.1s ease;
+    -webkit-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
 }
 /*
 .organization-indicators .rn-carousel-controls span.rn-carousel-control{
