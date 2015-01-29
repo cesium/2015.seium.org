@@ -42,7 +42,8 @@ body {
 
 .cal-label {
   position: relative;
-  color: rgb(171,35,37);
+  color: rgb(220,35,37);
+  padding-right: 5%;
 }
 
 .cal-event {
@@ -81,6 +82,7 @@ body {
 
 .cal-space {
   text-align: right;
+  padding-right: 5%;
 }
 
 #cal-coffee img {
