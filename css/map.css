@@ -56,3 +56,21 @@ border-radius: 5px; }
     max-width: none;
     }
 
+@media (max-width: 992px) {
+  #map-canvas {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  #map-canvas {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+  }
+
+  .cesium-map {
+    float: none;
+  }
+}
