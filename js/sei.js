@@ -1,5 +1,5 @@
 angular.module('sei-app',['angular-carousel'])
-.controller('eventCtrl',['$scope',function($scope){
+.controller('eventCtrl',['$scope','$rootScope',function($scope,$rootScope){
     /*$scope.eventSlides = [
         {file:'event/14-fev.html', day:'14 Fev', weekday:'Sábado'},
         {file:'event/15-fev.html', day:'15 Fev', weekday:'Domingo'},
@@ -21,6 +21,10 @@ angular.module('sei-app',['angular-carousel'])
         {file:'event/17-fev.html', day:'21 Fev', weekday:'Sabado'}
     ];
     $scope.carouselEvents = 0;
+
+    $rootScope.eventGoto = function(page){
+        $scope.carouselEvents = page;
+    }
 }])
 .controller('speakerCtrl',['$scope',function($scope){
     $scope.speakerSlides = [
@@ -91,3 +95,4 @@ angular.module('sei-app',['angular-carousel'])
     ];
     $scope.carouselEvents = 0;
 }]);
+
