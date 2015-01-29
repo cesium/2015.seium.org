@@ -11,7 +11,7 @@ header {
 
 .banner {
     position: relative;
-    padding-top: 10%;
+    padding-top: 25%;
     padding-bottom: 0px;
     font-family: "Helvetica Neue", "Open Sans", Helvetica,Arial,sans-serif;
     text-align: center;
@@ -26,15 +26,15 @@ header {
 }
 
 .banner-image img {
-    max-height: 70%;
-    max-width: 70%;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 .banner-text {
     float: right;
     padding: 0px;
     vertical-align: middle;
-    margin-bottom: 12%;
+    margin-bottom: 20%;
 }
 
 .banner-date {
@@ -68,12 +68,18 @@ header {
 }
 
 @media(max-width: 1200px) {
+
     .banner {
-        padding-top: 18%;
+        padding-top: 25%;
+    }
+
+    .banner-image img {
+        max-height: 90%;
+        max-width: 90%;
     }
 
     .banner-text {
-        margin-bottom: 8%;
+        margin-bottom: 20%;
     }
 
     .banner-date {
@@ -98,11 +104,16 @@ header {
 
 @media(max-width: 992px) {
     .banner {
-        padding-top: 12%;
+        padding-top: 20%;
+    }
+
+    .banner-image img {
+        max-height: 100%;
+        max-width: 100%;
     }
 
     .banner-text {
-        margin-bottom: 0;
+        margin-bottom: 10%;
     }
 
     .banner-date {
@@ -112,6 +123,7 @@ header {
     .banner-locale {
         font-size: 10px;
     }
+
     .banner-sponsors {
         margin-left: 12%;
         width: 80%;
@@ -121,12 +133,13 @@ header {
     .banner-title {
         font-size: 30px;
         width: 75%;
+        border: 6px solid;
     }
 }
 
 @media(max-width: 768px) {
     .banner {
-        padding-top: 15%;
+        padding-top: 25%;
     }
 
     .banner-date {
@@ -142,14 +155,11 @@ header {
 
     .banner-title {
         font-size: 26px;
+        border: 4px solid;
     }
 }
 
 @media(max-width: 628px) {
-    .banner {
-        padding-top: 15%;
-    }
-
     .banner-date {
         font-size: 16px;
     }
@@ -166,5 +176,28 @@ header {
     .banner-title {
         width: 80%;
         font-size: 20px;
+        border: 3px solid;
     }
 }
+
+@media(max-width: 447px) {
+    .banner-date {
+        font-size: 12px;
+    }
+
+    .banner-locale {
+        font-size: 6px;
+    }
+    .banner-sponsors {
+        font-size: 4px;
+        margin-left: 9%;
+        width: 85%;
+    }
+
+    .banner-title {
+        width: 80%;
+        font-size: 14px;
+        border: 3px solid;
+    }
+}
+
