@@ -15,7 +15,7 @@ body {
 }
 
 .text-primary {
-    color: #fed136;
+    color: #0098ff;
 }
 
 p {
@@ -36,7 +36,7 @@ a.active {
 }
 
 a {
-    color: #fed136;
+    color: #0098ff;
 }
 
 a:hover,
@@ -70,12 +70,12 @@ h6 {
 }
 
 .btn-primary {
-    border-color: #fed136;
+    border-color: #0098ff;
     text-transform: uppercase;
     font-family: "Helvetica Neue", "Open Sans", Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
-    background-color: #fed136;
+    background-color: #0098ff;
 }
 
 .btn-primary:hover,
@@ -109,25 +109,25 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #0098ff;
+    background-color: #0098ff;
 }
 
 .btn-primary .badge {
-    color: #fed136;
+    color: #0098ff;
     background-color: #fff;
 }
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #fed136;
+    border-color: #0098ff;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: "Helvetica Neue", "Open Sans", Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #fed136;
+    background-color: #0098ff;
 }
 
 .btn-xl:hover,
@@ -161,12 +161,12 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #0098ff;
+    background-color: #0098ff;
 }
 
 .btn-xl .badge {
-    color: #fed136;
+    color: #0098ff;
     background-color: #fff;
 }
 
@@ -466,7 +466,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #fed136;
+    background-color: #0098ff;
 }
 
 .timeline>li .timeline-image h4 {
@@ -653,7 +653,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-    border-color: #fed136;
+    border-color: #0098ff;
     box-shadow: none;
 }
 
@@ -731,7 +731,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #fed136;
+    background-color: #0098ff;
 }
 
 .btn:focus,
@@ -819,7 +819,7 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #fed136;
+    background: #0098ff;
 }
 
 ::selection {
@@ -836,5 +836,5 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #fed136;
+    webkit-tap-highlight-color: #0098ff;
 }
