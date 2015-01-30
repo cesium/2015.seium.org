@@ -715,7 +715,7 @@
             </div>
             <ul rn-carousel rn-carousel-index="carouselSpeakers" rn-carousel-controls class="carousel1 speakers-carousel">
                 <li ng-repeat="speakers in speakerSlides">
-                    <div ng-repeat="speaker in speakers" class="col-md-4 col-sm-4 col-xs-4">
+                    <div ng-repeat="speaker in speakers" class="col-md-4 col-sm-4 col-xs-12">
                         <div style="background-image: url('{{speaker.pic}}')" class="col-md-12 col-xs-12 col-sm-12 speaker-img"></div>
                         <span class="col-md-12 col-xs-12 col-sm-12 speaker-name">{{speaker.name}}</span>
                         <span class="col-md-12 col-xs-12 col-sm-12 speaker-position">{{speaker.position}}</span>
@@ -947,7 +947,7 @@
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
     <!-- AngularJS -->
-    <script src="js/lib/angular.min.js"></script>
+    <script src="js/lib/angular.js"></script>
     <script src="js/lib/angular-touch.min.js"></script>
     <script src="js/lib/angular-carousel.min.js"></script>
     <script src="js/sei.js"></script>

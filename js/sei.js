@@ -26,8 +26,8 @@ angular.module('sei-app',['angular-carousel'])
         $scope.carouselEvents = page;
     }
 }])
-.controller('speakerCtrl',['$scope',function($scope){
-    $scope.speakerSlides = [
+.controller('speakerCtrl',['$scope','$window',function($scope,$window){
+     var speakers = 
         // slide 01#
         [
             {pic:'img/speakers/hpinto.jpg', name:'Hélder Pinto', position:'3D Environment Artist' , enterprise:'Blizzard', web:'http://www.helderpinto.com/' , twitter:'https://twitter.com/HelderHP', github:'',
@@ -36,24 +36,34 @@ angular.module('sei-app',['angular-carousel'])
             about:'Empreendedor de sucesso e ex-aluno da LESI. Apaixonado por tecnologia, vem falar-nos sobre Python programming language e introduzir a framework web2py.'},
             {pic:'img/speakers/fmendes.jpg', name:'Francisco Mendes', position:'Entrepreneur & Creator' , enterprise:'Bee Very Creative', web:'https://www.beeverycreative.com' , twitter:'https://twitter.com/fmendes75/', github:'',
             about:'Empreendedor apaixonado por tecnologia. Licenciado em Engenharia Electrónica e Telecomunicações e pós-graduado em Engenharia de Automação Industrial, ambos pela Universidade de Aveiro, começou a sua carreira profissional como Engenheiro de I&D e posteriormente como director de Hardware. No final de 2010, juntou-se a Jorge Pinto e fundaram a bitBOX Electronic Systems, uma startup que começou na incubadora de empresas da Universidade de Aveiro e que mais tarde se tornou na BEEVERYCREATIVE, a empresa que criou a primeira impressora 3D portuguesa.'},
-        ],
-        // slide 02#
-        [
             {pic:'img/speakers/rdescoffier.png', name:"Rafael D'Escoffier", position:'Developer' , enterprise:'BloomIdea', web:'http://bloomidea.com/' , twitter:'', github:'',
              about:'Estudante de engenharia informática na Universidade do Minho e programador na BloomIdea, com foco especial no desenvolvimento de soluções na área das aplicações móveis. Otimista incurável e geek praticante, apaixonado pela tecnologia, natureza e desporto.'},
             {pic:'img/speakers/nfernandes.png', name:'Nuno Fernandes', position:'Writer, D&R Director' , enterprise:'Eurotux', web:'https://www.eurotux.com' , twitter:'', github:'',
             about:'Licenciado pela Universidade do Minho em Engenharia de Sistemas e Informática é actualmente Director de investigação e Desenvolvimento da Eurotux Informática. Co-Autor do livro Apache Instalação, Configuração Gestão Servidores Web editado pela FCA tem sido responsável pela implementação de diversos projectos de infra-estruturas tecnológicas de grande porte.'},
             {pic:'img/speakers/rantunes.jpg', name:'Rui Antunes', position:'Developer' , enterprise:'FPV', web:'http://fpvportugal.com/' , twitter:'', github:'',
             about:'Sempre se interessou com tudo o que estava relacionado com tecnologia e desde alguns anos que tem experiência em aeromodelismo, há cerca de 4 anos começou a ter contacto com multirotores. Actualmente frequenta o 2o ano de Engenharia Informática na Escola Superior de Tecnologia de Castelo Branco.'},
-        ],
-        // slide 03#
-        [
             {pic:'img/speakers/lfonseca.jpg', name:'Luís Fonseca', position:'Lead Interactive Developer' , enterprise:'X-Team', web:'http://luispedrofonseca.com/' , twitter:'https://twitter.com/lpfonseca', github:'',
              about:'Com mais de uma década de experiência num leque muito variado de tecnologias, desde Unity a Objective-C passando pelo Javascript e Flash, focou-se fortemente, nos últimos anos, em desenvolvimento de jogos e aplicações mobile. Faz parte da <a href="www.x-team.com" target="_blank">X-Team</a> desde 2008 onde trabalha, em parceria, para empresas como RIOT Games, Dreamworks, FOX Broadcasting, Microsoft, etc., criando projectos que alcançam todos os dias milhões de utilizadores.'},
-        ]
-    ];
+         ];
+
+    if ($window.innerWidth < 768) {
+        $scope.speakerSlides = [];
+        for (var i = speakers.length - 1; i >= 0; i--) {
+            $scope.speakerSlides.push([speakers[i]]);
+
+        };
+    } else {
+        $scope.speakerSlides = [[],[],[]];
+        for (var i = speakers.length - 1; i >= 0; i--) {
+            $scope.speakerSlides[Math.trunc(i/3)].push(speakers[i]);
+        };
+
+    }
+
+
     $scope.carouselEvents = 0;
 }])
+
 .controller('organizationCtrl',['$scope',function($scope){
     $scope.staffSlides = [
         // slide 01#
@@ -100,6 +110,7 @@ angular.module('sei-app',['angular-carousel'])
     ];
     $scope.carouselEvents = 0;
 }]);
+
 
 
 

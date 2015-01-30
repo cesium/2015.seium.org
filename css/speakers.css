@@ -51,6 +51,7 @@
     display: table;
     clear: both;
     width: 80%;
+    max-width: 170px;
     margin: 0 auto;
     border-bottom: 4px solid #fff;
 }
@@ -175,6 +176,9 @@ div.organization-indicators span:focus {
     #speakers ul.social-buttons li {
         padding: 0;
     }
+    ul.speakers-carousel {
+        height: 500;
+    }
 }
 
 @media(max-width: 768px) {
@@ -216,6 +220,9 @@ div.organization-indicators span:focus {
         font-size: 14px;
         line-height: 30px;
     }
+    ul.speakers-carousel {
+        height: 400px;
+    }
 }
 
 @media(max-width: 507px) {
@@ -249,5 +256,4 @@ div.organization-indicators span:focus {
         font-size: 8px;
         padding: 0;
     }
-
 }
