@@ -69,18 +69,18 @@ header {
 
 @media(max-width: 1200px) {
 
-    .banner {
+    /*.banner {
         padding-top: 25%;
-    }
+    }*/
 
     .banner-image img {
         max-height: 90%;
         max-width: 90%;
     }
 
-    .banner-text {
+    /*.banner-text {
         margin-bottom: 20%;
-    }
+    }*/
 
     .banner-date {
         font-size: 30px;
@@ -102,9 +102,9 @@ header {
 }
 
 
-@media(max-width: 992px) {
+@media(max-width: 991px) {
     .banner {
-        padding-top: 20%;
+        padding-top: 25%;
     }
 
     .banner-image img {
@@ -113,7 +113,7 @@ header {
     }
 
     .banner-text {
-        margin-bottom: 10%;
+        margin-bottom: 25%;
     }
 
     .banner-date {
