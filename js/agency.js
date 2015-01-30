@@ -7,8 +7,8 @@
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
+        var navHeight = $('.navbar-header').height();
         var $anchor = $(this);
-        var navHeight = $('nav.navbar').height();
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top - navHeight
         }, 1500, 'easeInOutExpo');
@@ -18,7 +18,7 @@ $(function() {
     // Highlight the top nav as scrolling occurs
     $('body').scrollspy({
         target: '.navbar-fixed-top',
-        offset: $('nav.navbar').height() + 1
+        offset: $('.navbar-header').height() + 1
     });
 
     // jQuery to collapse the navbar on scroll
