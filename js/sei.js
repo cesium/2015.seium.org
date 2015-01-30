@@ -38,14 +38,13 @@ angular.module('sei-app',['angular-carousel'])
             about:'Empreendedor apaixonado por tecnologia. Licenciado em Engenharia Electrónica e Telecomunicações e pós-graduado em Engenharia de Automação Industrial, ambos pela Universidade de Aveiro, começou a sua carreira profissional como Engenheiro de I&D e posteriormente como director de Hardware. No final de 2010, juntou-se a Jorge Pinto e fundaram a bitBOX Electronic Systems, uma startup que começou na incubadora de empresas da Universidade de Aveiro e que mais tarde se tornou na BEEVERYCREATIVE, a empresa que criou a primeira impressora 3D portuguesa.'},
             {pic:'img/speakers/rdescoffier.png', name:"Rafael D'Escoffier", position:'Developer' , enterprise:'BloomIdea', web:'http://bloomidea.com/' , twitter:'', github:'',
              about:'Estudante de engenharia informática na Universidade do Minho e programador na BloomIdea, com foco especial no desenvolvimento de soluções na área das aplicações móveis. Otimista incurável e geek praticante, apaixonado pela tecnologia, natureza e desporto.'},
-            {pic:'img/speakers/nfernandes.png', name:'Nuno Fernandes', position:'Writer, D&R Director' , enterprise:'Eurotux', web:'https://www.eurotux.com' , twitter:'', github:'',
+            {pic:'img/speakers/nfernandes.png', name:'Nuno Fernandes', position:'Writer, D&R Director' , enterprise:'Eurotux', web:'http://www.eurotux.com' , twitter:'', github:'',
             about:'Licenciado pela Universidade do Minho em Engenharia de Sistemas e Informática é actualmente Director de investigação e Desenvolvimento da Eurotux Informática. Co-Autor do livro Apache Instalação, Configuração Gestão Servidores Web editado pela FCA tem sido responsável pela implementação de diversos projectos de infra-estruturas tecnológicas de grande porte.'},
             {pic:'img/speakers/rantunes.jpg', name:'Rui Antunes', position:'Developer' , enterprise:'FPV', web:'http://fpvportugal.com/' , twitter:'', github:'',
             about:'Sempre se interessou com tudo o que estava relacionado com tecnologia e desde alguns anos que tem experiência em aeromodelismo, há cerca de 4 anos começou a ter contacto com multirotores. Actualmente frequenta o 2o ano de Engenharia Informática na Escola Superior de Tecnologia de Castelo Branco.'},
             {pic:'img/speakers/lfonseca.jpg', name:'Luís Fonseca', position:'Lead Interactive Developer' , enterprise:'X-Team', web:'http://luispedrofonseca.com/' , twitter:'https://twitter.com/lpfonseca', github:'',
-             about:'Com mais de uma década de experiência num leque muito variado de tecnologias, desde Unity a Objective-C passando pelo Javascript e Flash, focou-se fortemente, nos últimos anos, em desenvolvimento de jogos e aplicações mobile. Faz parte da <a href="www.x-team.com" target="_blank">X-Team</a> desde 2008 onde trabalha, em parceria, para empresas como RIOT Games, Dreamworks, FOX Broadcasting, Microsoft, etc., criando projectos que alcançam todos os dias milhões de utilizadores.'},
-         ];
-
+             about:'Com mais de uma década de experiência num leque muito variado de tecnologias, desde Unity a Objective-C passando pelo Javascript e Flash, focou-se fortemente, nos últimos anos, em desenvolvimento de jogos e aplicações mobile. Faz parte da X-Team desde 2008 onde trabalha, em parceria, para empresas como RIOT Games, Dreamworks, FOX Broadcasting, Microsoft, etc., criando projectos que alcançam todos os dias milhões de utilizadores.'},
+        ];
     if ($window.innerWidth < 768) {
         $scope.speakerSlides = [];
         for (var i = speakers.length - 1; i >= 0; i--) {
@@ -59,8 +58,6 @@ angular.module('sei-app',['angular-carousel'])
         };
 
     }
-
-
     $scope.carouselEvents = 0;
 }])
 
@@ -73,7 +70,7 @@ angular.module('sei-app',['angular-carousel'])
             {pic: 'img/staff/pduarte.jpg', name:'Pedro Duarte', position: 'Vice Presidente', enterprise: 'Minho', facebook:'https://www.facebook.com/pedrodpduarte870', twitter: 'https://twitter.com/pedroduarte870', github: 'https://github.com/pedroduarte870'},
             {pic: 'img/staff/pmaia.jpg', name:'Pedro Maia', position: 'Tesoureiro', enterprise: 'Minho', facebook:'https://www.facebook.com/maiarib', twitter: '', github: 'https://github.com/PedroMaia'},
             {pic: 'img/staff/pbarros.jpg', name:'Patricia Barros', position: 'Secretária', enterprise: 'Minho', facebook:'https://www.facebook.com/patriciaaabarros', twitter: '', github: 'https://github.com/7patricia'},
-            {pic: 'img/staff/fmendes.jpg', name:'Fernando Mendes', position: 'Director do Centro de Apoio ao Open Source', enterprise: 'Minho', facebook:'https://www.facebook.com/frmendes94', twitter: 'https://twitter.com/fribmendes', github: 'https://github.com/fribmendes'},
+            {pic: 'img/staff/fmendes.jpg', name:'Fernando Mendes', position: 'Director do Centro de Apoio ao Open Source', enterprise: 'Minho', facebook:'https://www.facebook.com/frmendes94', twitter: 'https://twitter.com/fribmendes', github: 'https://github.com/frmendes'},
             {pic: 'img/staff/maragao.jpg', name:'Martinho Aragão ', position: 'Vice Director do Centro de Apoio ao Open Source', enterprise: 'Minho', facebook:'https://www.facebook.com/martinhoaragao.silva', twitter: 'https://twitter.com/martinhoaragao', github: 'https://github.com/martinhoaragao'},
             {pic: 'img/staff/fneves.jpg', name:'Francisco Neves', position: 'Director do Departamento Pedagógico', enterprise: 'Minho', facebook:'https://www.facebook.com/fnversace', twitter: 'https://twitter.com/fntneves', github: 'https://github.com/fntneves'},
             {pic: 'img/staff/sei.jpg', name:'Fábio Gomes', position: 'Vice Director do Departamento Pedagógico', enterprise: 'Minho', facebook:'https://www.facebook.com/semnome.especial', twitter: 'https://twitter.com/SHIFTBASIC', github: 'https://github.com/MrFabio'},
