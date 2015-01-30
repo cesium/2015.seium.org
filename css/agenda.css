@@ -49,7 +49,7 @@
 
 .cal-event {
   position: relative;
-  color: white;;
+  color: white;
   /* Fallback for web browsers that doesn't support RGBa */
   background: rgb(97, 97, 97); transparent;
   /* RGBa with 0.6 opacity */
@@ -58,6 +58,16 @@
   filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
   /* For IE 8*/
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+
+.cal-parallel-left{
+  padding-left: 0;
+  padding-right: 7.5; 
+}
+
+.cal-parallel-right{
+  padding-left: 7.5;
+  padding-right: 0; 
 }
 
 .cal-block {
@@ -84,6 +94,17 @@
 .cal-space {
   text-align: right;
   padding-right: 5%;
+}
+
+.cal-lunch {
+ margin: 20px 0 10px 0;
+ overflow: hidden;
+}
+
+.cal-lunch span {
+  line-height: 0.5;
+  display: inline-block;
+  position: relative;
 }
 
 #cal-coffee img {
