@@ -74,3 +74,34 @@ border-radius: 5px; }
     float: none;
   }
 }
+
+@media (max-width: 627px) {
+  .cesium-info .col-md-9 p,
+  .about-text p {
+    font-size: 14px;
+  }
+
+  .cesium-info {
+    text-align: center;
+  }
+
+  #cesium-circle {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 447px) {
+  .cesium-info .col-md-9 p,
+  .about-text p {
+    font-size: 12px;
+  }
+
+  .about-text h4 {
+    font-size: 14px;
+  }
+
+  #map-canvas {
+    width: 200px;
+    height: 200px;
+  }
+}
