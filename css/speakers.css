@@ -24,6 +24,9 @@
 
 .speaker-img {
     border-radius: 50%;
+    max-width: 250px;
+    max-height: 250px;
+    float: none;
 }
 
 .speaker-name {
@@ -127,24 +130,104 @@ div.organization-indicators span:focus {
     font-size: 26px;
 }
 
-/*
-.rn-carousel-controls span.rn-carousel-control.rn-carousel-control-next  {
-    content: "";
-    border-radius:30px;
-    width:60px;
-    height:60px;
-    border: 3px solid  #0098ff;
+@media(max-width: 992px) {
+    .speaker-img {
+        max-width: 150px;
+        max-height: 150px;
+    }
+
+    #speakers {
+        padding-bottom: 50px;
+    }
+
+    .speaker-name {
+        font-size: 22px;
+    }
+
+    .speaker-position {
+        font-size: 14px;
+    }
+
+    .speaker-company {
+        font-size: 12px;
+    }
+
+    div.speakers-controls span i  {
+        margin-right: -5px;
+        font-size: 20px;
+    }
+
+    #speakers ul.social-buttons li a {
+        height: 40px;
+        width: 40px;
+        font-size: 18px;
+        line-height: 40px;
+    }
+    #speakers ul.social-buttons li {
+        padding: 0;
+    }
 }
 
-.rn-carousel-controls span.rn-carousel-control.rn-carousel-control-next::before{
-    content:"";
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-top: 20px solid transparent;
-    margin-top:10px;
-    border-left: 40px solid #0098ff;
-    margin-left:15px;
-    border-right:5px solid transparent;
-    border-bottom: 20px solid transparent;
-}*/
+@media(max-width: 768px) {
+    .speaker-name {
+        font-size: 16px;
+    }
+
+    .speaker-name::after {
+        border-bottom: 2px solid #fff;
+    }
+
+    .speaker-position {
+        font-size: 12px;
+    }
+
+    .speaker-company {
+        font-size: 11px;
+    }
+
+    .speaker-about {
+        font-size: 10px;
+        padding: 0;
+    }
+
+    div.speakers-controls span i  {
+        margin-right: -5px;
+        font-size: 16px;
+    }
+
+    #speakers ul.social-buttons li a {
+        height: 30px;
+        width: 30px;
+        font-size: 14px;
+        line-height: 30px;
+    }
+}
+
+@media(max-width: 507px) {
+    #speakers ul.social-buttons li a {
+        height: 20px;
+        width: 20px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+}
+
+@media(max-width: 447px) {
+    .speaker-name {
+        font-size: 12px;
+    }
+
+    .speaker-position {
+        font-size: 10px;
+    }
+
+    .speaker-company {
+        font-size: 9px;
+    }
+
+    span.speaker-about {
+        font-size: 8px;
+        padding: 0;
+    }
+
+}

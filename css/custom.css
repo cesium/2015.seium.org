@@ -21,3 +21,38 @@ ul.carousel1 li {
     letter-spacing: 4px;
     border: 6px solid #0098ff;
 }
+
+@media(min-width: 992px) {
+    .event-day:not(.last-circle) .events-circle::after {
+        content: "";
+        position: absolute;
+        height: 10px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+        left: 55%;
+        width: 90%;
+        cursor: auto;
+    }
+}
+
+@media(max-width: 992px) {
+    div.title-container div {
+        font-size: 35px;
+    }
+
+
+    section div.title-container {
+        margin-bottom: 100px;
+    }
+}
+
+@media(max-width: 768px) {
+    div.title-container div {
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 447px) {
+    div.title-container div {
+        font-size: 24px;
+    }
+}
