@@ -130,15 +130,6 @@ div.organization-indicators span:focus {
     color: #0098ff;
 }
 
-.organization-carousel .rn-carousel-controls span.rn-carousel-control{
-    font-size: 26px;
-    color: #0098ff;
-}
-
-.speakers-controls span i {
-    font-size: 26px;
-}
-
 @media(max-width: 992px) {
     .speaker-img {
         width: 150px;
@@ -159,11 +150,6 @@ div.organization-indicators span:focus {
 
     .speaker-company {
         font-size: 12px;
-    }
-
-    div.speakers-controls span i  {
-        margin-right: -5px;
-        font-size: 20px;
     }
 
     #speakers ul.social-buttons li a {
@@ -203,11 +189,6 @@ div.organization-indicators span:focus {
     .speaker-about {
         font-size: 10px;
         padding: 0;
-    }
-
-    div.speakers-controls span i  {
-        margin-right: -5px;
-        font-size: 16px;
     }
 
     #speakers ul.social-buttons li a {
