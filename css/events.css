@@ -111,23 +111,11 @@
     div.events-status {
         margin: -125px;
     }
-
-    div.title-container div.events-title {
-        font-size: 35px;
-    }
 }
 
 @media(max-width: 768px) {
-    div.event-day span {
-        visibility: hidden;
-    }
-
-    div.event-day.active span {
-        visibility: visible;
-    }
-
-    div.title-container div.events-title {
-        font-size: 30px;
+    div.event-day:not(.active) span {
+        display: none;
     }
 }
 
@@ -136,8 +124,12 @@
         margin: 0px;
     }
 
-    div.title-container div.events-title {
-        font-size: 24px;
+    div.event-day.active span {
+        display: none;
+    }
+
+    div.event-day.col-sm-1 {
+        padding: 0;
     }
 }
 
