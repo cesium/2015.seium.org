@@ -122,6 +122,10 @@
         visibility: hidden;
     }
 
+    div.event-day.active span {
+        visibility: visible;
+    }
+
     div.title-container div.events-title {
         font-size: 30px;
     }
