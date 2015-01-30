@@ -59,38 +59,38 @@ angular.module('sei-app',['angular-carousel'])
     $scope.staffSlides = [
         // slide 01#
         [
-            {pic: 'speaker/asantos.jpg', name:'André Santos', position: 'Presidente', enterprise: 'Minho', facebook:'https://www.facebook.com/andreccdr', twitter: 'https://twitter.com/62Gerente', github: 'https://github.com/62Gerente'},
-            {pic: 'speaker/mpinto.jpg', name:'Miguel Pinto', position: 'Vice Presidente', enterprise: 'Minho', facebook:'http://www.facebook.com/mcpinto98', twitter: 'https://twitter.com/mcpinto98', github: 'https://github.com/miguelpinto98'},
-            {pic: 'speaker/fneves.jpg', name:'Francisco Neves', position: 'Director do departamento Pedagógico', enterprise: 'Minho', facebook:'https://www.facebook.com/fnversace', twitter: 'https://twitter.com/fntneves', github: 'https://github.com/fntneves'},
-            {pic: 'speaker/fgomes.jpg', name:'Fábio Gomes', position: 'Vice Director do departamento Pedagógico', enterprise: 'Minho', facebook:'https://www.facebook.com/semnome.especial', twitter: 'https://twitter.com/SHIFTBASIC', github: 'https://github.com/MrFabio'},
-            {pic: 'speaker/fmendes.jpg', name:'Fernando Mendes', position: 'Director do Centro de apoio ao Open Source', enterprise: 'Minho', facebook:'https://www.facebook.com/frmendes94', twitter: 'https://twitter.com/fribmendes', github: 'https://github.com/fribmendes'},
-            {pic: 'speaker/maragão.jpg', name:'Martinho Aragão ', position: 'Vice Director do Centro de apoio ao Open Source', enterprise: 'Minho', facebook:'https://www.facebook.com/martinhoaragao.silva', twitter: 'https://twitter.com/martinhoaragao', github: 'https://github.com/martinhoaragao'},
-            {pic: 'speaker/mmedeiros.jpg', name:'Mariana Medeiros', position: 'Vice Director do departamento de Comunicação e Imagem', enterprise: 'Minho', facebook:'https://www.facebook.com/mim063', twitter: 'https://twitter.com/MariMedeiros63', github: 'https://github.com/Mariana63'},
-            {pic: 'speaker/roliveira.jpg', name:'Rui Oliveira', position: 'Web-Site Developer', enterprise: 'Minho', facebook:'https://www.facebook.com/rui.oliveiras', twitter: '', github: 'https://bitbucket.org/ruioliveiras'}
-            {pic: 'speaker/pleite.jpg', name:'Pedro Leite', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/pmcleite', twitter: 'https://twitter.com/pmcleite', github: 'https://github.com/pmcleite'},
-            {pic: 'speaker/pcardoso.jpg', name:'Paulo Cardoso', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/paulooboemio', twitter: 'https://twitter.com/HeadlessHeader', github: 'https://github.com/pcardosolei'},
-            {pic: 'speaker/bferreira.jpg', name:'Bruno Ferreira', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/chalkos', twitter: 'https://twitter.com/chalkos', github: 'https://github.com/chalkos'},
-            {pic: 'speaker/dduarte.jpg', name:'Duarte Duarte', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/duknust', twitter: 'https://twitter.com/duknust', github: 'https://github.com/duknust'},
+            {pic: 'img/staff/asantos.jpg', name:'André Santos', position: 'Presidente', enterprise: 'Minho', facebook:'https://www.facebook.com/andreccdr', twitter: 'https://twitter.com/62Gerente', github: 'https://github.com/62Gerente'},
+            {pic: 'img/staff/mpinto.jpg', name:'Miguel Pinto', position: 'Vice Presidente', enterprise: 'Minho', facebook:'http://www.facebook.com/mcpinto98', twitter: 'https://twitter.com/mcpinto98', github: 'https://github.com/miguelpinto98'},
+            {pic: 'img/staff/fneves.jpg', name:'Francisco Neves', position: 'Director do departamento Pedagógico', enterprise: 'Minho', facebook:'https://www.facebook.com/fnversace', twitter: 'https://twitter.com/fntneves', github: 'https://github.com/fntneves'},
+            {pic: 'img/staff/sei.jpg', name:'Fábio Gomes', position: 'Vice Director do departamento Pedagógico', enterprise: 'Minho', facebook:'https://www.facebook.com/semnome.especial', twitter: 'https://twitter.com/SHIFTBASIC', github: 'https://github.com/MrFabio'},
+            {pic: 'img/staff/fmendes.jpg', name:'Fernando Mendes', position: 'Director do Centro de apoio ao Open Source', enterprise: 'Minho', facebook:'https://www.facebook.com/frmendes94', twitter: 'https://twitter.com/fribmendes', github: 'https://github.com/fribmendes'},
+            {pic: 'img/staff/maragao.jpg', name:'Martinho Aragão ', position: 'Vice Director do Centro de apoio ao Open Source', enterprise: 'Minho', facebook:'https://www.facebook.com/martinhoaragao.silva', twitter: 'https://twitter.com/martinhoaragao', github: 'https://github.com/martinhoaragao'},
+            {pic: 'img/staff/mmedeiros.jpg', name:'Mariana Medeiros', position: 'Vice Director do departamento de Comunicação e Imagem', enterprise: 'Minho', facebook:'https://www.facebook.com/mim063', twitter: 'https://twitter.com/MariMedeiros63', github: 'https://github.com/Mariana63'},
+            {pic: 'img/staff/roliveira.jpg', name:'Rui Oliveira', position: 'Web-Site Developer', enterprise: 'Minho', facebook:'https://www.facebook.com/rui.oliveiras', twitter: '', github: 'https://bitbucket.org/ruioliveiras'},
+            {pic: 'img/staff/pleite.jpg', name:'Pedro Leite', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/pmcleite', twitter: 'https://twitter.com/pmcleite', github: 'https://github.com/pmcleite'},
+            {pic: 'img/staff/pcardoso.jpg', name:'Paulo Cardoso', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/paulooboemio', twitter: 'https://twitter.com/HeadlessHeader', github: 'https://github.com/pcardosolei'},
+            {pic: 'img/staff/bferreira.jpg', name:'Bruno Ferreira', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/chalkos', twitter: 'https://twitter.com/chalkos', github: 'https://github.com/chalkos'},
+            {pic: 'img/staff/dduarte.jpg', name:'Duarte Duarte', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/duknust', twitter: 'https://twitter.com/duknust', github: 'https://github.com/duknust'}
         ],
         [
-            {pic: 'speaker/psousa.jpg', name:'Paulo Sousa', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/34chronos', twitter: '', github: 'https://github.com/prsousa'},
-            {pic: 'speaker/pcosta.jpg', name:'Pedro Costa', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/pedrocosta92', twitter: 'https://twitter.com/santosk20', github: 'https://github.com/santosk20'},
-            {pic: 'speaker/msantos.jpg', name:'Mário Santos', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/Mario.Galay125', twitter: 'https://twitter.com/MarioSantos125', github: 'https://github.com/Galay125'},
-            {pic: 'speaker/dlemos.jpg', name:'Diana Lemos', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/dianaguimaraes57', twitter: '', github: 'https://github.com/dianalemos'},
-            {pic: 'speaker/dcarvalho.jpg', name:'Daniel Carvalho', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/dapcarvalho', twitter: 'https://twitter.com/dapcarvalho/', github: 'https://github.com/Insatisfeito'},
-            {pic: 'speaker/daraujo.jpg', name:'Duarte Araújo', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/Duarte.Araujo1', twitter: 'https://twitter.com/PMDAraujo', github: 'https://github.com/PMDA'},
-            {pic: 'speaker/jarantes.jpg', name:'Joana Arantes', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/joana.arantes.10', twitter: '', github: 'https://github.com/joanaarantes'},
-            {pic: 'speaker/smendes.jpg', name:'Susana Mendes', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/susana.mendes.102', twitter: 'https://twitter.com/Su__Mendes', github: ''},
-            {pic: 'speaker/jcosta.jpg', name:'João Costa', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/arnaldo.asturias.9', twitter: '', github: 'https://github.com/joaofcosta'},
-            {pic: 'speaker/psilva.jpg', name:'Pedro Silva', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/miguelsilvaface', twitter: '', github: 'https://github.com/pedroSilva4'},
-            {pic: 'speaker/foliveira.jpg', name:'Filipe Oliveira', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/filipecosta.90', twitter: '', github: ''},
-            {pic: 'speaker/jsimao.jpg', name:'Jorge Simão', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/15manson', twitter: '', github: ''},
+            {pic: 'img/staff/psousa.jpg', name:'Paulo Sousa', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/34chronos', twitter: '', github: 'https://github.com/prsousa'},
+            {pic: 'img/staff/sei.jpg', name:'Pedro Costa', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/pedrocosta92', twitter: 'https://twitter.com/santosk20', github: 'https://github.com/santosk20'},
+            {pic: 'img/staff/msantos.jpg', name:'Mário Santos', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/Mario.Galay125', twitter: 'https://twitter.com/MarioSantos125', github: 'https://github.com/Galay125'},
+            {pic: 'img/staff/dlemos.jpg', name:'Diana Lemos', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/dianaguimaraes57', twitter: '', github: 'https://github.com/dianalemos'},
+            {pic: 'img/staff/sei.jpg', name:'Daniel Carvalho', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/dapcarvalho', twitter: 'https://twitter.com/dapcarvalho/', github: 'https://github.com/Insatisfeito'},
+            {pic: 'img/staff/sei.jpg', name:'Duarte Araújo', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/Duarte.Araujo1', twitter: 'https://twitter.com/PMDAraujo', github: 'https://github.com/PMDA'},
+            {pic: 'img/staff/jarantes.jpg', name:'Joana Arantes', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/joana.arantes.10', twitter: '', github: 'https://github.com/joanaarantes'},
+            {pic: 'img/staff/smendes.jpg', name:'Susana Mendes', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/susana.mendes.102', twitter: 'https://twitter.com/Su__Mendes', github: ''},
+            {pic: 'img/staff/jcosta.jpg', name:'João Costa', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/arnaldo.asturias.9', twitter: '', github: 'https://github.com/joaofcosta'},
+            {pic: 'img/staff/psilva.jpg', name:'Pedro Silva', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/miguelsilvaface', twitter: '', github: 'https://github.com/pedroSilva4'},
+            {pic: 'img/staff/sei.jpg', name:'Filipe Oliveira', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/filipecosta.90', twitter: '', github: ''},
+            {pic: 'img/staff/jsimao.jpg', name:'Jorge Simão', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/15manson', twitter: '', github: ''}
         ],
         [
-            {pic: 'speaker/pcarneiro.jpg', name:'Pedro Carneiro', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/pedrosfdcarneiro', twitter: 'https://twitter.com/pedrosfdc', github: 'https://github.com/pedrosfdcarneiro'},
-            {pic: 'speaker/pbarros.jpg', name:'Patricia Barros', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/patriciaaabarros', twitter: '', github: 'https://github.com/7patricia'},
-            {pic: 'speaker/pmaia.jpg', name:'Pedro Maia', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/maiarib', twitter: '', github: 'https://github.com/PedroMaia'},
-            {pic: 'speaker/pduarte.jpg', name:'Pedro Duarte', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/pedrodpduarte870', twitter: 'https://twitter.com/pedroduarte870', github: 'https://github.com/pedroduarte870'}
+            {pic: 'img/staff/pcarneiro.jpg', name:'Pedro Carneiro', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/pedrosfdcarneiro', twitter: 'https://twitter.com/pedrosfdc', github: 'https://github.com/pedrosfdcarneiro'},
+            {pic: 'img/staff/pbarros.jpg', name:'Patricia Barros', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/patriciaaabarros', twitter: '', github: 'https://github.com/7patricia'},
+            {pic: 'img/staff/pmaia.jpg', name:'Pedro Maia', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/maiarib', twitter: '', github: 'https://github.com/PedroMaia'},
+            {pic: 'img/staff/pduarte.jpg', name:'Pedro Duarte', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/pedrodpduarte870', twitter: 'https://twitter.com/pedroduarte870', github: 'https://github.com/pedroduarte870'}
         ]
     ];
     $scope.carouselEvents = 0;
