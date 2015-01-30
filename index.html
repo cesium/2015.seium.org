@@ -716,7 +716,7 @@
             <ul rn-carousel rn-carousel-index="carouselSpeakers" rn-carousel-controls class="carousel1 speakers-carousel">
                 <li ng-repeat="speakers in speakerSlides">
                     <div ng-repeat="speaker in speakers" class="col-md-4 col-sm-4 col-xs-4">
-                        <img ng-src="{{speaker.pic}}" class="col-md-12 col-xs-12 col-sm-12 speaker-img"></img>
+                        <div style="background-image: url('{{speaker.pic}}')" class="col-md-12 col-xs-12 col-sm-12 speaker-img"></div>
                         <span class="col-md-12 col-xs-12 col-sm-12 speaker-name">{{speaker.name}}</span>
                         <span class="col-md-12 col-xs-12 col-sm-12 speaker-position">{{speaker.position}}</span>
                         <span class="col-md-12 col-xs-12 col-sm-12 speaker-company">{{speaker.enterprise}}</span>

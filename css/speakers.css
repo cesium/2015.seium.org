@@ -24,9 +24,18 @@
 
 .speaker-img {
     border-radius: 50%;
-    max-width: 250px;
-    max-height: 250px;
+    width: 250px;
+    height: 250px;
     float: none;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 .speaker-name {
@@ -132,8 +141,8 @@ div.organization-indicators span:focus {
 
 @media(max-width: 992px) {
     .speaker-img {
-        max-width: 150px;
-        max-height: 150px;
+        width: 150px;
+        height: 150px;
     }
 
     #speakers {
