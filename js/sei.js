@@ -30,10 +30,10 @@ angular.module('sei-app',['angular-carousel'])
     $scope.speakerSlides = [
         // slide 01#
         [
-            {pic:'speaker/01.jpg', name:'Rui Oliveira01', position:'Developer' , enterprise:'Minho', facebook:'https://www.facebook.com' , twitter:'https://twitter.com/', github:'https://github.com/cesium',
-             about:'Lorem ipsum dolor sit amet, consectetur adipiscing elit,'},
-            {pic:'speaker/01.jpg', name:'Rui Oliveira', position:'Developer' , enterprise:'Minho', facebook:'https://www.facebook.com' , twitter:'https://twitter.com/', github:'https://github.com/cesium',
-            about:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'},
+            {pic:'img/speakers/hpinto.jpg', name:'Hélder Pinto', position:'3D Environment Artist' , enterprise:'Blizzard', web:'http://www.helderpinto.com/' , twitter:'https://twitter.com/HelderHP', github:'',
+             about:'Começou carreira profissional na indústria dos vídeo jogos em terras Lusitanas na Seed Studios, no ano de 2007, onde trabalhou no jogo Under Siege Game, partindo depois para a Alemanha, onde ajudou a embelezar os ambientes de Crysis 2 e 3 antes de finalmente começar na Blizzard na Califórnia onde de momento trabalha no jogo Overwatch.'},
+            {pic:'img/speakers/fcosta.jpg', name:'Francisco Costa', position:'CEO & Founder', enterprise:'Tricubo, Chique, TYMR, Venture FC', web:'https://franciscocosta.com/' , twitter:'https://twitter.com/franciscocosta', github:'',
+            about:'Empreendedor de sucesso e ex-colega da LESI. Apaixonado por tecnologia, vem falar-nos sobre Python programming language e introduzir a framework web2py.'},
             {pic:'speaker/01.jpg', name:'Rui Oliveira', position:'Developer' , enterprise:'Minho', facebook:'https://www.facebook.com' , twitter:'https://twitter.com/', github:'https://github.com/cesium',
             about:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'},
         ],

@@ -24,8 +24,8 @@
 
 .speaker-img {
     border-radius: 50%;
-    width: 250px;
-    height: 250px;
+    width: 175px;
+    height: 175px;
     float: none;
     margin: 0 auto;
     overflow: hidden;
@@ -178,6 +178,12 @@ div.organization-indicators span:focus {
 }
 
 @media(max-width: 768px) {
+
+    .speaker-img {
+        width: 100px;
+        height: 100px;
+    }
+
     .speaker-name {
         font-size: 16px;
     }
@@ -222,6 +228,11 @@ div.organization-indicators span:focus {
 }
 
 @media(max-width: 447px) {
+    .speaker-img {
+        width: 75px;
+        height: 75px;
+    }
+
     .speaker-name {
         font-size: 12px;
     }
