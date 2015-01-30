@@ -28,6 +28,17 @@
     padding: 0px;
 }
 
+section .staff-info ul.social-buttons {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+section .staff-info ul.social-buttons li {
+    position: relative;
+    text-align: center;
+}
+
 .staff-info-container {
     height: 200px;
     width: 200px;
@@ -59,6 +70,21 @@
     ul.organization-carousel {
        height: 324px;
     }
+
+    span.staff-name {
+        font-size: 16px;
+    }
+
+    .staff-position {
+        font-size: 12px;
+    }
+
+    section .staff-info ul.social-buttons li a {
+        height: 30px;
+        width: 30px;
+        font-size: 14px;
+        line-height: 30px;
+    }
 }
 /* Small */
 @media(min-width: 768px) and (max-width: 991px) {
@@ -68,6 +94,14 @@
     }
     ul.organization-carousel {
        height: 260px;
+    }
+
+    span.staff-name {
+        font-size: 14px;
+    }
+
+    span.staff-position {
+        font-size: 9px;
     }
 }
 
@@ -79,6 +113,27 @@
     ul.organization-carousel {
         height: 560px;
     }
+
+    section .staff-info ul.social-buttons li a {
+        height: 20px;
+        width: 20px;
+        font-size: 11px;
+        line-height: 20px;
+    }
+
+    section .staff-info ul.social-buttons {
+        margin-bottom: 5px;
+    }
+
+
+    span.staff-name {
+        font-size: 14px;
+    }
+
+    span.staff-position {
+        font-size: 11px;
+    }
+
 }
 @media(max-width: 717px) {
     div.staff-info-container {
@@ -124,6 +179,15 @@
     ul.organization-carousel {
         height: 360px;
     }
+
+
+    span.staff-name {
+        font-size: 12px;
+    }
+
+    span.staff-position {
+        font-size: 8px;
+    }
 }
 @media (max-width: 467px) {
     div.staff-info-container {
@@ -132,6 +196,14 @@
     }
     ul.organization-carousel {
         height: 320px;
+    }
+
+    span.staff-name {
+        font-size: 7px;
+    }
+
+    span.staff-position {
+        display: none;
     }
 }
 @media(max-width: 417px) {
@@ -209,14 +281,6 @@
 
 .staff-info .social-buttons {
     margin-bottom: 10%;
-}
-
-.staff-info ul.social-buttons li a {
-    width: 30px;
-    height: 30px;
-    border-radius: 100%;
-    font-size: 18px;
-    line-height: 30px;
 }
 
 .staff-info-container:hover .staff-info,

@@ -39,16 +39,45 @@ ul.carousel1 {
     section div.title-container {
         margin-bottom: 100px;
     }
+
+    section ul.social-buttons li a {
+        height: 40px;
+        width: 40px;
+        font-size: 18px;
+        line-height: 40px;
+    }
+
+
+    section ul.social-buttons li {
+        padding: 0;
+    }
 }
 
 @media(max-width: 768px) {
     div.title-container div {
         font-size: 30px;
     }
+
+    section ul.social-buttons li a {
+        height: 30px;
+        width: 30px;
+        font-size: 14px;
+        line-height: 30px;
+    }
 }
 
 @media(max-width: 447px) {
     div.title-container div {
         font-size: 24px;
+    }
+}
+
+
+@media(max-width: 507px) {
+    section ul.social-buttons li a {
+        height: 20px;
+        width: 20px;
+        font-size: 12px;
+        line-height: 20px;
     }
 }

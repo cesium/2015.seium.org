@@ -153,13 +153,13 @@ div.organization-indicators span:focus {
         font-size: 12px;
     }
 
-    #speakers ul.social-buttons li a {
+    section ul.social-buttons li a {
         height: 40px;
         width: 40px;
         font-size: 18px;
         line-height: 40px;
     }
-    #speakers ul.social-buttons li {
+    section ul.social-buttons li {
         padding: 0;
     }
     ul.speakers-carousel {
@@ -195,7 +195,7 @@ div.organization-indicators span:focus {
         padding: 0;
     }
 
-    #speakers ul.social-buttons li a {
+    section ul.social-buttons li a {
         height: 30px;
         width: 30px;
         font-size: 14px;
@@ -207,7 +207,7 @@ div.organization-indicators span:focus {
 }
 
 @media(max-width: 507px) {
-    #speakers ul.social-buttons li a {
+    section ul.social-buttons li a {
         height: 20px;
         width: 20px;
         font-size: 12px;
