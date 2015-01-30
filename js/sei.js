@@ -27,7 +27,7 @@ angular.module('sei-app',['angular-carousel'])
     }
 }])
 .controller('speakerCtrl',['$scope','$window',function($scope,$window){
-     var speakers = 
+     var speakers =
         // slide 01#
         [
             {pic:'img/speakers/hpinto.jpg', name:'Hélder Pinto', position:'3D Environment Artist' , enterprise:'Blizzard', web:'http://www.helderpinto.com/' , twitter:'https://twitter.com/HelderHP', github:'',
@@ -82,8 +82,8 @@ angular.module('sei-app',['angular-carousel'])
             {pic: 'img/staff/sei.jpg', name:'Filipe Oliveira', position: 'Diretor do Departamento de Comunicação e Imagem', enterprise: 'Minho', facebook:'https://www.facebook.com/filipecosta.90', twitter: '', github: ''},
             {pic: 'img/staff/mmedeiros.jpg', name:'Mariana Medeiros', position: 'Vice Directora do Departamento de Comunicação', enterprise: 'Minho', facebook:'https://www.facebook.com/mim063', twitter: 'https://twitter.com/MariMedeiros63', github: 'https://github.com/Mariana63'},
             {pic: 'img/staff/jsimao.jpg', name:'Jorge Simão', position: 'Vice Diretor do Departamento de Imagem', enterprise: 'Minho', facebook:'https://www.facebook.com/15manson', twitter: '', github: ''},
-            {pic: 'img/staff/psousa.jpg', name:'Paulo Sousa', position: 'Diretor do Departamento de Relações Externas e Parcerias', enterprise: 'Minho', facebook:'https://www.facebook.com/34chronos', twitter: '', github: 'https://github.com/prsousa'},
-            {pic: 'img/staff/msantos.jpg', name:'Mário Santos', position: 'Vice Diretor do Departamento de Relações Externas e Parcerias', enterprise: 'Minho', facebook:'https://www.facebook.com/Mario.Galay125', twitter: 'https://twitter.com/MarioSantos125', github: 'https://github.com/Galay125'},
+            {pic: 'img/staff/psousa.jpg', name:'Paulo Sousa', position: 'Diretor do Dep. de Relações Externas e Parcerias', enterprise: 'Minho', facebook:'https://www.facebook.com/34chronos', twitter: '', github: 'https://github.com/prsousa'},
+            {pic: 'img/staff/msantos.jpg', name:'Mário Santos', position: 'Vice Diretor do Dep. de Relações Externas e Parcerias', enterprise: 'Minho', facebook:'https://www.facebook.com/Mario.Galay125', twitter: 'https://twitter.com/MarioSantos125', github: 'https://github.com/Galay125'},
             {pic: 'img/staff/sei.jpg', name:'Serafim Pinto', position: 'Vogal', enterprise: 'Minho', facebook:'', twitter: '', github: ''},
             {pic: 'img/staff/pcarneiro.jpg', name:'Pedro Carneiro', position: 'Vogal', enterprise: 'Minho', facebook:'https://www.facebook.com/pedrosfdcarneiro', twitter: 'https://twitter.com/pedrosfdc', github: 'https://github.com/pedrosfdcarneiro'},
             {pic: 'img/staff/sei.jpg', name:'Sandra Ferreira', position: 'Vogal', enterprise: 'Minho', facebook:'https://www.facebook.com/sandra.ferreira.96742', twitter: '', github: ''},
