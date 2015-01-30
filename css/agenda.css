@@ -97,14 +97,34 @@
 }
 
 .cal-lunch {
- margin: 20px 0 10px 0;
- overflow: hidden;
+  margin: 0;
+  padding-bottom: 5px;
+  overflow: hidden;
 }
 
 .cal-lunch span {
   line-height: 0.5;
   display: inline-block;
   position: relative;
+  overflow: visible;
+}
+
+.cal-lunch span:before,
+.cal-lunch span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid;
+  top: 0;
+  width: 400px;
+}
+.cal-lunch span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.cal-lunch span:after {
+  left: 100%;
+  margin-left: 15px;
 }
 
 #cal-coffee img {
@@ -124,12 +144,22 @@
   font-size: 150%;
 }
 
-@media screen and (max-width: 626px) {
-  .cal-subject, .cal-label, .cal-space, .cal-speaker {
-    font-size: 0.85em;
+@media screen and (max-width: 991px) {
+  #cal-coffee img {
+  width: 25%;
+  height: auto;
   }
-
+}
+@media screen and (max-width: 626px) {
+  
+  .cal-subject, .cal-label, .cal-space, .cal-speaker, h5 {
+    font-size: 0.7em;
+  }
+  .cal-hour {
+    font-size: 0.8em;
+  }
   .cal-day {
-    font-size: 1.1em;
+    margin: 0;
+    font-size: 0.9em;
   }
 }
