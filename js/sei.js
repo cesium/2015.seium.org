@@ -41,7 +41,7 @@ angular.module('sei-app',['angular-carousel'])
         [
             {pic:'img/speakers/rdescoffier.png', name:"Rafael D'Escoffier", position:'Developer' , enterprise:'BloomIdea', web:'http://bloomidea.com/' , twitter:'', github:'',
              about:'Estudante de engenharia informática na Universidade do Minho e programador na BloomIdea, com foco especial no desenvolvimento de soluções na área das aplicações móveis. Otimista incurável e geek praticante, apaixonado pela tecnologia, natureza e desporto.'},
-            {pic:'img/speakers/nfernandes.png', name:'Nuno Fernandes', position:'Writer, D&R Director' , enterprise:'Eurotux', web:'https://www.eurotux.com' , twitter:'', github:'',
+            {pic:'img/speakers/nfernandes.png', name:'Nuno Fernandes', position:'Writer, D&R Director' , enterprise:'Eurotux', web:'http://www.eurotux.com' , twitter:'', github:'',
             about:'Licenciado pela Universidade do Minho em Engenharia de Sistemas e Informática é actualmente Director de investigação e Desenvolvimento da Eurotux Informática. Co-Autor do livro Apache Instalação, Configuração Gestão Servidores Web editado pela FCA tem sido responsável pela implementação de diversos projectos de infra-estruturas tecnológicas de grande porte.'},
             {pic:'img/speakers/rantunes.jpg', name:'Rui Antunes', position:'Developer' , enterprise:'FPV', web:'http://fpvportugal.com/' , twitter:'', github:'',
             about:'Sempre se interessou com tudo o que estava relacionado com tecnologia e desde alguns anos que tem experiência em aeromodelismo, há cerca de 4 anos começou a ter contacto com multirotores. Actualmente frequenta o 2o ano de Engenharia Informática na Escola Superior de Tecnologia de Castelo Branco.'},
@@ -49,7 +49,7 @@ angular.module('sei-app',['angular-carousel'])
         // slide 03#
         [
             {pic:'img/speakers/lfonseca.jpg', name:'Luís Fonseca', position:'Lead Interactive Developer' , enterprise:'X-Team', web:'http://luispedrofonseca.com/' , twitter:'https://twitter.com/lpfonseca', github:'',
-             about:'Com mais de uma década de experiência num leque muito variado de tecnologias, desde Unity a Objective-C passando pelo Javascript e Flash, focou-se fortemente, nos últimos anos, em desenvolvimento de jogos e aplicações mobile. Faz parte da <a href="www.x-team.com" target="_blank">X-Team</a> desde 2008 onde trabalha, em parceria, para empresas como RIOT Games, Dreamworks, FOX Broadcasting, Microsoft, etc., criando projectos que alcançam todos os dias milhões de utilizadores.'},
+             about:'Com mais de uma década de experiência num leque muito variado de tecnologias, desde Unity a Objective-C passando pelo Javascript e Flash, focou-se fortemente, nos últimos anos, em desenvolvimento de jogos e aplicações mobile. Faz parte da X-Team desde 2008 onde trabalha, em parceria, para empresas como RIOT Games, Dreamworks, FOX Broadcasting, Microsoft, etc., criando projectos que alcançam todos os dias milhões de utilizadores.'},
         ]
     ];
     $scope.carouselEvents = 0;
