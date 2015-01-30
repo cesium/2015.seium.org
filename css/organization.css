@@ -193,14 +193,14 @@
     font-size: 18px;
     color: #212121;
     letter-spacing: 2px;
-    margin-top: 22%;
-    margin-bottom: 15%;
+    margin-top: 5%;
+    margin-bottom: 10%;
 }
 
 .staff-position {
     line-height: 100%;
     color: #424242;
-    margin-bottom: 15%;
+    margin-bottom: 5%;
 }
 
 .staff-info span:hover {
