@@ -49,13 +49,13 @@ angular.module('sei-app',['angular-carousel'])
             return $window.innerWidth;
         }, function(value) {
             if ($window.innerWidth < 768) {
-               $scope.speakerSlides = [];
-            for (var i = speakers.length - 1; i >= 0; i--) {
-                $scope.speakerSlides.push([speakers[i]]);
-            };
+                $scope.speakerSlides = [];
+                for (var i = 0; i< speakers.length; i++) {
+                    $scope.speakerSlides.push([speakers[i]]);
+                };
             } else {
                 $scope.speakerSlides = [[],[],[]];
-                for (var i = speakers.length - 1; i >= 0; i--) {
+                for (var i = 0; i< speakers.length; i++) {
                     $scope.speakerSlides[Math.trunc(i/3)].push(speakers[i]);
                 };
             }
