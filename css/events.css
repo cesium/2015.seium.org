@@ -24,7 +24,6 @@
 
 .events-status {
     text-align: center;
-    margin: 15px auto -150px auto;
 }
 
 .events-circle div {
@@ -69,6 +68,7 @@
 
 @media(max-width: 992px) {
     #events {
+        height: 800px;
         padding-bottom: 50px;
     }
 
@@ -90,7 +90,45 @@
 
     div.event-container {
         padding: 10px;
-        font-size: 9px;
+        font-size: 11px;
+    }
+
+    div.event-container p {
+        font-size: 11px;
+    }
+
+    .event-roll p.event-type {
+        font-size: 11px;
+    }
+
+    .event-roll p.event-location {
+        font-size: 11px;
+    }
+
+    .event-roll p.event-title {
+        font-size: 12px;
+    }
+
+    ul.events-carousel {
+        height: 550px;
+    }
+}
+
+@media(max-width: 768px) {
+    div.event-day:not(.active) span {
+        display: none;
+    }
+
+
+    div.event-container img {
+        max-height: 75px;
+        max-width: 75px;
+    }
+}
+
+@media(max-width: 628px) {
+    div.event-container {
+        font-size: 10px;
     }
 
     div.event-container p {
@@ -102,17 +140,19 @@
     }
 
     .event-roll p.event-location {
-        font-size: 9px;
+        font-size: 10px;
     }
 
     .event-roll p.event-title {
-        font-size: 12px;
+        font-size: 11px;
     }
-}
 
-@media(max-width: 768px) {
-    div.event-day:not(.active) span {
-        display: none;
+    #events {
+        height: 1000px;
+    }
+
+    ul.events-carousel {
+        height: 700px;
     }
 }
 
@@ -122,12 +162,11 @@
     }
 
     #events {
-        height: 1100px;
+        height: 1000px;
     }
 
-
-    .events-carousel {
-        height: 800px;
+    ul.events-carousel {
+        height: 750px;
     }
 }
 
@@ -138,6 +177,15 @@
 
     div.event-day.col-sm-1 {
         padding: 0;
+    }
+
+
+    #events {
+        height: 1100px;
+    }
+
+    ul.events-carousel {
+        height: 850px;
     }
 }
 
