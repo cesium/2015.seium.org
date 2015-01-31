@@ -160,6 +160,11 @@ header {
 }
 
 @media(max-width: 628px) {
+
+    .banner-logos {
+        width: 110px;
+    }
+
     .banner-date {
         font-size: 16px;
     }
