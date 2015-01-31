@@ -1,4 +1,7 @@
 #events {
+    padding-top: 100px;
+    padding-bottom: 250px;
+    height: 1000px;
     background-attachment: scroll;
     background-image: url(../img/background_prometeu.png);
     background-position: center center;
@@ -9,8 +12,6 @@
     -o-background-size: cover;
     color: #fff;
     font-family: "Helvetica Neue", "Open Sans", Helvetica,Arial,sans-serif;
-    padding-top: 100px;
-    padding-bottom: 250px;
 }
 
 .events-title {
@@ -18,7 +19,7 @@
 }
 
 .events-carousel {
-    height: 575px;
+    height: 700px;
 }
 
 .events-status {
@@ -107,10 +108,6 @@
     .event-roll p.event-title {
         font-size: 12px;
     }
-
-    div.events-status {
-        margin: -125px;
-    }
 }
 
 @media(max-width: 768px) {
@@ -119,13 +116,24 @@
     }
 }
 
+@media(max-width: 500px) {
+    div.event-day.active span {
+        display: none;
+    }
+
+    #events {
+        height: 1100px;
+    }
+
+
+    .events-carousel {
+        height: 800px;
+    }
+}
+
 @media(max-width: 447px) {
     div.events-status {
         margin: 0px;
-    }
-
-    div.event-day.active span {
-        display: none;
     }
 
     div.event-day.col-sm-1 {
@@ -167,9 +175,10 @@ p.event-location {
 }
 
 .event-container {
-    width: 100%;
+    width: 95%;
     height: 100%;
-    padding: 40px;
+    padding: 10px 15px;
+    margin-bottom: 5px;
     background: #0098ff; /* Old browsers */
     /*background: -moz-linear-gradient(-45deg,  #0098ff 0%, #0098ff 50%, #3b8bc4 51%, #3b8bc4 100%); /* FF3.6+ */
     /*background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#0098ff), color-stop(50%,#0098ff), color-stop(51%,#3b8bc4), color-stop(100%,#3b8bc4)); /* Chrome,Safari4+ */
@@ -181,8 +190,8 @@ p.event-location {
 }
 
 .event-container img {
-    max-width: 70%;
-    max-height: 70%;
+    max-width: 150px;
+    max-height: 150px;
     display: block;
     margin: auto;
 }
