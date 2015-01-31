@@ -45,19 +45,23 @@ angular.module('sei-app',['angular-carousel'])
             {pic:'img/speakers/lfonseca.jpg', name:'Luís Fonseca', position:'Lead Interactive Developer' , enterprise:'X-Team', web:'http://luispedrofonseca.com/' , twitter:'https://twitter.com/lpfonseca', github:'',
              about:'Com mais de uma década de experiência num leque muito variado de tecnologias, desde Unity a Objective-C passando pelo Javascript e Flash, focou-se fortemente, nos últimos anos, em desenvolvimento de jogos e aplicações mobile. Faz parte da X-Team desde 2008 onde trabalha, em parceria, para empresas como RIOT Games, Dreamworks, FOX Broadcasting, Microsoft, etc., criando projectos que alcançam todos os dias milhões de utilizadores.'},
         ];
-    if ($window.innerWidth < 768) {
-        $scope.speakerSlides = [];
-        for (var i = speakers.length - 1; i >= 0; i--) {
-            $scope.speakerSlides.push([speakers[i]]);
 
-        };
-    } else {
-        $scope.speakerSlides = [[],[],[]];
-        for (var i = speakers.length - 1; i >= 0; i--) {
-            $scope.speakerSlides[Math.trunc(i/3)].push(speakers[i]);
-        };
+        $scope.$watch(function(){
+            return $window.innerWidth;
+        }, function(value) {
+            if ($window.innerWidth < 768) {
+               $scope.speakerSlides = [];
+            for (var i = speakers.length - 1; i >= 0; i--) {
+                $scope.speakerSlides.push([speakers[i]]);
+            };
+            } else {
+                $scope.speakerSlides = [[],[],[]];
+                for (var i = speakers.length - 1; i >= 0; i--) {
+                    $scope.speakerSlides[Math.trunc(i/3)].push(speakers[i]);
+                };
+            }
+        });
 
-    }
     $scope.carouselEvents = 0;
 }])
 
