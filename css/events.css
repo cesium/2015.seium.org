@@ -196,6 +196,15 @@ p.event-location {
     margin: auto;
 }
 
+.event-img-full img{
+    max-width: none;
+    max-height: none;
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
 .event-description {
     text-align: justify;
     max-width: 100%;
