@@ -131,7 +131,7 @@ div.organization-indicators span:focus {
     color: #0098ff;
 }
 
-@media(min-width: 993px) and (max-width: 1200px) {
+@media(max-width: 1200px) {
     ul.speakers-carousel {
         height: 700px;
     }
@@ -142,6 +142,15 @@ div.organization-indicators span:focus {
 }
 
 @media(max-width: 992px) {
+    #speakers {
+        height: 1000px;
+    }
+
+
+    ul.speakers-carousel {
+        height: 750px;
+    }
+
     .speaker-img {
         width: 150px;
         height: 150px;
@@ -172,12 +181,13 @@ div.organization-indicators span:focus {
     section ul.social-buttons li {
         padding: 0;
     }
-    ul.speakers-carousel {
-        height: 500;
-    }
 }
 
-@media(max-width: 768px) {
+@media(max-width: 767px) {
+
+    #speakers {
+        height: 600px;
+    }
 
     .speaker-img {
         width: 100px;
@@ -192,16 +202,7 @@ div.organization-indicators span:focus {
         border-bottom: 2px solid #fff;
     }
 
-    .speaker-position {
-        font-size: 12px;
-    }
-
-    .speaker-company {
-        font-size: 11px;
-    }
-
     .speaker-about {
-        font-size: 10px;
         padding: 0;
     }
 
@@ -232,19 +233,19 @@ div.organization-indicators span:focus {
     }
 
     .speaker-name {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .speaker-position {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .speaker-company {
-        font-size: 9px;
+        font-size: 10px;
     }
 
     span.speaker-about {
-        font-size: 8px;
+        font-size: 10px;
         padding: 0;
     }
 }
