@@ -79,6 +79,9 @@
 
     div.event-container img {
         padding-left: 0;
+        padding-right: 10px;
+        width: 50%;
+        float: left;
     }
 
     div.event-description p {
@@ -144,7 +147,7 @@
     }
 
     div.event-container {
-        min-height: 75px;
+        min-height: 80px;
     }
 
     div.event-img-full img {
