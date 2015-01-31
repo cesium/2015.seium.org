@@ -68,8 +68,21 @@
 
 @media(max-width: 992px) {
     #events {
-        height: 800px;
+        height: 950px;
         padding-bottom: 50px;
+    }
+
+    ul.events-carousel {
+        height: 700px;
+    }
+
+
+    div.event-container img {
+        padding-left: 0;
+    }
+
+    div.event-description p {
+        display: none;
     }
 
     .events-circle {
@@ -90,31 +103,36 @@
 
     div.event-container {
         padding: 10px;
-        font-size: 11px;
-    }
-
-    div.event-container p {
-        font-size: 11px;
-    }
-
-    .event-roll p.event-type {
-        font-size: 11px;
-    }
-
-    .event-roll p.event-location {
-        font-size: 11px;
-    }
-
-    .event-roll p.event-title {
         font-size: 12px;
     }
 
-    ul.events-carousel {
-        height: 550px;
+    div.event-container p {
+        font-size: 12px;
+    }
+
+    .event-roll p.event-type {
+        font-size: 12px;
+    }
+
+    .event-roll p.event-location {
+        font-size: 12px;
+    }
+
+    .event-roll p.event-title {
+        font-size: 14px;
     }
 }
 
 @media(max-width: 768px) {
+
+    #events {
+        height: 1000px;
+    }
+
+    ul.events-carousel {
+        height: 775px;
+    }
+
     div.event-day:not(.active) span {
         display: none;
     }
@@ -124,9 +142,19 @@
         max-height: 75px;
         max-width: 75px;
     }
+
+    div.event-container {
+        min-height: 75px;
+    }
+
+    div.event-img-full img {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
 }
 
-@media(max-width: 628px) {
+@media(max-width: 577px) {
+
     div.event-container {
         font-size: 10px;
     }
@@ -147,18 +175,16 @@
         font-size: 11px;
     }
 
-    #events {
-        height: 1000px;
-    }
-
-    ul.events-carousel {
-        height: 700px;
-    }
-}
-
-@media(max-width: 500px) {
     div.event-day.active span {
         display: none;
+    }
+
+    div.events-status {
+        margin: 0px;
+    }
+
+    div.event-day.col-sm-1 {
+        padding: 0;
     }
 
     #events {
@@ -171,15 +197,6 @@
 }
 
 @media(max-width: 447px) {
-    div.events-status {
-        margin: 0px;
-    }
-
-    div.event-day.col-sm-1 {
-        padding: 0;
-    }
-
-
     #events {
         height: 1100px;
     }

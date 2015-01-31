@@ -131,6 +131,16 @@ div.organization-indicators span:focus {
     color: #0098ff;
 }
 
+@media(min-width: 993px) and (max-width: 1200px) {
+    ul.speakers-carousel {
+        height: 700px;
+    }
+
+    #speakers {
+        height: 950px;
+    }
+}
+
 @media(max-width: 992px) {
     .speaker-img {
         width: 150px;
