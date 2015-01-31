@@ -13,20 +13,25 @@
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
-    <link href="css/template.css" rel="stylesheet">
-    <link href="css/template-custom.css" rel="stylesheet">
-    <link href="css/navbar.css" rel="stylesheet">
+    <link href="css/agency.css" rel="stylesheet">
     <link href="css/header.css" rel="stylesheet">
-    <link href="css/agenda.css" rel="stylesheet" type="text/css">
     <link href="css/events.css" rel="stylesheet">
-    <link href="css/partners.css" rel="stylesheet"> 
-    <link href="css/speakers.css" rel="stylesheet">
     <link href="css/organization.css" rel="stylesheet">
+    <link href="css/navbar.css" rel="stylesheet">
+    <link href="css/speakers.css" rel="stylesheet">
     <link href="css/map.css" rel="stylesheet">
-    <link href="css/footer.css" rel="stylesheet" type="text/css">
+    <link href="css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/agenda.css" type="text/css">
+    <link rel="stylesheet" href="css/partners.css">
+    <link rel="stylesheet" href="css/footer.css" type="text/css">
     <!-- Custom Fonts -->
-    <link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <!-- Cut when everything is done -->
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
     <!-- endcut-->
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -91,10 +96,10 @@
     <header id="home">
         <div class="container">
             <div class="row banner">
-                <div class="col-md-6 col-sm-6 col-xs-6 banner-image">
+                <div class="col-md-6 col-sm-4 col-xs-4 banner-image">
                     <img src="img/mascote.png" />
                 </div>
-                <div class="col-md-6 col-sm-6 col-xs-6 banner-text">
+                <div class="col-md-6 col-sm-offset-2 col-xs-offset-2 col-sm-6 col-xs-6 banner-text">
                     <div class="col-md-10 banner-date-locale">
                         <div class="banner-date">14 a 21 Fevereiro</div>
                         <div class="banner-locale">Universidade do Minho - Departamento de Informática</div>
@@ -128,6 +133,7 @@
                         </div>
                     </div>
                     <!-- DAY -->
+                    <!-- DAY -->
                     <div class="col-md-3 text-center">
                         <h4 class="cal-day">14 FEV. <br><span>S&Aacute;BADO</span></h4>
                         <!-- Event -->
@@ -146,8 +152,8 @@
                         <div class="cal-label text-right">SOCIAL
                         </div>
                         <!-- Lunch -->
-                        <h5 class="cal-lunch">
-                            <span>ALMO&Ccedil;O</span>
+                        <h5 class="partners-header">
+                            <span>LUNCH</span>
                         </h5>
                         <!-- Event -->
                         <div class="text-left">
@@ -194,8 +200,8 @@
                         </a>
                         <div class="cal-label text-right">WORKSHOP</div>
                         <!-- Lunch -->
-                        <h5 class="cal-lunch">
-                            <span>ALMO&Ccedil;O</span>
+                        <h5 class="partners-header">
+                            <span>LUNCH</span>
                         </h5>
                         <!-- Event -->
                         <div class="text-left">
@@ -285,8 +291,8 @@
                         </a>
                         <div class="cal-label text-right">PALESTRA</div>
                         <!-- Lunch -->
-                        <h5 class="cal-lunch">
-                            <span>ALMO&Ccedil;O</span>
+                        <h5 class="partners-header">
+                            <span>LUNCH</span>
                         </h5>
                         <!-- Event -->
                         <div class="text-left">
@@ -376,8 +382,8 @@
                         </a>
                         <div class="cal-label text-right">PALESTRA</div>
                         <!-- Lunch -->
-                        <h5 class="cal-lunch">
-                            <span>ALMO&Ccedil;O</span>
+                        <h5 class="partners-header">
+                            <span>LUNCH</span>
                         </h5>
                         <!-- Event -->
                         <div class="text-left">
@@ -412,18 +418,6 @@
                             <div class="cal-event text-left">
                                 <div class="cal-block"></div>
                                 <div class="cal-subject">ARRAIAL DAS ENGENHARIAS</div>
-                                <div class="cal-space">LARGO DO CARPE</div>
-                            </div>
-                        </a>
-                        <div class="cal-label text-right">LOUNGE</div>
-                        <!-- Event -->
-                        <div class="text-left">
-                            <div class="cal-hour">21:30 - 00:30</div>
-                        </div>
-                        <a class="page-scroll" href="#events" ng-click="eventGoto(4)">
-                            <div class="cal-event text-left">
-                                <div class="cal-block"></div>
-                                <div class="cal-subject">QUIZ SHOW</div>
                                 <div class="cal-space">LARGO DO CARPE</div>
                             </div>
                         </a>
@@ -467,8 +461,8 @@
                         </a>
                         <div class="cal-label text-right">PALESTRA</div>
                         <!-- Lunch -->
-                        <h5 class="cal-lunch">
-                            <span>ALMO&Ccedil;O</span>
+                        <h5 class="partners-header">
+                            <span>LUNCH</span>
                         </h5>
                         <!-- Event -->
                         <div class="text-left">
@@ -483,9 +477,13 @@
                             </div>
                         </a>
                         <div class="cal-label text-right">PALESTRA</div>
+                        <!-- Lunch -->
+                        <h5 class="partners-header">
+                            <span>LUNCH</span>
+                        </h5>
                         <!-- Event -->
                         <div class="text-left">
-                            <div class="cal-hour">15:00 - 16:00</div>
+                            <div class="cal-hour">14:00 - 15:00</div>
                         </div>
                         <a class="page-scroll" href="#events" ng-click="eventGoto(5)">
                             <div class="cal-event text-left">
@@ -547,7 +545,7 @@
                         </div>
                         <!-- Event -->
                         <div class="text-left">
-                            <div class="cal-hour">11:00 - 13:00</div>
+                            <div class="cal-hour">10:00 - 12:00</div>
                         </div>
                         <a class="page-scroll" href="#events" ng-click="eventGoto(6)">
                             <div class="cal-event text-left">
@@ -559,46 +557,60 @@
                         </a>
                         <div class="cal-label text-right">PALESTRA</div>
                         <!-- Lunch -->
-                        <h5 class="cal-lunch">
-                            <span>ALMO&Ccedil;O</span>
+                        <h5 class="partners-header">
+                            <span>LUNCH</span>
                         </h5>
                         <!-- Event -->
                         <div class="text-left">
-                            <div class="cal-hour">14:00 - 16:00</div>
+                            <div class="cal-hour">14:00 - 15:00</div>
                         </div>
                         <a class="page-scroll" href="#events" ng-click="eventGoto(6)">
                             <div class="cal-event text-left">
                                 <div class="cal-block"></div>
-                                <div class="cal-subject">PYTHON + WEB2PY</div>
-                                <div class="cal-speaker">Francisco Tom&eacute; Costa</div>
+                                <div class="cal-subject">WHAT'S NEXT IN 3D PRINTING</div>
+                                <div class="cal-speaker">BEEVERYCREATIVE</div>
                                 <div class="cal-space">DI A2</div>
                             </div>
                         </a>
-                        <div class="cal-label text-right">WORKSHOP</div>
-                        <!-- Break -->
-                        <div id="cal-coffee"><img src="img/coffee-break.png" /></div>
+                        <div class="cal-label text-right">PALESTRA</div>
                         <!-- Event -->
                         <div class="text-left">
-                            <div class="cal-hour">16:30 - 18:00</div>
-                        </div>
-                        <a class="page-scroll" href="#events" ng-click="eventGoto(6)">
-                            <div class="cal-event text-left">
-                                <div class="cal-block"></div>
-                                <div class="cal-subject">SAIBA MAIS SOBRE DRONES</div>
-                                <div class="cal-speaker">FPV Portugal</div>
-                                <div class="cal-space">DI A2</div>
-                            </div>
-                        </a>
-                        <div class="cal-label text-right">WORKSHOP</div>
-                        <!-- Event -->
-                        <div class="text-left">
-                            <div class="cal-hour">18:00 - 19:00</div>
+                            <div class="cal-hour">15:00 - 16:00</div>
                         </div>
                         <a class="page-scroll" href="#events" ng-click="eventGoto(6)">
                             <div class="cal-event text-left">
                                 <div class="cal-block"></div>
                                 <div class="cal-subject">ARDUINO</div>
-                                <div class="cal-speaker">InMotion</div>
+                                <div class="cal-space">DI A2</div>
+                            </div>
+                        </a>
+                        <div class="cal-label text-right">
+                            <div class="cal-block"></div>
+                            WORKSHOP
+                        </div>
+                        <!-- Event -->
+                        <div class="text-left">
+                        </div>
+                        <a class="page-scroll" href="#events" ng-click="eventGoto(6)">
+                            <div class="cal-event text-left">
+                                <div class="cal-block"></div>
+                                <div class="cal-subject">MODELA&Ccedil;&Atilde;O 3D</div>
+                                <div class="cal-space">DI A2</div>
+                            </div>
+                        </a>
+                        <div class="cal-label text-right">WORKSHOP</div>
+                        <!-- Break -->
+                        <div id="cal-coffee"><img src="img/coffee-break.png" />
+                        </div>
+                        <!-- Event -->
+                        <div class="text-left">
+                            <div class="cal-hour">16:30 - 18:30</div>
+                        </div>
+                        <a class="page-scroll" href="#events" ng-click="eventGoto(6)">
+                            <div class="cal-event text-left">
+                                <div class="cal-block"></div>
+                                <div class="cal-subject">DRONES</div>
+                                <div class="cal-speaker">FPV Portugal</div>
                                 <div class="cal-space">DI A2</div>
                             </div>
                         </a>
@@ -617,82 +629,56 @@
                         <div class="cal-label text-right">LOUNGE</div>
                     </div>
                     <!-- DAY -->
-                    <div class="col-md-6 text-center">
+                    <div class="col-md-3 text-center">
                         <h4 class="cal-day">21 FEV.<br><span>S&aacute;BADO</span></h4>
-                        <div class="col-md-6 cal-parallel-left">
-                            <!-- Event -->
-                            <div class="text-left">
-                                <div class="cal-hour">10:00 - 13:00</div>
-                            </div>
-                            <a class="page-scroll" href="#events" ng-onclick="eventGoto(7)">
-                                <div class="cal-event text-left">
-                                    <div class="cal-block"></div>
-                                    <div class="cal-subject">HACKATHON SEEGNO</div>
-                                    <div class="cal-space">DI A2</div>
-                                </div>
-                            </a>
-                            <div class="cal-label text-right">CONCURSO</div>
+                        <!-- Event -->
+                        <div class="text-left">
+                            <div class="cal-hour">10:00 - 22:00</div>
                         </div>
-                        <div class="col-md-6 cal-parallel-right">
-                            <!-- Event -->
-                            <div class="text-left">
-                                <div class="cal-hour">11:00 - 12:30</div>
+                        <a class="page-scroll" href="#events" ng-onclick="eventGoto(7)">
+                            <div class="cal-event text-left">
+                                <div class="cal-block"></div>
+                                <div class="cal-subject">HACKATHON SEEGNO</div>
+                                <div class="cal-space">DI A2</div>
                             </div>
-                            <a class="page-scroll" href="#events" ng-click="eventGoto(7)">
-                                <div class="cal-event text-left">
-                                    <div class="cal-block"></div>
-                                    <div class="cal-subject">RUST</div>
-                                    <div class="cal-space">DI A2</div>
-                                </div>
-                            </a>
-                            <div class="cal-label text-right">WORKSHOP</div>
+                        </a>
+                        <div class="cal-label text-right">CONCURSO</div>
+                        <!-- Event -->
+                        <div class="text-left">
+                            <div class="cal-hour">11:00 - 12:30</div>
                         </div>
-                        <!-- Lunch -->
-                        <div class="col-md-12">
-                            <h5 class="cal-lunch">
-                                <span>ALMO&Ccedil;O</span>
-                            </h5>
-                        </div>
-                        <div class="col-md-6 cal-parallel-left">
-                            <!-- Event -->
-                            <div class="text-left">
-                                <div class="cal-hour">14:00 - 22:00</div>
+                        <a class="page-scroll" href="#events" ng-click="eventGoto(7)">
+                            <div class="cal-event text-left">
+                                <div class="cal-block"></div>
+                                <div class="cal-subject">RUST</div>
+                                <div class="cal-space">DI A2</div>
                             </div>
-                            <a class="page-scroll" href="#events" ng-onclick="eventGoto(7)">
-                                <div class="cal-event text-left">
-                                    <div class="cal-block"></div>
-                                    <div class="cal-subject">HACKATHON SEEGNO</div>
-                                    <div class="cal-space">DI A2</div>
-                                </div>
-                            </a>
-                            <div class="cal-label text-right">CONCURSO</div>
+                        </a>
+                        <div class="cal-label text-right">WORKSHOP</div>
+                        <!-- Event -->
+                        <div class="text-left">
+                            <div class="cal-hour">14:30 - 16:00</div>
                         </div>
-                        <div class="col-md-6 cal-parallel-right">
-                            <!-- Event -->
-                            <div class="text-left">
-                                <div class="cal-hour">14:30 - 16:00</div>
+                        <a class="page-scroll" href="#events" ng-click="eventGoto(7)">
+                            <div class="cal-event text-left">
+                                <div class="cal-block"></div>
+                                <div class="cal-subject">TIME TRIAL TALKS</div>
+                                <div class="cal-space">DI A2</div>
                             </div>
-                            <a class="page-scroll" href="#events" ng-click="eventGoto(7)">
-                                <div class="cal-event text-left">
-                                    <div class="cal-block"></div>
-                                    <div class="cal-subject">TIME TRIAL TALKS</div>
-                                    <div class="cal-space">DI A2</div>
-                                </div>
-                            </a>
-                            <div class="cal-label text-right">CONCURSO</div>
-                            <!-- Event -->
-                            <div class="text-left">
-                                <div class="cal-hour">16:00 - 17:30</div>
-                            </div>
-                            <a class="page-scroll" href="#events" ng-click="eventGoto(7)">
-                                <div class="cal-event text-left">
-                                    <div class="cal-block"></div>
-                                    <div class="cal-subject">PRESENTATION KARAOKE</div>
-                                    <div class="cal-space">DI A2</div>
-                                </div>
-                            </a>
-                            <div class="cal-label text-right">CONCURSO</div>
+                        </a>
+                        <div class="cal-label text-right">CONCURSO</div>
+                        <!-- Event -->
+                        <div class="text-left">
+                            <div class="cal-hour">16:00 - 17:30</div>
                         </div>
+                        <a class="page-scroll" href="#events" ng-click="eventGoto(7)">
+                            <div class="cal-event text-left">
+                                <div class="cal-block"></div>
+                                <div class="cal-subject">PRESENTATION KARAOKE</div>
+                                <div class="cal-space">DI A2</div>
+                            </div>
+                        </a>
+                        <div class="cal-label text-right">CONCURSO</div>
                     </div>
                 </div>
             </div>
@@ -910,7 +896,7 @@
     </section>
     <footer id="about">
         <div class="container">
-            <div class="col-md-6 text-left about-text">
+            <div class="col-md-6 text-left">
                 <h4>ABOUT US</h4>
                 <p> O CeSIUM - Centro de estudantes de Engenharia de Sistemas e Inform&aacutetica da Universidade do Minho – &eacute um grupo de estudantes, volunt&aacuterios, que tem como objectivo representar e promover o curso.</p>
                 <h4>ÚLTIMAS FOTOS</h4>
@@ -940,9 +926,22 @@
         </div>
     </footer>
     <!-- jQuery -->
-    <script src="js/lib/lib.min.js"></script>
-
-    <script src="js/nav-var.js"></script>
+    <script src="js/lib/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/lib/bootstrap.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/lib/cbpAnimatedHeader.js"></script>
+    <!-- Contact Form JavaScript -->
+    <script src="js/lib/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="js/agency.js"></script>
+    <!-- AngularJS -->
+    <script src="js/lib/angular.js"></script>
+    <script src="js/lib/angular-touch.min.js"></script>
+    <script src="js/lib/angular-carousel.min.js"></script>
     <script src="js/sei.js"></script>
     <!-- Google Maps -->
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
