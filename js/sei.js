@@ -12,13 +12,12 @@ angular.module('sei-app',['angular-carousel'])
     ];*/
     $scope.eventSlides = [
         {file:'events/14-fev.html', day:'14 Fev', weekday:'Sábado'},
-        {file:'events/17-fev.html', day:'15 Fev', weekday:'Domingo'},
         {file:'events/16-fev.html', day:'16 Fev', weekday:'Segunda'},
         {file:'events/17-fev.html', day:'17 Fev', weekday:'Terça'},
-        {file:'events/17-fev.html', day:'18 Fev', weekday:'Quarta'},
-        {file:'events/17-fev.html', day:'19 Fev', weekday:'Quinta'},
-        {file:'events/17-fev.html', day:'20 Fev', weekday:'Sexta'},
-        {file:'events/17-fev.html', day:'21 Fev', weekday:'Sabado'}
+        {file:'events/18-fev.html', day:'18 Fev', weekday:'Quarta'},
+        {file:'events/19-fev.html', day:'19 Fev', weekday:'Quinta'},
+        {file:'events/20-fev.html', day:'20 Fev', weekday:'Sexta'},
+        {file:'events/21-fev.html', day:'21 Fev', weekday:'Sábado'},
     ];
     $scope.carouselEvents = 0;
 
