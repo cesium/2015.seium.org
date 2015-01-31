@@ -190,8 +190,8 @@ p.event-location {
 }
 
 .event-container img {
-    max-width: 150px;
-    max-height: 150px;
+    max-height: 200px;
+    max-width: 100%;
     display: block;
     margin: auto;
 }
