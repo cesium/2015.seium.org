@@ -59,7 +59,7 @@ div.partners-title {
 
 .partner-img img, .sponsor-img img {
   width: 100%;
-  max-width: 200px;
+  max-width: 350px;
 }
 
 @media screen and (max-width: 519px) {
