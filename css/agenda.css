@@ -132,7 +132,7 @@
   height: auto;
 }
 
-.col-md-3 > a {
+#agenda a {
   text-decoration: none;
 }
 
