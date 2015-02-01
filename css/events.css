@@ -222,7 +222,7 @@
     }
 }
 
-@media(max-width: 400px) {
+@media(max-width: 426px) {
     #events {
         height: 1400px;
     }
@@ -231,6 +231,41 @@
         height: 1200px;
     }
 }
+
+div.event-day span {
+    color: #9E9E9E;
+}
+
+@media(max-width: 336px){
+    #events {
+        height: 1600px;
+    }
+    
+    ul.events-carousel{
+        height: 1400px;
+    }
+}
+
+@media(max-width: 291px){
+    #events {
+        height: 1800px;
+    }
+    
+    ul.events-carousel{
+        height: 1600px;
+    }
+}
+
+@media(max-width: 262px){
+    #events {
+        height: 2000px;
+    }
+    
+    ul.events-carousel{
+        height: 1800px;
+    }
+}
+
 
 div.event-day span {
     color: #9E9E9E;
