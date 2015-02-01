@@ -77,10 +77,15 @@
     }
 
 
+    #events-hackathon {
+        float: left;
+        margin-bottom: 0;
+    }
+
+
     div.event-container img {
         padding-left: 0;
         padding-right: 10px;
-        width: 50%;
         float: left;
     }
 
@@ -123,6 +128,16 @@
 
     .event-roll p.event-title {
         font-size: 14px;
+    }
+}
+
+@media(min-width: 992px) {
+
+    #events-hackathon {
+        max-height: 300px;
+        margin: 0 auto;
+        float: none;
+        margin-bottom: 20px;
     }
 }
 
@@ -282,11 +297,4 @@ p.event-location {
 .event-description p {
     text-align: left;
     font-weight: bold;
-}
-
-#events-hackathon {
-    max-height: 300px;
-    margin: 0 auto;
-    float: none;
-    margin-bottom: 20px;
 }
