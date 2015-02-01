@@ -48,7 +48,7 @@
 }
 
 .cal-event {
-  position: relative;
+  padding-left: 0; padding-right: 0;
   color: white;
   /* Fallback for web browsers that doesn't support RGBa */
   background: rgb(97, 97, 97); transparent;
