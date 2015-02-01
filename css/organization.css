@@ -58,7 +58,7 @@ section .staff-info ul.social-buttons li {
         width: 194px;
     }
     ul.organization-carousel {
-       height: 400px;
+       height: 600px;
     }
 }
 /* Medium */
@@ -68,7 +68,7 @@ section .staff-info ul.social-buttons li {
         width: 162px;
     }
     ul.organization-carousel {
-       height: 324px;
+       height: 480px;
     }
 
     span.staff-name {
@@ -93,7 +93,7 @@ section .staff-info ul.social-buttons li {
         width: 124px;
     }
     ul.organization-carousel {
-       height: 260px;
+       height: 390px;
     }
 
     span.staff-name {
