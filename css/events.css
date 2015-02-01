@@ -14,6 +14,10 @@
     font-family: "Helvetica Neue", "Open Sans", Helvetica,Arial,sans-serif;
 }
 
+.external-link {
+    font-weight: bold;
+}
+
 .events-title {
     float: right;
 }
