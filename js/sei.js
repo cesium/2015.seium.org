@@ -71,15 +71,15 @@ angular.module('sei-app',['angular-carousel'])
         });
 
     $rootScope.speakerGoto = function(speakerName){
-        for (var i = speakerSlides.length - 1; i >= 0; i--) {
-            for (var j = speakerSlides[i].length - 1; j >= 0; j--) {
-                if (speakerSlides[i][j].name === speakerName) {
-                    $scope.speakerSlides = i;
+        for (var i = $scope.speakerSlides.length - 1; i >= 0; i--) {
+            for (var j = $scope.speakerSlides[i].length - 1; j >= 0; j--) {
+                if ($scope.speakerSlides[i][j].name === speakerName) {
+                    $scope.carouselSpeakers = i;
                 }
             };
         };
     }
-    $scope.carouselEvents = 0;
+    $scope.carouselSpeakers = 0;
 }])
 
 .controller('organizationCtrl',['$scope','$window',function($scope,$window){
