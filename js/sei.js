@@ -32,7 +32,7 @@ angular.module('sei-app',['angular-carousel'])
         $scope.carouselEvents = page;
     }
 }])
-.controller('speakerCtrl',['$scope','$window',function($scope,$window){
+.controller('speakerCtrl',['$scope','$window','$rootScope',function($scope,$window,$rootScope){
      var speakers =
         // slide 01#
         [
@@ -70,6 +70,15 @@ angular.module('sei-app',['angular-carousel'])
             }
         });
 
+    $rootScope.speakerGoto = function(speakerName){
+        for (var i = speakerSlides.length - 1; i >= 0; i--) {
+            for (var j = speakerSlides[i].length - 1; j >= 0; j--) {
+                if (speakerSlides[i][j].name === speakerName) {
+                    $scope.speakerSlides = i;
+                }
+            };
+        };
+    }
     $scope.carouselEvents = 0;
 }])
 
