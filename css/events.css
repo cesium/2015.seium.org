@@ -258,16 +258,16 @@ p.event-location {
 }
 
 .event-container img {
-    max-height: 200px;
+    max-height: 75px;
     max-width: 100%;
-    display: block;
-    margin: auto;
+    margin-right: 10px;
+    float: left;
 }
 
 .event-img-full img{
     max-width: none;
     max-height: none;
-    width: 90%;
+    width: 100%;
     margin: auto;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -282,4 +282,11 @@ p.event-location {
 .event-description p {
     text-align: left;
     font-weight: bold;
+}
+
+#events-hackathon {
+    max-height: 300px;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 20px;
 }
