@@ -710,7 +710,7 @@
             </div>
             <ul rn-carousel rn-carousel-index="carouselEvents" class="carousel1 events-carousel col-md-12">
                 <li ng-repeat="slide in eventSlides">
-                    <div ng-include="slide.file"></div>
+                    <div ng-include="slide.file" onload="marteladaIncludeFeito()"></div>
                 </li>
             </ul>
             <div class="events-status col-md-12 rn-carousel-indicator custom-indicator">

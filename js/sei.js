@@ -20,7 +20,14 @@ angular.module('sei-app',['angular-carousel'])
         {file:'events/21-fev.html', day:'21 Fev', weekday:'Sábado'},
     ];
     $scope.carouselEvents = 0;
-
+    var counter = 0;
+    $scope.marteladaIncludeFeito = function(){
+        counter++;
+        if (counter=== $scope.eventSlides.length){
+            window.marteladaRefresh();
+        }
+    }
+    
     $rootScope.eventGoto = function(page){
         $scope.carouselEvents = page;
     }
