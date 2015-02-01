@@ -1,15 +1,5 @@
 angular.module('sei-app',['angular-carousel'])
 .controller('eventCtrl',['$scope','$rootScope',function($scope,$rootScope){
-    /*$scope.eventSlides = [
-        {file:'events/14-fev.html', day:'14 Fev', weekday:'Sábado'},
-        {file:'events/15-fev.html', day:'15 Fev', weekday:'Domingo'},
-        {file:'events/16-fev.html', day:'16 Fev', weekday:'Segunda'},
-        {file:'events/17-fev.html', day:'17 Fev', weekday:'Terça'},
-        {file:'events/18-fev.html', day:'18 Fev', weekday:'Quarta'},
-        {file:'events/19-fev.html', day:'19 Fev', weekday:'Quinta'},
-        {file:'events/20-fev.html', day:'20 Fev', weekday:'Sexta'},
-        {file:'events/21-fev.html', day:'21 Fev', weekday:'Sabado'}
-    ];*/
     $scope.eventSlides = [
         {file:'events/14-fev.html', day:'14 Fev', weekday:'Sábado'},
         {file:'events/16-fev.html', day:'16 Fev', weekday:'Segunda'},
@@ -27,7 +17,7 @@ angular.module('sei-app',['angular-carousel'])
             window.marteladaRefresh();
         }
     }
-    
+
     $rootScope.eventGoto = function(page){
         $scope.carouselEvents = page;
     }
@@ -38,20 +28,20 @@ angular.module('sei-app',['angular-carousel'])
         [
             {pic:'img/speakers/hpinto.jpg', name:'Hélder Pinto', position:'3D Environment Artist' , enterprise:[{name:'Blizzard', enterpriseUrl:'http://eu.blizzard.com/'}], web:'http://www.helderpinto.com/' , twitter:'https://twitter.com/HelderHP', github:'',
                 about:'Começou carreira profissional na indústria dos vídeo jogos em terras Lusitanas na Seed Studios, no ano de 2007, onde trabalhou no jogo Under Siege Game, partindo depois para a Alemanha, onde ajudou a embelezar os ambientes de Crysis 2 e 3 antes de finalmente começar na Blizzard na Califórnia onde de momento trabalha no jogo Overwatch.'},
-            {pic:'img/speakers/fcosta.jpg', name:'Francisco Costa', position:'CEO & Founder', 
-                enterprise:[{name:'Tricubo,',enterpriseUrl:'https://tricubo.com/'}, {name:'Chique,',enterpriseUrl:'https://chique.pt/'}, {name:'TYMR,',enterpriseUrl:'https://tymr.com/'}, {name:'Venture FC',enterpriseUrl:'https://venturefc.co/'}],
-                web:'https://franciscocosta.com/' , twitter:'https://twitter.com/franciscocosta', github:'',
-                about:'Empreendedor de sucesso e ex-aluno da LESI. Apaixonado por tecnologia, vem falar-nos sobre Python programming language e introduzir a framework web2py.'},
-            {pic:'img/speakers/fmendes.jpg', name:'Francisco Mendes', position:'Entrepreneur & Creator' , enterprise:[{name:'Bee Very Creative',  enterpriseUrl:'https://beeverycreative.com/'}], web:'https://www.beeverycreative.com' , twitter:'https://twitter.com/fmendes75/', github:'',
-                about:'Empreendedor apaixonado por tecnologia. Licenciado em Engenharia Electrónica e Telecomunicações e pós-graduado em Engenharia de Automação Industrial, ambos pela Universidade de Aveiro, começou a sua carreira profissional como Engenheiro de I&D e posteriormente como director de Hardware. No final de 2010, juntou-se a Jorge Pinto e fundaram a bitBOX Electronic Systems, uma startup que começou na incubadora de empresas da Universidade de Aveiro e que mais tarde se tornou na BEEVERYCREATIVE, a empresa que criou a primeira impressora 3D portuguesa.'},
-            {pic:'img/speakers/rdescoffier.png', name:"Rafael D'Escoffier", position:'Developer' , enterprise:[{name:'BloomIdea',enterpriseUrl:'http://bloomidea.com/'}], web:'http://bloomidea.com/' , twitter:'', github:'',
-                about:'Estudante de engenharia informática na Universidade do Minho e programador na BloomIdea, com foco especial no desenvolvimento de soluções na área das aplicações móveis. Otimista incurável e geek praticante, apaixonado pela tecnologia, natureza e desporto.'},
-            {pic:'img/speakers/nfernandes.png', name:'Nuno Fernandes', position:'Writer, D&R Director' , enterprise:[{name:'Eurotux',enterpriseUrl:'http://eurotux.com/'}], web:'http://www.eurotux.com' , twitter:'', github:'',
-                about:'Licenciado pela Universidade do Minho em Engenharia de Sistemas e Informática é actualmente Director de investigação e Desenvolvimento da Eurotux Informática. Co-Autor do livro Apache Instalação, Configuração Gestão Servidore}, Web editado pela FCA tem sido responsável pela implementação de diversos projectos de infra-estruturas tecnológicas de grande porte.'},
-            {pic:'img/speakers/rantunes.jpg', name:'Rui Antunes', position:'Developer' , enterprise:[{name:'FPV',enterpriseUrl:'http://fpvportugal.com/'}], web:'http://fpvportugal.com/' , twitter:'', github:'',
-                about:'Sempre se interessou com tudo o que estava relacionado com tecnologia e desde alguns anos que tem experiência em aeromodelismo, há cerca de 4 anos começou a ter contacto com multirotores. Actualmente frequenta o 2o ano de Engenharia Informática na Escola Superior de Tecnologia de Castelo Branco.'},
             {pic:'img/speakers/lfonseca.jpg', name:'Luís Fonseca', position:'Lead Interactive Developer' , enterprise:[{name:'X-Team',enterpriseUrl:'http://x-team.com/'}], web:'http://luispedrofonseca.com/' , twitter:'https://twitter.com/lpfonseca', github:'',
                 about:'Com mais de uma década de experiência num leque muito variado de tecnologias, desde Unity a Objective-C passando pelo Javascript e Flash, focou-se fortemente, nos últimos anos, em desenvolvimento de jogos e aplicações mobile. Faz parte da X-Team desde 2008 onde trabalha, em parceria, para empresas como RIOT Games, Dreamworks, FOX Broadcasting, Microsoft, etc., criando projectos que alcançam todos os dias milhões de utilizadores.'},
+            {pic:'img/speakers/fcosta.jpg', name:'Francisco Costa', position:'CEO & Founder',
+                enterprise:[{name:'Tricubo,',enterpriseUrl:'https://tricubo.com/'}, {name:'Chique,',enterpriseUrl:'https://chique.pt/'}, {name:'TYMR,',enterpriseUrl:'https://tymr.com/'}, {name:'Venture FC',enterpriseUrl:'https://venturefc.co/'}],
+                web:'https://franciscocosta.com/' , twitter:'https://twitter.com/franciscocosta', github:'',
+                about:'Empreendedor de sucesso, licenciado em Engenharia de Sistemas e Informática pela Universidade do Minho. Apaixonado por tecnologia, conta já com mais de uma década de experiência e muito sucesso acumulado em diversas áreas como E-Commerce, Social Shopping e Digital Marketing'},
+            {pic:'img/speakers/rdescoffier.png', name:"Rafael D'Escoffier", position:'Developer' , enterprise:[{name:'BloomIdea',enterpriseUrl:'http://bloomidea.com/'}], web:'http://bloomidea.com/' , twitter:'', github:'',
+                about:'Estudante de Engenharia Informática na Universidade do Minho e programador na BloomIdea, com foco especial no desenvolvimento de soluções na área das aplicações móveis. Otimista incurável e geek praticante, apaixonado pela tecnologia, natureza e desporto.'},
+            {pic:'img/speakers/nfernandes.png', name:'Nuno Fernandes', position:'Writer, D&R Director' , enterprise:[{name:'Eurotux',enterpriseUrl:'http://eurotux.com/'}], web:'http://www.eurotux.com' , twitter:'', github:'',
+                about:'Licenciado pela Universidade do Minho em Engenharia de Sistemas e Informática é actualmente Director de Investigação e Desenvolvimento da Eurotux Informática. Co-Autor do livro Apache Instalação, Configuração Gestão Servidores Web, editado pela FCA tem sido responsável pela implementação de diversos projectos de infra-estruturas tecnológicas de grande porte.'},
+            {pic:'img/speakers/rantunes.jpg', name:'Rui Antunes', position:'Developer' , enterprise:[{name:'FPV',enterpriseUrl:'http://fpvportugal.com/'}], web:'http://fpvportugal.com/' , twitter:'', github:'',
+                about:'Sempre se interessou com tudo o que estava relacionado com tecnologia e desde alguns anos que tem experiência em aeromodelismo, há cerca de 4 anos começou a ter contacto com multirotores. Actualmente frequenta o 2o ano de Engenharia Informática na Escola Superior de Tecnologia de Castelo Branco.'},
+            {pic:'img/speakers/fmendes.jpg', name:'Francisco Mendes', position:'Entrepreneur & Creator' , enterprise:[{name:'Bee Very Creative',  enterpriseUrl:'https://beeverycreative.com/'}], web:'https://www.beeverycreative.com' , twitter:'https://twitter.com/fmendes75/', github:'',
+                about:'Empreendedor apaixonado por tecnologia. Licenciado em Engenharia Electrónica e Telecomunicações e pós-graduado em Engenharia de Automação Industrial, ambos pela Universidade de Aveiro, começou a sua carreira profissional como Engenheiro de I&D e posteriormente como director de Hardware. No final de 2010, juntou-se a Jorge Pinto e fundaram a bitBOX Electronic Systems na incubadora de empresas da Universidade de Aveiro, que mais tarde tornou-se na BEEVERYCREATIVE, a empresa que criou a primeira impressora 3D portuguesa.'},
         ];
 
         $scope.$watch(function(){
@@ -119,7 +109,7 @@ angular.module('sei-app',['angular-carousel'])
             {pic: 'img/staff/sei.jpg', name:'Daniel Carvalho', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/dapcarvalho', twitter: 'https://twitter.com/dapcarvalho/', github: 'https://github.com/Insatisfeito'},
             {pic: 'img/staff/sei.jpg', name:'Duarte Araújo', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/Duarte.Araujo1', twitter: 'https://twitter.com/PMDAraujo', github: 'https://github.com/PMDA'},
             {pic: 'img/staff/psilva.jpg', name:'Pedro Silva', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/miguelsilvaface', twitter: '', github: 'https://github.com/pedroSilva4'}
-        
+
     ];
     // $scope.staffSlides
     $scope.$watch(function(){

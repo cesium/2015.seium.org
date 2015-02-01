@@ -70,22 +70,30 @@
     }
 }
 
+@media(max-width: 1200px) {
+    #events {
+        height: 1100px;
+    }
+
+    ul.events-carousel {
+        height: 850px;
+    }
+}
+
 @media(max-width: 992px) {
     #events {
-        height: 950px;
+        height: 1050px;
         padding-bottom: 50px;
     }
 
     ul.events-carousel {
-        height: 700px;
+        height: 800px;
     }
-
 
     #events-hackathon {
         float: left;
         margin-bottom: 0;
     }
-
 
     div.event-container img {
         padding-left: 0;
@@ -148,11 +156,11 @@
 @media(max-width: 768px) {
 
     #events {
-        height: 1000px;
+        height: 1250px;
     }
 
     ul.events-carousel {
-        height: 775px;
+        height: 1000px;
     }
 
     div.event-day:not(.active) span {
@@ -210,23 +218,58 @@
     }
 
     #events {
+        height: 1200px;
+    }
+
+    ul.events-carousel {
         height: 1000px;
     }
-
-    ul.events-carousel {
-        height: 750px;
-    }
 }
 
-@media(max-width: 447px) {
+@media(max-width: 426px) {
     #events {
-        height: 1100px;
+        height: 1400px;
     }
 
     ul.events-carousel {
-        height: 850px;
+        height: 1200px;
     }
 }
+
+div.event-day span {
+    color: #9E9E9E;
+}
+
+@media(max-width: 336px){
+    #events {
+        height: 1600px;
+    }
+    
+    ul.events-carousel{
+        height: 1400px;
+    }
+}
+
+@media(max-width: 291px){
+    #events {
+        height: 1800px;
+    }
+    
+    ul.events-carousel{
+        height: 1600px;
+    }
+}
+
+@media(max-width: 262px){
+    #events {
+        height: 2000px;
+    }
+    
+    ul.events-carousel{
+        height: 1800px;
+    }
+}
+
 
 div.event-day span {
     color: #9E9E9E;

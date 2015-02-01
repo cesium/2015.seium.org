@@ -96,6 +96,14 @@ section .staff-info ul.social-buttons li {
        height: 390px;
     }
 
+    section .staff-info ul.social-buttons li a {
+        height: 18px;
+        width: 18px;
+        font-size: 9px;
+        line-height: 18px;
+        margin-bottom: -10px;
+    }
+
     span.staff-name {
         font-size: 14px;
     }
@@ -115,16 +123,15 @@ section .staff-info ul.social-buttons li {
     }
 
     section .staff-info ul.social-buttons li a {
-        height: 20px;
-        width: 20px;
-        font-size: 11px;
-        line-height: 20px;
+        height: 30px;
+        width: 30px;
+        font-size: 14px;
+        line-height: 30px;
     }
 
     section .staff-info ul.social-buttons {
         margin-bottom: 5px;
     }
-
 
     span.staff-name {
         font-size: 14px;
@@ -135,6 +142,7 @@ section .staff-info ul.social-buttons li {
     }
 
 }
+
 @media(max-width: 717px) {
     div.staff-info-container {
         height: 170px;
@@ -144,15 +152,25 @@ section .staff-info ul.social-buttons li {
         height: 515px;
     }
 }
+
 @media(max-width: 667px) {
     div.staff-info-container {
         height: 160px;
         width: 160px;
     }
+
     ul.organization-carousel {
         height: 480px;
     }
+
+    section .staff-info ul.social-buttons li a {
+        height: 20px;
+        width: 20px;
+        font-size: 11px;
+        line-height: 20px;
+    }
 }
+
 @media(max-width: 617px) {
     div.staff-info-container {
         height: 145px;
@@ -162,6 +180,7 @@ section .staff-info ul.social-buttons li {
         height: 435px;
     }
 }
+
 @media(max-width: 567px) {
     div.staff-info-container {
         height: 130px;
@@ -171,15 +190,16 @@ section .staff-info ul.social-buttons li {
         height: 400px;
     }
 }
+
 @media(max-width: 517px) {
     div.staff-info-container {
         height: 117px;
         width: 117px;
     }
+
     ul.organization-carousel {
         height: 360px;
     }
-
 
     span.staff-name {
         font-size: 12px;
@@ -189,6 +209,7 @@ section .staff-info ul.social-buttons li {
         font-size: 8px;
     }
 }
+
 @media (max-width: 467px) {
     div.staff-info-container {
         height: 105px;
@@ -206,6 +227,7 @@ section .staff-info ul.social-buttons li {
         display: none;
     }
 }
+
 @media(max-width: 417px) {
     div.staff-info-container {
         height: 93px;
@@ -215,6 +237,7 @@ section .staff-info ul.social-buttons li {
         height: 300px;
     }
 }
+
 @media (max-width: 387px) {
     div.staff-info-container {
         height: 85px;
@@ -224,6 +247,7 @@ section .staff-info ul.social-buttons li {
         height: 255px;
     }
 }
+
 @media (max-width: 357px) {
     div.staff-info-container {
         height: 77px;
@@ -233,6 +257,7 @@ section .staff-info ul.social-buttons li {
         height: 231px;
     }
 }
+
 @media (max-width: 337px) {
     div.staff-info-container {
         height: 72px;
