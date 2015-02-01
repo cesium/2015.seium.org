@@ -18,6 +18,16 @@ ul.carousel1 {
     border: 6px solid #0098ff;
 }
 
+button a {
+    color: inherit;
+}
+
+button a:hover,
+button a:focus {
+    text-decoration: none;
+    color: inherit;
+}
+
 button.btn.btn-info.btn-sei {
     display: block;
     margin: 5px auto;
@@ -80,7 +90,7 @@ button.btn.btn-info.btn-sei.disabled::after {
     right: 44%;
     height: 25px;
     color: #fff;
-    content: attr(title);
+    content: attr(tip);
     padding: 5px;
     position: absolute;
     z-index: 98;
