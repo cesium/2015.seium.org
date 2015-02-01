@@ -739,21 +739,21 @@
                         <span class="col-md-12 col-xs-12 col-sm-12 speaker-name">{{speaker.name}}</span>
                         <span class="col-md-12 col-xs-12 col-sm-12 speaker-position">{{speaker.position}}</span>
                         <span class="col-md-12 col-xs-12 col-sm-12 speaker-company">
-                            <a ng-repeat="emprise in speaker.enterprise" ng-href="{{ emprise.enterpriseUrl }}">
-                                {{ emprise.name }}
+                            <a ng-repeat="enterprise in speaker.enterprise" target="_blank" ng-href="{{ enterprise.enterpriseUrl }}">
+                                {{ enterprise.name }}
                             </a>
                         </span>
                         <span class="col-md-12 col-xs-12 col-sm-12 speaker-about">{{speaker.about}}</span>
                         <div class="col-md-12 col-sm-12 col-xs-12">
                             <ul class="list-inline social-buttons speaker-social">
                                 <li>
-                                    <a ng-if="speaker.web" ng-href="{{ speaker.web }}"><i class="fa fa-globe"></i></a>
+                                    <a ng-if="speaker.web" target="_blank" ng-href="{{ speaker.web }}"><i class="fa fa-globe"></i></a>
                                 </li>
                                 <li>
-                                    <a ng-if="speaker.twitter" ng-href="{{ speaker.twitter }}"><i class="fa fa-twitter"></i></a>
+                                    <a ng-if="speaker.twitter" target="_blank" ng-href="{{ speaker.twitter }}"><i class="fa fa-twitter"></i></a>
                                 </li>
                                 <li>
-                                    <a ng-if="speaker.github" ng-href="{{ speaker.github }}"><i class="fa fa-github"></i></a>
+                                    <a ng-if="speaker.github" target="_blank" ng-href="{{ speaker.github }}"><i class="fa fa-github"></i></a>
                                 </li>
                             </ul>
                         </div>
@@ -781,14 +781,14 @@
             </div>
             <div class="wrapper col-md-12">
                 <div class="col-md-4 partner-img">
-                    <a href="http://bloomidea.com/"><img src="img/logos/partner-bloom.png" height="244" width="558" class="img-responsive center-block" alt="Bloom Idea"></a>
+                    <a target="_blank" href="http://bloomidea.com/"><img src="img/logos/partner-bloom.png" height="244" width="558" class="img-responsive center-block" alt="Bloom Idea"></a>
                 </div><!--
              --><div class="col-md-4 partner-img">
-                    <a href="http://eurotux.com/"><img src="img/logos/partner-eurotux.png" height="76" width="229" class="img-responsive center-block"
+                    <a target="_blank" href="http://eurotux.com/"><img src="img/logos/partner-eurotux.png" height="76" width="229" class="img-responsive center-block"
                     alt="Eurotux"></a>
                 </div><!--
              --><div class="col-md-4 partner-img">
-                    <a href="http://www.vilt-group.com/"><img src="img/logos/partner-vilt.png" height="231" width="1052" class="img-responsive center-block"
+                    <a target="_blank" href="http://www.vilt-group.com/"><img src="img/logos/partner-vilt.png" height="231" width="1052" class="img-responsive center-block"
                     alt="VILT"></a>
                 </div>
             </div>
@@ -802,7 +802,7 @@
             </div>
             <div class="wrapper col-md-12">
                 <div class="col-md-4 partner-img">
-                    <a href="http://www2.deloitte.com"><img src="img/logos/partner-deloitte-white.png" height="158" width="850" alt="Deloitte" class="img-responsive center-block"></a>
+                    <a target="_blank" href="http://www2.deloitte.com"><img src="img/logos/partner-deloitte-white.png" height="158" width="850" alt="Deloitte" class="img-responsive center-block"></a>
                 </div>
             </div>
             <!-- MAIN PARTNERS -->
@@ -815,14 +815,14 @@
             </div>
             <div class="wrapper col-md-12">
                 <div class="col-md-4 partner-img">
-                    <a href="http://www.microsoft.com"><img src="img/logos/partner-microsoft.png" height="1617" width="4400" class="img-responsive center-block" alt="Microsoft"></a>
+                    <a target="_blank" href="http://www.microsoft.com"><img src="img/logos/partner-microsoft.png" height="1617" width="4400" class="img-responsive center-block" alt="Microsoft"></a>
                 </div><!--
              --><div class="col-md-4 partner-img">
-                    <a href="http://www.groupbuddies.com/"><img src="img/logos/partner-gb.png" height="526" width="568" class="img-responsive center-block"
+                    <a target="_blank" href="http://www.groupbuddies.com/"><img src="img/logos/partner-gb.png" height="526" width="568" class="img-responsive center-block"
                     alt="Group Buddies" style="width: 45%; height: 45%;"></a>
                 </div><!--
              --><div class="col-md-4 partner-img">
-                    <a href="http://www.keep.pt/"><img src="img/logos/partner-keep.png" height="185" width="1290" class="img-responsive center-block"
+                    <a target="_blank" href="http://www.keep.pt/"><img src="img/logos/partner-keep.png" height="185" width="1290" class="img-responsive center-block"
                     alt="Keep Solutions"></a>
                 </div>
             </div>
@@ -836,18 +836,18 @@
             </div>
             <div class="wrapper col-md-12">
                 <div class="col-md-3 partner-img">
-                   <a href="http://www.blip.pt/"><img src="img/logos/partner-blip.png" height="4861" width="8523" class="img-responsive center-block" alt="Blip"></a>
+                   <a target="_blank" href="http://www.blip.pt/"><img src="img/logos/partner-blip.png" height="4861" width="8523" class="img-responsive center-block" alt="Blip"></a>
                 </div><!--
                 --><div class="col-md-3 partner-img">
-                    <a href="https://beeverycreative.com/"><img src="img/logos/partner-bee.png" height="1655" width="4851" class="img-responsive center-block"
+                    <a target="_blank" href="https://beeverycreative.com/"><img src="img/logos/partner-bee.png" height="1655" width="4851" class="img-responsive center-block"
                     alt="BeeVeryCreative"></a>
                 </div><!--
                 --><div class="col-md-3 partner-img">
-                    <a href="http://fpvportugal.com/"><img src="img/logos/partner-fpv.png" height="1655" width="4851" class="img-responsive center-block"
+                    <a target="_blank" href="http://fpvportugal.com/"><img src="img/logos/partner-fpv.png" height="1655" width="4851" class="img-responsive center-block"
                     alt="FPV Portugal"></a>
                 </div><!--
                 --><div class="col-md-3 partner-img">
-                    <a href="http://inmotion.pt"><img src="img/logos/partner-inmotion.png" height="1918" width="7776" class="img-responsive center-block" alt="inmotion"></a>
+                    <a target="_blank" href="http://inmotion.pt"><img src="img/logos/partner-inmotion.png" height="1918" width="7776" class="img-responsive center-block" alt="inmotion"></a>
                 </div>
             </div>
         </div>
