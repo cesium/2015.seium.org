@@ -116,14 +116,14 @@ angular.module('sei-app',['angular-carousel'])
     $scope.$watch(function(){
         return $window.innerWidth;
     }, function(value) {
-        if ($window.innerWidth < 768) {
+            if ($window.innerWidth < 768) {
             $scope.staffSlides = [[]];
             var  slidePos= 0,slidei = 0; // slidePos the position in the slide, slidei the index of the slide
             for (var staffi = 0; staffi< staffs.length; staffi++) {
                 $scope.staffSlides[slidei].push(staffs[staffi]);
                 if (slidePos<11){
                     slidePos++;
-                } else {
+                } else if(staffi< staffs.length - 1) {
                     slidePos = 0;
                     slidei++;
                     $scope.staffSlides.push([]);
@@ -131,19 +131,21 @@ angular.module('sei-app',['angular-carousel'])
             };
         } else {
             $scope.staffSlides = [[]];
-            var  slidePos= 0, slidei = 0; // slidePos the position in the slide, slidei the index of the slide
+            var  slidePos = 0, slidei = 0; // slidePos the position in the slide, slidei the index of the slide
             for (var staffi = 0; staffi< staffs.length; staffi++) {
                 $scope.staffSlides[slidei].push(staffs[staffi]);
+              
                 if (slidePos<17){
                     slidePos++;
-                } else {
+                } else if(staffi< staffs.length - 1){
                     slidePos = 0;
                     slidei++;
                     $scope.staffSlides.push([]);
                 }
             };
         }
+        $scope.carouselOrganization = 0;
     });
 
-    $scope.carouselEvents = 0;
+    $scope.carouselOrganization = 0;
 }]);
