@@ -8,7 +8,7 @@
 $(function() {
     window.marteladaRefresh = function(){
         $('a.page-scroll').bind('click', function(event) {
-            var navHeight = $('.navbar-header').height() + 1;
+            var navHeight = $('.navbar-header').height() - 1;
             var $anchor = $(this);
             $('html, body').stop().animate({
                 scrollTop: $($anchor.attr('href')).offset().top - navHeight
