@@ -200,6 +200,18 @@
   height: 25px;
   }
 
+  .cal-one-thirty, .cal-two-thirty, .cal-three-thirty, .cal-four-thirty, .cal-five-thirty, .cal-six-thirty, .cal-ten-thirty, .cal-coffee-filler, .cal-labels-filler{
+    min-height: 0;
+    height: auto;
+  }
+
+  .cal-parallel-left{
+    padding-right: 0; 
+  }
+
+  .cal-parallel-right{
+    padding-left: 0; 
+  }
 }
 @media screen and (max-width: 626px) {
   .cal-label{
@@ -214,18 +226,5 @@
   .cal-day {
     margin: 0;
     font-size: 0.9em;
-  }
-
-  .cal-one-thirty, .cal-two-thirty, .cal-three-thirty, .cal-four-thirty, .cal-five-thirty, .cal-six-thirty, .cal-ten-thirty, .cal-coffee-filler, .cal-labels-filler{
-    min-height: 0;
-    height: auto;
-  }
-
-  .cal-parallel-left{
-    padding-right: 0; 
-  }
-
-  .cal-parallel-right{
-    padding-left: 0; 
   }
 }

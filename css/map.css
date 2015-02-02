@@ -60,6 +60,7 @@ border-radius: 5px; }
   #map-canvas {
     width: 300px;
     height: 300px;
+    margin: 0 auto;
   }
 }
 
@@ -67,11 +68,6 @@ border-radius: 5px; }
   #map-canvas {
     width: 250px;
     height: 250px;
-    margin: 0 auto;
-  }
-
-  .cesium-map {
-    float: none;
   }
 }
 
