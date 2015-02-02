@@ -14,14 +14,14 @@ $(function() {
                 scrollTop: $($anchor.attr('href')).offset().top - navHeight
             }, 1500, 'easeInOutExpo');
             event.preventDefault();
-        });        
+        });
     }
 
 
     // Highlight the top nav as scrolling occurs
     $('body').scrollspy({
         target: '.navbar-fixed-top',
-        offset: $('.navbar-header').height() + 1
+        offset: $('.navbar-header').height()
     });
 
     // jQuery to collapse the navbar on scroll
