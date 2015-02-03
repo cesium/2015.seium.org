@@ -1,7 +1,7 @@
 #events {
     padding-top: 100px;
     padding-bottom: 250px;
-    height: 1000px;
+    height: 920px;
     background-attachment: scroll;
     background-image: url(../img/background_prometeu.png);
     background-position: center center;
@@ -23,7 +23,7 @@
 }
 
 .events-carousel {
-    height: 750px;
+    height: 600px;
 }
 
 .events-status {
@@ -72,22 +72,22 @@
 
 @media(max-width: 1200px) {
     #events {
-        height: 1100px;
+        height: 950px;
     }
 
     ul.events-carousel {
-        height: 850px;
+        height: 650px;
     }
 }
 
 @media(max-width: 992px) {
     #events {
-        height: 1050px;
+        height: 900px;
         padding-bottom: 50px;
     }
 
     ul.events-carousel {
-        height: 800px;
+        height: 600px;
     }
 
     #events-hackathon {
