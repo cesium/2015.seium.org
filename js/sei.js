@@ -134,7 +134,7 @@ angular.module('sei-app',['angular-carousel'])
             var  slidePos = 0, slidei = 0; // slidePos the position in the slide, slidei the index of the slide
             for (var staffi = 0; staffi< staffs.length; staffi++) {
                 $scope.staffSlides[slidei].push(staffs[staffi]);
-              
+
                 if (slidePos<17){
                     slidePos++;
                 } else if(staffi< staffs.length - 1){
