@@ -1,30 +1,21 @@
-# SEI15
+# [SEI15](http://cesium.github.io/SEI15)
 
-SEI - Semana da Engenharia Informática or Computer Engineering Week is an eventful week, fully organized by students for students.
+SEI - Semana da Engenharia Informática, our Computer Engineering Week is an eventful week, fully organized by students for students.
 
-# [Start Bootstrap](http://startbootstrap.com/) - [Agency](http://startbootstrap.com/template-overviews/agency/)
+This is the website for the 2015 Edition.
 
-[Agency](http://startbootstrap.com/template-overviews/agency/) is a one page agency portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, a responsive timeline, and a working PHP contact form.
+# Bugs and Issues
 
-## Getting Started
+Found a bug or an issue? [Open a new issue](https://github.com/cesium/SEI15/issues) here on GitHub.
 
-To use this theme, choose one of the following options to get started:
-* Download the latest release on Start Bootstrap
-* Fork this repository on GitHub
+# Contributors
 
-## Bugs and Issues
+This website was made with :heart: by:
 
-Have a bug or an issue with this theme? [Open a new issue](https://github.com/IronSummitMedia/startbootstrap-agency/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/agency/).
+* [Fernando Mendes](https://github.com/frmendes)
+* [João Costa](https://github.com/JoaoFCosta)
+* [João Rodrigues](https://github.com/JoRod94)
+* [Martinho Aragão](https://github.com/martinhoaragao)
+* [Rui Oliveira](https://github.com/ruioliveiras)
 
-## Creator
-
-Start Bootstrap was created by and is maintained by **David Miller**, Managing Partner at [Iron Summit Media Strategies](http://www.ironsummitmedia.com/).
-
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-agency/blob/gh-pages/LICENSE) license.
+Based on the design made by [Jorge Simão](https://www.facebook.com/15manson)
