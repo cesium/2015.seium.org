@@ -101,6 +101,11 @@
         float: left;
     }
 
+    div.event-img-full img {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
     div.event-description p {
         display: none;
     }
@@ -177,9 +182,17 @@
         min-height: 80px;
     }
 
+    div.event-img-full {
+        width: 95%;
+        height: 100%;
+    }
+
     div.event-img-full img {
-        margin-top: 0;
-        margin-bottom: 0;
+        margin: 0 auto 5px auto;
+        max-width: 350px;
+        max-height: 350px;
+        float: none;
+        display: block;
     }
 }
 
@@ -244,7 +257,7 @@ div.event-day span {
     #events {
         height: 1600px;
     }
-    
+
     ul.events-carousel{
         height: 1400px;
     }
@@ -254,7 +267,7 @@ div.event-day span {
     #events {
         height: 1800px;
     }
-    
+
     ul.events-carousel{
         height: 1600px;
     }
@@ -264,7 +277,7 @@ div.event-day span {
     #events {
         height: 2000px;
     }
-    
+
     ul.events-carousel{
         height: 1800px;
     }
