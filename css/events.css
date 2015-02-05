@@ -72,22 +72,22 @@
 
 @media(max-width: 1200px) {
     #events {
-        height: 1250px;
+        height: 1300px;
     }
 
     ul.events-carousel {
-        height: 920px;
+        height: 970px;
     }
 }
 
 @media(max-width: 992px) {
     #events {
-        height: 1180px;
+        height: 1210px;
         padding-bottom: 50px;
     }
 
     ul.events-carousel {
-        height: 850px;
+        height: 880px;
     }
 
     #events-hackathon {
@@ -161,11 +161,11 @@
 @media(max-width: 768px) {
 
     #events {
-        height: 1480px;
+        height: 1520px;
     }
 
     ul.events-carousel {
-        height: 1100px;
+        height: 1140px;
     }
 
     div.event-day:not(.active) span {
@@ -231,21 +231,21 @@
     }
 
     #events {
-        height: 1400px;
+        height: 1440px;
     }
 
     ul.events-carousel {
-        height: 1080px;
+        height: 1120px;
     }
 }
 
 @media(max-width: 426px) {
     #events {
-        height: 1600px;
+        height: 1630px;
     }
 
     ul.events-carousel {
-        height: 1200px;
+        height: 1230px;
     }
 }
 
