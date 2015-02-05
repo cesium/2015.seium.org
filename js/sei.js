@@ -115,9 +115,8 @@ angular.module('sei-app',['angular-carousel'])
             {pic: 'img/staff/bferreira.jpg', name:'Bruno Ferreira', position: 'Membro', enterprise: 'Minho', twitter: 'https://twitter.com/chalkos', github: 'https://github.com/chalkos',linkedin:'https://pt.linkedin.com/in/chalkos'},
             {pic: 'img/staff/pcosta.jpg', name:'Pedro Costa', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/pedrocosta92', twitter: 'https://twitter.com/santosk20', github: 'https://github.com/santosk20',linkedin:''},
             {pic: 'img/staff/dlemos.jpg', name:'Diana Lemos', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/dianaguimaraes57', twitter: '', github: 'https://github.com/dianalemos',linkedin:'https://www.linkedin.com/profile/view?id=227209565&trk=nav_responsive_tab_profile'},
-            {pic: 'img/staff/hgoncalves.jpg', name:'Hélder Gonçalves', position: 'Membro', enterprise: 'Minho',facebook: '',twitter:'https://twitter.com/heldergon92',github:'https://github.com/HelderGoncalves92' ,linkedin:'https://www.linkedin.com/in/helderjagoncalves'},            
+            {pic: 'img/staff/hgoncalves.jpg', name:'Hélder Gonçalves', position: 'Membro', enterprise: 'Minho',facebook: '',twitter:'https://twitter.com/heldergon92',github:'https://github.com/HelderGoncalves92' ,linkedin:'https://www.linkedin.com/in/helderjagoncalves'},
             {pic: 'img/staff/psilva.jpg', name:'Pedro Silva', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/miguelsilvaface', twitter: '', github: 'https://github.com/pedroSilva4',linkedin:'http://pt.linkedin.com/pub/pedro-silva/a2/7ab/769'},
-            {pic: 'img/staff/jfarinha.jpg', name:'João Farinha', position: 'Membro', enterprise: 'Minho',facebook: '',twitter:'',github:'' ,linkedin:''}
     ];/*
 */
 
