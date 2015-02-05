@@ -18,4 +18,4 @@ This website was made with :heart: by:
 * [Martinho Aragão](https://github.com/martinhoaragao)
 * [Rui Oliveira](https://github.com/ruioliveiras)
 
-Based on the design made by [Jorge Simão](https://www.linkedin.com/in/jorgepedrosimao)
+Design made by [Jorge Simão](https://www.linkedin.com/in/jorgepedrosimao)
