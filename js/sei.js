@@ -82,7 +82,7 @@ angular.module('sei-app',['angular-carousel'])
 .controller('organizationCtrl',['$scope','$window',function($scope,$window){
     var staffs= [
         // slide 01#
-            {pic: 'img/staff/asantos.jpg', name:'André Santos', position: 'Presidente', enterprise: 'Minho', facebook:'https://www.facebook.com/andreccdr', twitter: 'https://twitter.com/62Gerente', github: 'https://github.com/62Gerente'},
+            {pic: 'img/staff/asantos.jpg', name:'André Santos', position: 'Presidente', enterprise: 'Minho', facebook:'https://www.facebook.com/andreccdr', twitter: 'https://twitter.com/62Gerente', github: 'https://github.com/62Gerente',linkedin:'asdasd'},
             {pic: 'img/staff/mpinto.jpg', name:'Miguel Pinto', position: 'Vice Presidente', enterprise: 'Minho', facebook:'http://www.facebook.com/mcpinto98', twitter: 'https://twitter.com/mcpinto98', github: 'https://github.com/miguelpinto98'},
             {pic: 'img/staff/pduarte.jpg', name:'Pedro Duarte', position: 'Vice Presidente', enterprise: 'Minho', facebook:'https://www.facebook.com/pedrodpduarte870', twitter: 'https://twitter.com/pedroduarte870', github: 'https://github.com/pedroduarte870'},
             {pic: 'img/staff/pmaia.jpg', name:'Pedro Maia', position: 'Tesoureiro', enterprise: 'Minho', facebook:'https://www.facebook.com/maiarib', twitter: '', github: 'https://github.com/PedroMaia'},
