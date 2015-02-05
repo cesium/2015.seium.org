@@ -46,7 +46,9 @@ angular.module('sei-app',['angular-carousel'])
                 about:'Licenciado em Engenharia Informática pela Universidade do Minho, ao longo dos anos, tem estado envolvido na maioria dos projetos e produtos em que a ImobileMagic tem trabalhado, com um foco particular em desenvolvimento de soluções multimédia para vários clientes e no produto de localização e proteção familiar PhoneNear Family Safety. Tem uma experiência já muito vasta em aplicações móveis e, em particular, no ecossistema iOS'},
             {pic:'img/speakers/rfiqueira.jpg', name:'Rui Figueira', position:'Behaviour Driven Development with Minium' , enterprise:[{ name:'Vilt',  enterpriseUrl:'http://www.vilt-group.com'}], web:'http://www.vilt-group.com/en/' , twitter:'', github:'https://github.com/ruifigueira',
                 about:'Tem 10 anos de experiência em desenvolvimento web, principalmente em Java. Adora programar e automatizar tarefas aborrecidas (de aborrecido a divertido), e por isso criou o Minium, uma ferramenta para automatização de tarefas e testes web no browser.'},
-
+            {pic:'img/speakers/mpalhas.jpg', name:'Miguel Palhas', position:'Software Developer & SysAdmin' , enterprise:[{ name:'Group Buddies',  enterpriseUrl:'https://groupbuddies.com/'}], web:'' , twitter:'https://twitter.com/Naps62', github:'https://github.com/naps62',
+                about:'Formado na Universidade do Minho, especializou-se em Computação Paralela e Distríbuida e Computação Gráfica, mantendo ainda hoje a sua paixão por alta performance e o sonho de um dia se tornar Game Developer. Actualmente, é Software Developer e SysAdmin na Group Buddies, empresa à qual se juntou para poder continuar a experimentar novas tecnologias e trabalhar em projectos aliciantes. Fez parte da organização da primeira RubyConf Portugal e é um contribuidor extremamente activo para a comunidade de Open Source'}
+                  
         ];
 
         $scope.$watch(function(){
@@ -58,7 +60,7 @@ angular.module('sei-app',['angular-carousel'])
                     $scope.speakerSlides.push([speakers[i]]);
                 };
             } else {
-                $scope.speakerSlides = [[],[],[]];
+                $scope.speakerSlides = [[],[],[],[]];
                 for (var i = 0; i< speakers.length; i++) {
                     $scope.speakerSlides[Math.trunc(i/3)].push(speakers[i]);
                 };
