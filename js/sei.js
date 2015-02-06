@@ -50,6 +50,8 @@ angular.module('sei-app',['angular-carousel'])
                 about:'Sempre se interessou com tudo o que estava relacionado com tecnologia e desde alguns anos que tem experiência em aeromodelismo, há cerca de 4 anos começou a ter contacto com multirotores. Actualmente frequenta o 2o ano de Engenharia Informática na Escola Superior de Tecnologia de Castelo Branco.'},
             {pic:'img/speakers/jjusto.jpg', name:'João Justo', position:'Developer' , enterprise:[{name:'Group Buddies',  enterpriseUrl:'https://groupbuddies.com/'}], web:'' , twitter:'https://twitter.com/jpjustonunes', github:'https://github.com/joaojusto',
                 about:'Estudante de Engenharia de Informática e Computação na U.P.  O seu principal interesse é aplicações móveis e jogos. Recentemente começou a aprender e a ganhar uma especial curiosidade por tecnologias web e entrou para a GB primeiro como apprentice e depois como developer.'},
+            {pic:'img/speakers/gpoca.png', name:'Gabriel Poça', position:'Developer' , enterprise:[{name:'Group Buddies',  enterpriseUrl:'https://groupbuddies.com/'}], web:'http://gabrielpoca.com/' , twitter:'https://twitter.com/gabrielgpoca', github:'https://github.com/gabrielpoca',
+                about:'Ninguém sabe realmente muito sobre ele mas diz-se que estudou na Universidade do Minho, que é viciado em software e que o seu primeiro tweet ocorreu no dia 13 de Maio de 2010. Consta que faz magia e tem tiques nervosos.'},
         ];
 
         $scope.$watch(function(){
