@@ -48,6 +48,8 @@ angular.module('sei-app',['angular-carousel'])
                 about:'Tem 10 anos de experiência em desenvolvimento web, principalmente em Java. Adora programar e automatizar tarefas aborrecidas (de aborrecido a divertido), e por isso criou o Minium, uma ferramenta para automatização de tarefas e testes web no browser.'},
             {pic:'img/speakers/rantunes.jpg', name:'Rui Antunes', position:'Fundador FPV Portugal' , enterprise:[{name:'FPV',enterpriseUrl:'http://fpvportugal.com/'}], web:'http://fpvportugal.com/' , twitter:'', github:'',
                 about:'Sempre se interessou com tudo o que estava relacionado com tecnologia e desde alguns anos que tem experiência em aeromodelismo, há cerca de 4 anos começou a ter contacto com multirotores. Actualmente frequenta o 2o ano de Engenharia Informática na Escola Superior de Tecnologia de Castelo Branco.'},
+            {pic:'img/speakers/jjusto.jpg', name:'João Justo', position:'Developer' , enterprise:[{name:'Group Buddies',  enterpriseUrl:'https://groupbuddies.com/'}], web:'' , twitter:'https://twitter.com/jpjustonunes', github:'https://github.com/joaojusto',
+                about:'Estudante de Engenharia de Informática e Computação na U.P.  O seu principal interesse é aplicações móveis e jogos. Recentemente começou a aprender e a ganhar uma especial curiosidade por tecnologias web e entrou para a GB primeiro como apprentice e depois como developer.'},
         ];
 
         $scope.$watch(function(){
