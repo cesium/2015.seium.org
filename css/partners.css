@@ -58,6 +58,7 @@ div.partners-title {
 }
 
 .partner-img img, .sponsor-img img {
+  margin-top: 20px;
   width: 80%;
   max-width: 350px;
 }
