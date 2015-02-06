@@ -201,6 +201,7 @@ button.btn.btn-info.btn-sei.disabled:focus::after {
   float: right;
   clear: right;
   z-index: 98;
+  cursor: pointer;
 }
 
 .alert-white {
