@@ -54,5 +54,5 @@ function ohSnapX(element) {
 }
 
 $(function() {
-  ohSnap("Pré-inscrições para a SEI e para a Corrida Social CeSIUM já se encontram abertas!", 'green');
+  ohSnap("Pré-inscrições para a SEI e para a Corrida Social CeSIUM já se encontram abertas!", 'white');
 });

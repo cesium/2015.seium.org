@@ -203,9 +203,9 @@ button.btn.btn-info.btn-sei.disabled:focus::after {
   z-index: 98;
 }
 
-.alert-red {
-  color: white;
-  background-color: #DA4453;
+.alert-white {
+  color: #0098ff;
+  background-color: #fff;
 }
 .alert-green {
   color: white;
