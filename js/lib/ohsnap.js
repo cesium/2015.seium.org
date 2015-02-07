@@ -45,10 +45,7 @@ $(function() {
     html.on('click', function () { ohSnapX($(this)); });
 
     $container.on('click', function() {
-      var navHeight = $('.navbar-header').height() - 1;
-      $('html, body').stop().animate({
-                scrollTop: $('#events').offset().top - navHeight
-            }, 1500, 'easeInOutExpo');
+      $container.find('a')[0].click();
     });
 
     // After 'time' seconds, the animation fades out
