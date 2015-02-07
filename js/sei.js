@@ -67,7 +67,10 @@ angular.module('sei-app',['angular-carousel'])
                     $scope.speakerSlides.push([speakers[i]]);
                 };
             } else {
-                $scope.speakerSlides = [[],[],[],[]];
+                $scope.speakerSlides = [];
+                for (var i = 0; i< speakers.length; i = i + 3) {
+                    $scope.speakerSlides.push([]);
+                };
                 for (var i = 0; i< speakers.length; i++) {
                     $scope.speakerSlides[Math.trunc(i/3)].push(speakers[i]);
                 };
