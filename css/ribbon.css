@@ -100,9 +100,29 @@ a.ribbon:hover {
 .signup:before {
   border-top-color: #607D8B;
 }
-
-@media(min-width: 691px) and (max-width: 920px) {
+@media(max-width: 1010px){
+  .ribbon-container {
+  margin-left: 130px;
+  }
+}
+@media(min-width: 768px) and (max-width: 920px) {
   .ribbon-container {
     display: none;
   }
+}
+
+@media(max-width: 401px){
+  .ribbon-container {
+    margin-left: 80px;
+  }
+}
+
+@media(max-width: 357px){
+.ribbon i {
+  line-height: 24px;
+}
+
+.ribbon {
+  height: 35px;
+}
 }
