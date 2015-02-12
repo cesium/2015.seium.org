@@ -9,7 +9,8 @@
     -o-background-size: cover;
 }
 
-#challenges a:hover{
+#challenges a:hover,
+#challenges a:focus {
     color: #fec503;
 }
 
