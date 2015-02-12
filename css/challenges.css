@@ -9,6 +9,10 @@
     -o-background-size: cover;
 }
 
+#challenges a:hover{
+    color: #fec503;
+}
+
 .challenges-title {
     float: left;
 }
@@ -53,6 +57,6 @@
   color: #0098ff;
 }
 
-.challenges-container .modal-body {
+.challenges-container .modal-body, .modal-body a{
   color: #333;
 }
