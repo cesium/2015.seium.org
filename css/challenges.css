@@ -10,8 +10,14 @@
 }
 
 #challenges a:hover,
-#challenges a:focus {
+#challenges a:focus,
+#challenges .modal-body a:hover,
+#challenges .modal-body a:focus {
     color: #fec503;
+}
+
+#challenges .modal-body a {
+  color: #0098ff;
 }
 
 .challenges-title {
