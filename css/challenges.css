@@ -27,6 +27,7 @@
 .challenges-container {
   padding: 10px 15px;
   margin-bottom: 5px;
+  margin-right: 10px;
   background: #0098ff;
   max-height: 405px;
 }
