@@ -133,6 +133,9 @@ angular.module('sei-app',['angular-carousel'])
             {pic: 'img/staff/dlemos.jpg', name:'Diana Lemos', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/dianaguimaraes57', twitter: '', github: 'https://github.com/dianalemos',linkedin:'https://www.linkedin.com/profile/view?id=227209565&trk=nav_responsive_tab_profile'},
             {pic: 'img/staff/psilva.jpg', name:'Pedro Silva', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/miguelsilvaface', twitter: '', github: 'https://github.com/pedroSilva4',linkedin:'http://pt.linkedin.com/pub/pedro-silva/a2/7ab/769'},
             {pic: 'img/staff/daraujo.jpg', name:'Duarte Araújo', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/Duarte.Araujo1', twitter: 'https://twitter.com/PMDAraujo', github: 'https://github.com/PMDA',linkedin:''},
+            {pic: 'img/staff/csilva.jpg', name:'Cátia Silva', position: 'Press', enterprise: 'Minho', facebook:'https://www.facebook.com/catia.sf.silva', twitter: '', github: '',linkedin: 'http://pt.linkedin.com/in/catiasilva7/pt'},
+            {pic: 'img/staff/dduarte.jpg', name:'Duarte Duarte', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/duknust', twitter: '', github: 'https://github.com/duknust',linkedin: 'http://pt.linkedin.com/in/duarteduarte'},
+            {pic: 'img/staff/hgoncalves.jpg', name:'Hélder Gonçalves', position: 'Membro', enterprise: 'Minho', facebook:'https://www.facebook.com/helderjosegoncalves', twitter: '', github: 'https://github.com/HelderGoncalves92',linkedin: 'https://www.linkedin.com/in/helderjagoncalves'},
     ];/*
 */
 
