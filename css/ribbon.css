@@ -105,7 +105,8 @@ a.ribbon:hover {
   margin-left: 80px;
   }
 }
-@media(min-width: 768px) and (max-width: 968px) {
+
+@media(min-width: 768px) and (max-width: 977px) {
   .ribbon-container {
     display: none;
   }
